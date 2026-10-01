@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SAD-0008 · New relic Pael&#x27;s Needle replaces Pael&#x27;s Wing for Straw Pile runs</title><style>
+:root { --bg:#f6f4ef; --panel:#fff; --ink:#1f2328; --muted:#6b6f76; --line:#e2ded6; --accent:#2f6b3a;
+        --bug:#b3261e; --done:#2f6b3a; --prog:#9a6700; --plan:#3b5bdb; --rep:#6b6f76; --wont:#8c8c8c; }
+@media (prefers-color-scheme: dark) { :root { --bg:#16181b; --panel:#1f2226; --ink:#e6e6e6; --muted:#9aa0a6;
+        --line:#30343a; --accent:#7bc47f; --bug:#f28b82; --done:#7bc47f; --prog:#e3b341; --plan:#8ab4f8; --rep:#9aa0a6; --wont:#777; } }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--ink); font:15px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif; }
+main { max-width:1200px; margin:0 auto; padding:24px 16px 64px; }
+h1 { font-size:26px; margin:0 0 4px; } .sub { color:var(--muted); margin:0 0 20px; }
+a { color:var(--accent); }
+.filters { display:flex; flex-wrap:wrap; gap:8px; margin-bottom:12px; }
+.filters select, .filters input { background:var(--panel); color:var(--ink); border:1px solid var(--line); border-radius:6px; padding:6px 8px; font:inherit; }
+.filters input { flex:1 1 220px; }
+.wrap { overflow-x:auto; background:var(--panel); border:1px solid var(--line); border-radius:8px; }
+table { width:100%; border-collapse:collapse; min-width:760px; }
+th, td { text-align:left; padding:8px 10px; border-bottom:1px solid var(--line); vertical-align:top; }
+th { font-size:12px; text-transform:uppercase; letter-spacing:.04em; color:var(--muted); cursor:pointer; user-select:none; white-space:nowrap; }
+tr:last-child td { border-bottom:0; }
+.uid { font-family:ui-monospace,Consolas,monospace; white-space:nowrap; }
+.pill { display:inline-block; padding:1px 8px; border-radius:999px; font-size:12px; border:1px solid currentColor; white-space:nowrap; }
+.s-Done { color:var(--done); } .s-In-Progress { color:var(--prog); } .s-Planned { color:var(--plan); }
+.s-Reported { color:var(--rep); } .s-Won-t-Fix { color:var(--wont); } .t-Bug { color:var(--bug); font-weight:600; }
+.count { color:var(--muted); font-size:13px; margin:8px 2px; }
+.top { display:flex; flex-wrap:wrap; align-items:flex-start; justify-content:space-between; gap:12px; }
+.submit { background:var(--accent); color:var(--panel); text-decoration:none; font-weight:600;
+          padding:8px 14px; border-radius:6px; white-space:nowrap; }
+.submit:hover { opacity:.9; }
+.card { background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:20px; }
+dl { display:grid; grid-template-columns:max-content 1fr; gap:4px 16px; margin:0 0 20px; }
+dt { color:var(--muted); } dd { margin:0; }
+.body pre { background:var(--bg); padding:10px; border-radius:6px; overflow-x:auto; }
+</style>
+<script src="https://cdn.jsdelivr.net/npm/marked@12/marked.min.js"></script></head>
+<body><main>
+<p><a href="../index.html">← All entries</a></p>
+<h1>New relic Pael&#x27;s Needle replaces Pael&#x27;s Wing for Straw Pile runs</h1><p class="sub uid">SAD-0008</p>
+<div class="card"><dl id="meta"></dl><div class="body" id="body"></div></div>
+</main>
+<script>
+const META = {"uid": "SAD-0008", "type": "Feature", "category": "Relics", "priority": "Medium", "status": "Done", "release": "0.4.219", "title": "New relic Pael's Needle replaces Pael's Wing for Straw Pile runs", "resolution": "New Ancient relic Pael's Needle replaces Pael's Wing in Straw Pile runs; 6 straw redeems a random unowned Sadida relic", "contributors": [], "links": [], "created": "2026-09-29"}, BODY = "## Summary\n\nA new relic, **Pael's Needle** (\"needle in a haystack\" theme), offered instead of **Pael's Wing** in runs where\nthe player took **Straw Pile**. It adds a 6-straw redeem option to Straw Pile's rewards that grants a random\nSadida relic.\n\n## Obtaining\n\n- When the player takes Straw Pile at the start of the run (Neow), flag the run.\n- If Pael's Wing is offered later in a flagged run, offer Pael's Needle in its place.\n- The reverse order can't happen: Straw Pile is only offered as the first choice of a run.\n\n## Ability\n\n- Pael's Needle is its own relic, with none of Pael's Wing's effects.\n- While the player has **6 or more straw**, Straw Pile's reward options include\n  **\"Spend 6 straw: obtain a random Sadida relic\"**.\n- The relic is picked at random from the pool below, excluding any the player already owns (no duplicates).\n- It can be redeemed whenever the player has 6+ straw, like the Doll tiers.\n\n## Relic pool\n\nStarter and Ancient relics are not in the pool.\n\n- **Seed Pouch:** At the start of each combat, gain 2 Seeds.\n- **Wooden Charm:** Once per turn, the first card you play that costs Seeds costs 1 less Seed.\n- **Dollmaker's Kit:** After shuffling your draw pile, a random Doll card moves to the top.\n- **Blooming Staff:** Every 3rd Doll card you play in a combat draws 1 card.\n- **Fertile Soil:** The first time you gain Seeds each turn, gain 1 extra Seed.\n- **Heart of the Forest:** At the start of your turn, if you have 5 or more Seeds, gain 1 Energy.\n- **Voodoo Totem:** Whenever a Doll enters combat, it gains +8 Max HP.\n- **Seed Vault:** Saves up to 10 of your Seeds at the end of combat and restores them at the start of the next.\n- **Forest Blessing:** Whenever you play a Skill card, gain 1 Seed.\n\n## Implementation notes\n\n- Base the reward on the existing Doll redeem reward (`Rewards/StrawPileRedeemReward.cs`), injected through\n  Straw Pile's `TryModifyRewards`.\n- Sort it after the Doll rewards so the options appear in order: Common, Uncommon and Rare Doll, then relic.\n- Relic rarity: Ancient, matching Pael's Wing and Straw Pile (confirmed).\n- If every relic in the pool is already owned, the relic option doesn't appear (confirmed).\n\n## Implementation\n\n- `Relics/PaelsNeedle.cs`: the relic (Ancient, no effect of its own) and the 9-relic pool.\n- `Patches/VanillaCompat/PaelsNeedleReplacesWingPatch.cs`: after Pael rolls its options, swaps Pael's Wing for\n  Pael's Needle if the player owns Straw Pile.\n- `Relics/StrawPile.cs` + `Rewards/StrawPileRedeemReward.cs`: the relic redeem is Straw Pile's tier 4 (cost 6),\n  offered only while Pael's Needle is owned and unowned pool relics remain, sorted after the Doll tiers. Drawn\n  with the player's reward RNG, so multiplayer peers get the same relic.\n- Like the Doll tiers, it isn't offered on the final boss reward screen.\n- Art: `images/relics/paels_needle(_outline).png` at 94px, `images/relics/big/` at 256px.\n- Not covered: Pael's Wing can also come from the generic event relic pool; only Pael's own offer is swapped.";
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const rows = [["Type",META.type],["Category",META.category],["Priority",META.priority],["Status",META.status],
+  ["Resolution",META.resolution],
+  ["Contributors",(META.contributors||[]).join(", ")],["Created",META.created]];
+const rel = String(META.release ?? "").replace(/^v/i, "");
+document.getElementById("meta").innerHTML = rows.filter(r => r[1]).map(([k,v]) => `<dt>${k}</dt><dd>${esc(v)}</dd>`).join("")
+  + `<dt>Release</dt><dd>${rel ? `<a href="../release/v${esc(rel)}/">v${esc(rel)}</a>` : "Unreleased"}</dd>`
+  + ((META.links||[]).length ? `<dt>Links</dt><dd>${META.links.map(l => `<a href="${esc(l)}">${esc(l)}</a>`).join("<br>")}</dd>` : "");
+const html = window.marked ? marked.parse(BODY) : `<pre>${esc(BODY)}</pre>`;
+document.getElementById("body").innerHTML = html;
+</script></body></html>

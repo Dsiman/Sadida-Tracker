@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sadida v0.4.220</title><style>
+:root { --bg:#f6f4ef; --panel:#fff; --ink:#1f2328; --muted:#6b6f76; --line:#e2ded6; --accent:#2f6b3a;
+        --bug:#b3261e; --done:#2f6b3a; --prog:#9a6700; --plan:#3b5bdb; --rep:#6b6f76; --wont:#8c8c8c; }
+@media (prefers-color-scheme: dark) { :root { --bg:#16181b; --panel:#1f2226; --ink:#e6e6e6; --muted:#9aa0a6;
+        --line:#30343a; --accent:#7bc47f; --bug:#f28b82; --done:#7bc47f; --prog:#e3b341; --plan:#8ab4f8; --rep:#9aa0a6; --wont:#777; } }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--ink); font:15px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif; }
+main { max-width:1200px; margin:0 auto; padding:24px 16px 64px; }
+h1 { font-size:26px; margin:0 0 4px; } .sub { color:var(--muted); margin:0 0 20px; }
+a { color:var(--accent); }
+.filters { display:flex; flex-wrap:wrap; gap:8px; margin-bottom:12px; }
+.filters select, .filters input { background:var(--panel); color:var(--ink); border:1px solid var(--line); border-radius:6px; padding:6px 8px; font:inherit; }
+.filters input { flex:1 1 220px; }
+.wrap { overflow-x:auto; background:var(--panel); border:1px solid var(--line); border-radius:8px; }
+table { width:100%; border-collapse:collapse; min-width:760px; }
+th, td { text-align:left; padding:8px 10px; border-bottom:1px solid var(--line); vertical-align:top; }
+th { font-size:12px; text-transform:uppercase; letter-spacing:.04em; color:var(--muted); cursor:pointer; user-select:none; white-space:nowrap; }
+tr:last-child td { border-bottom:0; }
+.uid { font-family:ui-monospace,Consolas,monospace; white-space:nowrap; }
+.pill { display:inline-block; padding:1px 8px; border-radius:999px; font-size:12px; border:1px solid currentColor; white-space:nowrap; }
+.s-Done { color:var(--done); } .s-In-Progress { color:var(--prog); } .s-Planned { color:var(--plan); }
+.s-Reported { color:var(--rep); } .s-Won-t-Fix { color:var(--wont); } .t-Bug { color:var(--bug); font-weight:600; }
+.count { color:var(--muted); font-size:13px; margin:8px 2px; }
+.top { display:flex; flex-wrap:wrap; align-items:flex-start; justify-content:space-between; gap:12px; }
+.submit { background:var(--accent); color:var(--panel); text-decoration:none; font-weight:600;
+          padding:8px 14px; border-radius:6px; white-space:nowrap; }
+.submit:hover { opacity:.9; }
+.card { background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:20px; }
+dl { display:grid; grid-template-columns:max-content 1fr; gap:4px 16px; margin:0 0 20px; }
+dt { color:var(--muted); } dd { margin:0; }
+.body pre { background:var(--bg); padding:10px; border-radius:6px; overflow-x:auto; }
+</style></head>
+<body><main>
+<header class="top">
+  <div>
+    <p><a href="../../index.html">← All entries</a></p><h1>Sadida v0.4.220</h1>
+    <p class="sub">Everything shipped in Sadida v0.4.220.</p>
+  </div>
+  <a class="submit" href="https://docs.google.com/forms/d/e/1FAIpQLSeyuoFtpaelIqRjZiutXvwr9IGr-HzdYlctNKpgnvyaizoupw/viewform" target="_blank" rel="noopener">Submit a report</a>
+</header>
+<div class="filters">
+  <input id="q" type="search" placeholder="Search title, UID, contributor…">
+  <select id="f-type"><option value="">All types</option></select>
+  <select id="f-category"><option value="">All categories</option></select>
+  <select id="f-status"><option value="">All statuses</option></select>
+  <select id="f-release"><option value="">All versions</option><option value="__none">Unreleased</option></select>
+</div>
+<div class="wrap"><table>
+<thead><tr>
+  <th data-k="type">Type</th><th data-k="category">Category</th><th data-k="uid">UID</th><th data-k="priority">Priority</th>
+  <th data-k="title">Description</th><th data-k="status">Status</th><th data-k="release">Release</th><th>Link</th>
+</tr></thead><tbody id="rows"></tbody></table></div>
+<div class="count" id="count"></div>
+</main>
+<script>
+const DATA = [{"uid": "SAD-0001", "type": "Nerf", "category": "Cards", "priority": "Medium", "status": "Done", "release": "0.4.219", "title": "Protection block-on-play is uncapped; cap triggers per turn with Ward", "resolution": "Block-on-play now spends Ward: 5 Ward per Protection each turn, 1 per card for 2 Block on you and your Dolls (was unlimited)", "contributors": ["Rougeshadow", "Elfie/Merk"], "links": [], "created": "2026-09-28", "page": "entries/SAD-0001.html"}, {"uid": "SAD-0002", "type": "Feature", "category": "Release", "priority": "Medium", "status": "Done", "release": "0.4.219", "title": "Steam Workshop entry", "resolution": "Published as a Friends-only Workshop item for the public beta, uploaded with Mega Crit's ModUploader through scripts/workshop.py", "contributors": [], "links": ["https://steamcommunity.com/sharedfiles/filedetails/?id=3810660709", "https://www.youtube.com/watch?v=X-lnoj73O9k"], "created": "2026-09-29", "page": "entries/SAD-0002.html"}, {"uid": "SAD-0003", "type": "Feature", "category": "Release", "priority": "Medium", "status": "Planned", "release": "", "title": "Release the mod for the main build of STS2", "resolution": "", "contributors": [], "links": [], "created": "2026-09-29", "page": "entries/SAD-0003.html"}, {"uid": "SAD-0004", "type": "Bug", "category": "Dolls", "priority": "Low", "status": "Done", "release": "0.4.219", "title": "Doll reward screen shows options in a different order each time", "resolution": "Doll picks from Straw Pile redeems are now sorted alphabetically by card name", "contributors": ["Merk/Elfie"], "links": [], "created": "2026-09-29", "page": "entries/SAD-0004.html"}, {"uid": "SAD-0005", "type": "Feature", "category": "Cards", "priority": "Medium", "status": "Done", "release": "0.4.223", "title": "Investigate a separate card type for summon cards", "resolution": "Doll summon cards now have their own Summon card type: they read 'Summon' on the card and no longer count as Skills for vanilla relics, powers, events, card pools or Skill counters. Sadida-internal summon synergies are unchanged.", "contributors": [], "links": [], "created": "2026-09-29", "page": "entries/SAD-0005.html"}, {"uid": "SAD-0006", "type": "Bug", "category": "Dolls", "priority": "Medium", "status": "Done", "release": "0.4.219", "title": "Intent graphic shows a higher number than the tooltip and real value", "resolution": "Block, heal and growth Doll intents now show the plain amount on the icon, not a damage-modified value", "contributors": [], "links": [], "created": "2026-09-29", "page": "entries/SAD-0006.html"}, {"uid": "SAD-0007", "type": "Bug", "category": "Powers", "priority": "Medium", "status": "Done", "release": "0.4.219", "title": "Merk's Riposte reflect triggers Entomancer's Personal Hive (Dazed)", "resolution": "Merk's Riposte reflect is now non-attack damage (like Thorns), so it no longer triggers Personal Hive", "contributors": ["Merk/Elfie"], "links": [], "created": "2026-09-29", "page": "entries/SAD-0007.html"}, {"uid": "SAD-0008", "type": "Feature", "category": "Relics", "priority": "Medium", "status": "Done", "release": "0.4.219", "title": "New relic Pael's Needle replaces Pael's Wing for Straw Pile runs", "resolution": "New Ancient relic Pael's Needle replaces Pael's Wing in Straw Pile runs; 6 straw redeems a random unowned Sadida relic", "contributors": [], "links": [], "created": "2026-09-29", "page": "entries/SAD-0008.html"}, {"uid": "SAD-0009", "type": "Feature", "category": "Visuals", "priority": "Medium", "status": "Planned", "release": "", "title": "Complete remaining art: camp, merchant, multiplayer arms, final card art", "resolution": "", "contributors": [], "links": [], "created": "2026-09-30", "page": "entries/SAD-0009.html"}, {"uid": "SAD-0010", "type": "Rework", "category": "Potions", "priority": "Medium", "status": "Done", "release": "0.4.220", "title": "Sap Extract can target allies so it can heal your Dolls", "resolution": "Sap Extract can be thrown at one of your living Dolls as well as drunk on yourself (or a teammate in multiplayer); the heal is unchanged at 8 HP", "contributors": [], "links": [], "created": "2026-09-30", "page": "entries/SAD-0010.html"}, {"uid": "SAD-0011", "type": "Rework", "category": "Cards", "priority": "Medium", "status": "Done", "release": "0.4.220", "title": "Briar Patch rework: 0-cost X-Seed Skill that thorns X chosen Dolls", "resolution": "Briar Patch is now a 1 Energy / X Seed Skill: choose up to X of your Dolls (X = your Seeds), spend 1 Seed per Doll chosen, and each chosen Doll applies 1 Bramble on hit until it dies. Always Exhausts; the upgrade cuts it to 0 Energy.", "contributors": ["Elfie/Merk", "DwarfMagic", "Rougeshadow"], "links": [], "created": "2026-09-30", "page": "entries/SAD-0011.html"}, {"uid": "SAD-0012", "type": "Feature", "category": "Relics", "priority": "Medium", "status": "Done", "release": "0.4.223", "title": "Settings toggle to disable Nature's Prophylactic", "resolution": "Nature's Prophylactic can be switched off in the Sadida settings, so new runs start with Seeded only (default keeps the relic)", "contributors": [], "links": [], "created": "2026-10-01", "page": "entries/SAD-0012.html"}], RELEASES = ["0.4.223", "0.4.220", "0.4.219"], OPTIONS = {"type": ["Bug", "Fix", "Nerf", "Buff", "Rework", "New Card", "Feature", "Removal", "Clarity", "Suggestion", "Internal"], "category": ["Cards", "Dolls", "Relics", "Powers", "Potions", "Character", "UI", "Visuals", "Audio", "Multiplayer", "Release", "Other"], "priority": ["Low", "Medium", "High", "Critical"], "status": ["Reported", "Planned", "In Progress", "Done", "Won't Fix"]}, BASE = "../../", FIXED = "0.4.220";
+if (FIXED) document.getElementById("f-release").style.display = "none";
+const ver = v => String(v ?? "").replace(/^v/i, "");
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const cls = s => String(s).replace(/[^A-Za-z]+/g, "-");
+const rank = {priority: OPTIONS.priority, status: OPTIONS.status};
+for (const k of ["type","category","status"]) for (const v of OPTIONS[k])
+  document.getElementById("f-"+k).insertAdjacentHTML("beforeend", `<option>${esc(v)}</option>`);
+for (const v of RELEASES) document.getElementById("f-release").insertAdjacentHTML("beforeend", `<option value="${esc(v)}">v${esc(v)}</option>`);
+let sortKey = "uid", sortDir = -1;
+function render() {
+  const q = document.getElementById("q").value.toLowerCase();
+  const f = k => document.getElementById("f-"+k).value;
+  let rows = DATA.filter(r =>
+    (!f("type") || r.type === f("type")) && (!f("category") || r.category === f("category")) &&
+    (!f("status") || r.status === f("status")) &&
+    (!FIXED || ver(r.release) === FIXED) &&
+    (!f("release") || (f("release") === "__none" ? !r.release : ver(r.release) === f("release"))) &&
+    (!q || [r.uid, r.title, r.resolution, (r.contributors||[]).join(" ")].join(" ").toLowerCase().includes(q)));
+  rows.sort((a, b) => {
+    const r = rank[sortKey], av = r ? r.indexOf(a[sortKey]) : String(a[sortKey] ?? ""), bv = r ? r.indexOf(b[sortKey]) : String(b[sortKey] ?? "");
+    return (av < bv ? -1 : av > bv ? 1 : 0) * sortDir;
+  });
+  document.getElementById("rows").innerHTML = rows.map(r => `<tr>
+    <td class="t-${cls(r.type)}">${esc(r.type)}</td><td>${esc(r.category)}</td><td class="uid">${esc(r.uid)}</td>
+    <td>${esc(r.priority)}</td><td>${esc(r.title)}</td>
+    <td><span class="pill s-${cls(r.status)}">${esc(r.status)}</span></td>
+    <td>${r.release ? `<a href="${BASE}release/v${esc(ver(r.release))}/">v${esc(ver(r.release))}</a>` : ""}</td>
+    <td><a href="${BASE}${esc(r.page)}">Open</a></td></tr>`).join("");
+  const total = FIXED ? DATA.filter(r => ver(r.release) === FIXED).length : DATA.length;
+  document.getElementById("count").textContent = `${rows.length} of ${total} entries`;
+}
+document.querySelectorAll("th[data-k]").forEach(th => th.onclick = () => {
+  sortDir = sortKey === th.dataset.k ? -sortDir : 1; sortKey = th.dataset.k; render(); });
+document.querySelectorAll(".filters input, .filters select").forEach(el => el.oninput = render);
+render();
+</script></body></html>

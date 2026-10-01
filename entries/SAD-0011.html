@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SAD-0011 · Briar Patch rework: 0-cost X-Seed Skill that thorns X chosen Dolls</title><style>
+:root { --bg:#f6f4ef; --panel:#fff; --ink:#1f2328; --muted:#6b6f76; --line:#e2ded6; --accent:#2f6b3a;
+        --bug:#b3261e; --done:#2f6b3a; --prog:#9a6700; --plan:#3b5bdb; --rep:#6b6f76; --wont:#8c8c8c; }
+@media (prefers-color-scheme: dark) { :root { --bg:#16181b; --panel:#1f2226; --ink:#e6e6e6; --muted:#9aa0a6;
+        --line:#30343a; --accent:#7bc47f; --bug:#f28b82; --done:#7bc47f; --prog:#e3b341; --plan:#8ab4f8; --rep:#9aa0a6; --wont:#777; } }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--ink); font:15px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif; }
+main { max-width:1200px; margin:0 auto; padding:24px 16px 64px; }
+h1 { font-size:26px; margin:0 0 4px; } .sub { color:var(--muted); margin:0 0 20px; }
+a { color:var(--accent); }
+.filters { display:flex; flex-wrap:wrap; gap:8px; margin-bottom:12px; }
+.filters select, .filters input { background:var(--panel); color:var(--ink); border:1px solid var(--line); border-radius:6px; padding:6px 8px; font:inherit; }
+.filters input { flex:1 1 220px; }
+.wrap { overflow-x:auto; background:var(--panel); border:1px solid var(--line); border-radius:8px; }
+table { width:100%; border-collapse:collapse; min-width:760px; }
+th, td { text-align:left; padding:8px 10px; border-bottom:1px solid var(--line); vertical-align:top; }
+th { font-size:12px; text-transform:uppercase; letter-spacing:.04em; color:var(--muted); cursor:pointer; user-select:none; white-space:nowrap; }
+tr:last-child td { border-bottom:0; }
+.uid { font-family:ui-monospace,Consolas,monospace; white-space:nowrap; }
+.pill { display:inline-block; padding:1px 8px; border-radius:999px; font-size:12px; border:1px solid currentColor; white-space:nowrap; }
+.s-Done { color:var(--done); } .s-In-Progress { color:var(--prog); } .s-Planned { color:var(--plan); }
+.s-Reported { color:var(--rep); } .s-Won-t-Fix { color:var(--wont); } .t-Bug { color:var(--bug); font-weight:600; }
+.count { color:var(--muted); font-size:13px; margin:8px 2px; }
+.top { display:flex; flex-wrap:wrap; align-items:flex-start; justify-content:space-between; gap:12px; }
+.submit { background:var(--accent); color:var(--panel); text-decoration:none; font-weight:600;
+          padding:8px 14px; border-radius:6px; white-space:nowrap; }
+.submit:hover { opacity:.9; }
+.card { background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:20px; }
+dl { display:grid; grid-template-columns:max-content 1fr; gap:4px 16px; margin:0 0 20px; }
+dt { color:var(--muted); } dd { margin:0; }
+.body pre { background:var(--bg); padding:10px; border-radius:6px; overflow-x:auto; }
+</style>
+<script src="https://cdn.jsdelivr.net/npm/marked@12/marked.min.js"></script></head>
+<body><main>
+<p><a href="../index.html">← All entries</a></p>
+<h1>Briar Patch rework: 0-cost X-Seed Skill that thorns X chosen Dolls</h1><p class="sub uid">SAD-0011</p>
+<div class="card"><dl id="meta"></dl><div class="body" id="body"></div></div>
+</main>
+<script>
+const META = {"uid": "SAD-0011", "type": "Rework", "category": "Cards", "priority": "Medium", "status": "Done", "release": "0.4.220", "title": "Briar Patch rework: 0-cost X-Seed Skill that thorns X chosen Dolls", "resolution": "Briar Patch is now a 1 Energy / X Seed Skill: choose up to X of your Dolls (X = your Seeds), spend 1 Seed per Doll chosen, and each chosen Doll applies 1 Bramble on hit until it dies. Always Exhausts; the upgrade cuts it to 0 Energy.", "contributors": ["Elfie/Merk", "DwarfMagic", "Rougeshadow"], "links": [], "created": "2026-09-30"}, BODY = "## Rework\n\n- **Card:** Briar Patch (class `DwarfMagic`, now `Cards/Skills/DwarfMagic.cs`)\n- **Cost:** 1 Energy, X Seeds\n- **Type:** Skill\n- **Rarity:** Rare (unchanged).\n- **Effect:** X = the number of Dolls you want to apply the passive to. Your selected Dolls apply 1 Bramble on hit.\n- **Duration:** until that Doll dies.\n- **Exhaust:** always, at every upgrade level.\n- **Upgrade:** Energy 1 \u2192 0.\n\n## Selection\n\n- Uses the same Doll-selection screen as **The Ultra-Powerful** (choose any number of your Dolls).\n- The most Dolls you can select is the number of Seeds you have when the screen opens. With 3 Seeds you can\n  select up to 3 Dolls, or fewer.\n- After confirming, spend 1 Seed per Doll selected, then apply the passive to each selected Doll.\n\n## Current\n\n- Rare Power, 3 Energy + 1 Seed: all your Dolls apply 1 Bramble on hit (Briar Patch power, which gives each Doll\n  the \"Thorned\" sub-power).\n\n## Implementation\n\n- `Cards/Powers/DwarfMagic.cs` \u2192 `Cards/Skills/DwarfMagic.cs`: `CardType.Power` \u2192 `CardType.Skill`, 3 Energy + 1 Seed \u2192 1 Energy / X Seeds, Rare unchanged. Exhaust added to `CanonicalKeywords` and kept at every upgrade level; `OnUpgrade` cuts the cost 1 \u2192 0 instead (`EnergyCost.UpgradeBy(-1)`), the same shape the card had before the rework. The Doll keyword and the Bramble hover tip stay.\n- `Cards/Base/IVariableSeedCostCard.cs` + `Patches/Character/VariableSeedCostPatch.cs` (new): the card prints an X Seed cost, but vanilla X-cost semantics spend the *entire* Seed pouch before `OnPlay` runs (X is then \"what was spent\") \u2014 wrong for a card that spends 1 Seed per Doll chosen and keeps the rest. The marker zeroes the engine-side spend; the card pays for itself. Everything else keeps the X-cost treatment: the \"X\" badge (`NCard` keys off `HasStarCostX`) and the card library's X cost filter.\n- Selection reuses the Summon: The Ultra-Powerful picker \u2014 one grid entry per living Doll, mapped 1:1 back to its own Creature, never deduped by type. Cap is `min(living Dolls without Thorned, current Seeds)`, captured when the screen opens. Confirming with nothing selected spends nothing.\n- Cost is paid by hand: `PlayerCmd.LoseStars(chosen)` plus `Hook.AfterStarsSpent`, so \"whenever you spend Stars\" effects (Child of the Stars, Galactic Dust, Mini Regent, \u2026) see a real spend \u2014 vanilla only fires that hook from the cost pipeline this card deliberately bypasses.\n- `Powers/BriarPatchDollPower.cs` (\"Thorned\") is now standalone: the gate on the player-level `BriarPatchPower` is gone and the per-hit amount is a flat 1 (it used to scale with the player power's stacks). It is applied directly to each chosen Doll, so it lasts exactly until that Doll dies.\n- `Powers/BriarPatchPower.cs`: no longer applied by any card, but kept so a run saved before the rework still loads; while present it keeps giving every Doll Thorned, as before.\n- `Sadida/localization/eng/cards.json` + `powers.json`: new card text (\"Choose up to {X} of your Dolls and spend 1 Seed per Doll chosen. A chosen Doll applies 1 Bramble on hit until it dies.\"), the Doll picker prompt (\"Choose Dolls to thorn (up to {MaxCount}).\"), and reworded Thorned / Briar Patch power text.\n\n### Notes on the implementation\n\n- **Dolls that are already Thorned are left out of the picker.** Thorned is a flag, not a counter, so selecting one would spend a Seed for nothing.\n- **\"X Seeds\" is per Doll, not a pouch drain.** The engine has no \"choose how much to spend\" cost, so the card reports 0 Seeds to the engine and pays by hand. Side effect: Seed-cost *discounts* don't apply to X-cost cards (Wooden Charm, Madoll's Gift) \u2014 identical to the existing Granule, which vanilla's cost hooks also skip for X.\n- **Playability:** unplayable with 0 Seeds or with no Doll left to thorn \u2014 the card would otherwise be a wasted play (1 Energy and an Exhaust, or just an Exhaust once upgraded).\n- **Duration** comes for free: Thorned lives on the Doll creature, so it ends with that Doll. Re-summoning the same Doll type gives a fresh, unthorned Doll.\n\n### Follow-up after v0.4.220\n\n- Card text (text only, no behaviour change): the description now shows the Seed reference with the live value in\n  parentheses \u2014 `X(3)` when you have 3 Seeds \u2014 instead of the bare number, so it matches the `X` on the cost badge.\n- Cost/upgrade rebalance (post-0.4.220): the card costs **1 Energy** (0.4.220 shipped it at 0) and its upgrade is\n  now **Energy 1 \u2192 0** instead of removing Exhaust \u2014 it Exhausts at every upgrade level. The X Seed cost, the\n  effect and the picker are unchanged.";
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const rows = [["Type",META.type],["Category",META.category],["Priority",META.priority],["Status",META.status],
+  ["Resolution",META.resolution],
+  ["Contributors",(META.contributors||[]).join(", ")],["Created",META.created]];
+const rel = String(META.release ?? "").replace(/^v/i, "");
+document.getElementById("meta").innerHTML = rows.filter(r => r[1]).map(([k,v]) => `<dt>${k}</dt><dd>${esc(v)}</dd>`).join("")
+  + `<dt>Release</dt><dd>${rel ? `<a href="../release/v${esc(rel)}/">v${esc(rel)}</a>` : "Unreleased"}</dd>`
+  + ((META.links||[]).length ? `<dt>Links</dt><dd>${META.links.map(l => `<a href="${esc(l)}">${esc(l)}</a>`).join("<br>")}</dd>` : "");
+const html = window.marked ? marked.parse(BODY) : `<pre>${esc(BODY)}</pre>`;
+document.getElementById("body").innerHTML = html;
+</script></body></html>
