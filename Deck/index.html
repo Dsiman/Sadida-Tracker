@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Card Library</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kreon:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="deck.css">
+</head>
+<body>
+<header class="top">
+  <div>
+    <p class="back"><a href="../index.html">← Mod Tracker</a></p>
+    <h1 id="heading">Card Library</h1>
+    <p class="sub" id="sub">Loading cards…</p>
+  </div>
+  <nav class="tabs" id="tabs"></nav>
+</header>
+
+<section class="bar" aria-label="Filters">
+  <input id="q" type="search" placeholder="Search name or text…" autocomplete="off">
+  <div class="group" id="g-type"><span class="glabel" title="Click to show all">Type</span></div>
+  <div class="group" id="g-rarity"><span class="glabel" title="Click to show all">Rarity</span></div>
+  <div class="group" id="g-cost"><span class="glabel" title="Click to show all">Cost</span></div>
+  <div class="group sorts" id="g-sort"><span class="glabel">Sort</span></div>
+  <div class="group toggles">
+    <label class="tick"><input type="checkbox" id="show-up"><span>Show upgrades</span></label>
+    <button type="button" class="btn" id="lineup-toggle" aria-pressed="false">Lineup builder</button>
+  </div>
+</section>
+
+<p class="count" id="count"></p>
+<p class="hint" id="lineup-hint" hidden>Lineup mode: click cards to add them to the lineup below. Hold Shift and click to inspect instead.</p>
+<main class="grid" id="grid"></main>
+
+<div class="inspect" id="inspect" hidden>
+  <div class="backstop" data-close></div>
+  <button type="button" class="nav prev" id="prev" aria-label="Previous card">‹</button>
+  <figure class="big">
+    <img id="big-img" alt="">
+    <figcaption>
+      <label class="tick" id="up-wrap"><input type="checkbox" id="up-tick"><span>Upgrade</span></label>
+      <button type="button" class="btn small" id="add-lineup">Add to lineup</button>
+    </figcaption>
+  </figure>
+  <aside class="tips" id="tips"></aside>
+  <button type="button" class="nav next" id="next" aria-label="Next card">›</button>
+  <button type="button" class="close" data-close aria-label="Close">✕</button>
+</div>
+
+<section class="drawer" id="drawer" hidden>
+  <div class="drawer-head">
+    <strong>Lineup</strong> <span class="muted" id="lineup-count"></span>
+    <span class="spacer"></span>
+    <button type="button" class="btn small" id="lineup-clear">Clear</button>
+    <button type="button" class="btn small" id="lineup-link">Copy link</button>
+    <button type="button" class="btn small primary" id="lineup-png">Download PNG</button>
+    <button type="button" class="btn small" id="drawer-min" aria-label="Collapse">▾</button>
+  </div>
+  <div class="drawer-body">
+    <div class="preview"><canvas id="canvas"></canvas></div>
+    <form class="opts" id="opts" onsubmit="return false">
+      <label>Layout
+        <select name="layout"><option value="row">Row</option><option value="grid">Grid</option><option value="fan">Hand (fan)</option></select></label>
+      <label data-for="grid">Columns <input name="cols" type="number" min="1" max="12" value="5"></label>
+      <label>Card width <input name="width" type="range" min="120" max="600" value="300"><output></output></label>
+      <label>Spacing <input name="gap" type="range" min="-60" max="40" value="4"><output></output></label>
+      <label data-for="fan">Curve <input name="curve" type="range" min="2" max="20" value="6"><output></output></label>
+      <label>Margin <input name="margin" type="range" min="0" max="200" value="40"><output></output></label>
+      <label>Background
+        <select name="bg"><option value="none">Transparent</option><option value="color">Colour</option><option value="gradient">Gradient</option><option value="image">Image…</option></select></label>
+      <label data-for="color gradient">Colour <input name="c1" type="color" value="#20331f"></label>
+      <label data-for="gradient">To <input name="c2" type="color" value="#0b120b"></label>
+      <label data-for="image">Image <input name="bgfile" type="file" accept="image/*"></label>
+      <label class="wide">Title <input name="title" type="text" placeholder="Optional heading"></label>
+      <label>Export size
+        <select name="scale"><option value="1">1x</option><option value="2" selected>2x</option></select></label>
+    </form>
+  </div>
+  <ol class="tray" id="tray"></ol>
+</section>
+
+<script src="deck.js"></script>
+</body>
+</html>

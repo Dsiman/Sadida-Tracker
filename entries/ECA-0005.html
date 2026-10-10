@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ECA-0005 · Multi-hit Roll cards use the base game&#x27;s &#x27;Deal X damage N times&#x27; wording</title><style>
+:root { --bg:#f6f4ef; --panel:#fff; --ink:#1f2328; --muted:#6b6f76; --line:#e2ded6; --accent:#2f6b3a;
+        --bug:#b3261e; --done:#2f6b3a; --prog:#9a6700; --plan:#3b5bdb; --rep:#6b6f76; --wont:#8c8c8c; }
+@media (prefers-color-scheme: dark) { :root { --bg:#16181b; --panel:#1f2226; --ink:#e6e6e6; --muted:#9aa0a6;
+        --line:#30343a; --accent:#7bc47f; --bug:#f28b82; --done:#7bc47f; --prog:#e3b341; --plan:#8ab4f8; --rep:#9aa0a6; --wont:#777; } }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--ink); font:15px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif; }
+main { max-width:1200px; margin:0 auto; padding:24px 16px 64px; }
+h1 { font-size:26px; margin:0 0 4px; } .sub { color:var(--muted); margin:0 0 20px; }
+a { color:var(--accent); }
+.filters { display:flex; flex-wrap:wrap; gap:8px; margin-bottom:12px; }
+.filters select, .filters input { background:var(--panel); color:var(--ink); border:1px solid var(--line); border-radius:6px; padding:6px 8px; font:inherit; }
+.filters input { flex:1 1 220px; }
+.wrap { overflow-x:auto; background:var(--panel); border:1px solid var(--line); border-radius:8px; }
+table { width:100%; border-collapse:collapse; min-width:760px; }
+th, td { text-align:left; padding:8px 10px; border-bottom:1px solid var(--line); vertical-align:top; }
+th { font-size:12px; text-transform:uppercase; letter-spacing:.04em; color:var(--muted); cursor:pointer; user-select:none; white-space:nowrap; }
+tr:last-child td { border-bottom:0; }
+.uid { font-family:ui-monospace,Consolas,monospace; white-space:nowrap; }
+.pill { display:inline-block; padding:1px 8px; border-radius:999px; font-size:12px; border:1px solid currentColor; white-space:nowrap; }
+.s-Done { color:var(--done); } .s-In-Progress { color:var(--prog); } .s-Planned { color:var(--plan); }
+.s-Reported { color:var(--rep); } .s-Won-t-Fix { color:var(--wont); } .t-Bug { color:var(--bug); font-weight:600; }
+.count { color:var(--muted); font-size:13px; margin:8px 2px; }
+.actions { display:flex; gap:8px; flex-wrap:wrap; }
+.top { display:flex; flex-wrap:wrap; align-items:flex-start; justify-content:space-between; gap:12px; }
+.submit { background:var(--accent); color:var(--panel); text-decoration:none; font-weight:600;
+          padding:8px 14px; border-radius:6px; white-space:nowrap; }
+.submit:hover { opacity:.9; }
+.card { background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:20px; }
+dl { display:grid; grid-template-columns:max-content 1fr; gap:4px 16px; margin:0 0 20px; }
+dt { color:var(--muted); } dd { margin:0; }
+.body pre { background:var(--bg); padding:10px; border-radius:6px; overflow-x:auto; }
+</style>
+<script src="https://cdn.jsdelivr.net/npm/marked@12/marked.min.js"></script></head>
+<body><main>
+<p><a href="../index.html">← All entries</a></p>
+<header class="top"><div><h1>Multi-hit Roll cards use the base game&#x27;s &#x27;Deal X damage N times&#x27; wording</h1><p class="sub uid">ECA-0005</p></div>
+<div class="actions" id="actions"></div></header>
+<div class="card"><dl id="meta"></dl><div class="body" id="body"></div></div>
+</main>
+<script>
+const META = {"uid": "ECA-0005", "mod": "Ecaflip", "type": "Clarity", "category": "Cards", "priority": "Medium", "status": "Done", "release": "0.0.99", "title": "Multi-hit Roll cards use the base game's 'Deal X damage N times' wording", "resolution": "Gambit, Back Alley Mugging, Mad Cat, Flealine Army and All In now read \"Deal Roll 1D6 damage ... N times\"", "contributors": ["Rougeshadow"], "links": [], "created": "2026-10-08", "discord_thread": "1557941126642536529", "release_page": "release/ecaflip/v0.0.99/"}, BODY = "## Description\n\nThe repeat count came first (\"2+Bonus times: Roll 1D6: Deal that much damage to a random enemy.\"), unlike the base game,\nwhich puts it last (\"Deal 3 damage to a random enemy 3 times.\").\n\nNow, for every card that rolls once per hit:\n\n- Gambit: Deal **Roll** 1D6 damage to a random enemy (2+**Bonus**) times.\n- Back Alley Mugging: Deal **Roll** 1D6+3 damage (X+1) times.\n- Mad Cat: Deal **Roll** 1D6+4 damage to a random enemy 3 times.\n- Flealine Army: Deal **Roll** 1D6+2 damage to ALL enemies 5 times.\n- All In: Deal **Roll** 3D6+**Bonus** damage X times.\n\nCounts with a variable part are bracketed. Cards that roll once keep \"Roll 1D6+3: Deal that much damage.\"", LINKS = {"comment": "https://docs.google.com/forms/d/e/1FAIpQLScNSNyeJqFZdUcOlmj0Js8B1cf-KFx4t1dTVwBSZQNCxko0jQ/viewform?usp=pp_url&entry.702895257=Comment+on+an+existing+tracker+item&entry.1686440227=ECA-0005", "discord": "https://discord.com/channels/1557819826582327306/1557941126642536529"};
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const rows = [["Mod",META.mod],["Type",META.type],["Category",META.category],["Priority",META.priority],["Status",META.status],
+  ["Resolution",META.resolution],
+  ["Contributors",(META.contributors||[]).join(", ")],["Created",META.created]];
+const rel = String(META.release ?? "").replace(/^v/i, "");
+document.getElementById("meta").innerHTML = rows.filter(r => r[1]).map(([k,v]) => `<dt>${k}</dt><dd>${esc(v)}</dd>`).join("")
+  + `<dt>Release</dt><dd>${rel ? `<a href="../${esc(META.release_page)}">v${esc(rel)}</a>` : "Unreleased"}</dd>`
+  + ((META.links||[]).length ? `<dt>Links</dt><dd>${META.links.map(l => `<a href="${esc(l)}">${esc(l)}</a>`).join("<br>")}</dd>` : "");
+const html = window.marked ? marked.parse(BODY) : `<pre>${esc(BODY)}</pre>`;
+document.getElementById("body").innerHTML = html;
+document.getElementById("actions").innerHTML =
+  (LINKS.discord ? `<a class="submit" href="${esc(LINKS.discord)}" target="_blank" rel="noopener">Discuss on Discord</a>` : "")
+  + (LINKS.comment ? `<a class="submit" href="${esc(LINKS.comment)}" target="_blank" rel="noopener">Comment</a>` : "");
+</script></body></html>

@@ -1,0 +1,2037 @@
+{
+  "mod": "Sadida",
+  "version": "v0.4.239",
+  "exported": "2026-10-09T02:30:33Z",
+  "scale": 2,
+  "padding": [
+    58,
+    46
+  ],
+  "cardSize": [
+    716,
+    936
+  ],
+  "cards": [
+    {
+      "id": "SADIDA-ARBOREAL_SACRIFICE",
+      "title": "Arboreal Sacrifice",
+      "type": "Attack",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Deal 13 damage. Heal your Dolls equal to unblocked damage dealt.",
+      "tips": [
+        "DOLL"
+      ],
+      "img": "cards/SADIDA-ARBOREAL_SACRIFICE.webp",
+      "upgrade": {
+        "title": "Arboreal Sacrifice+",
+        "cost": 1,
+        "text": "Deal 16 damage. Heal your Dolls equal to unblocked damage dealt.",
+        "tips": [
+          "DOLL"
+        ],
+        "img": "cards/SADIDA-ARBOREAL_SACRIFICE+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-BAGOF_SEEDS",
+      "title": "Bag of Seeds",
+      "type": "Skill",
+      "rarity": "Basic",
+      "multiplayer": "None",
+      "cost": 0,
+      "text": "Gain 2. Draw 1 card. Exhaust.",
+      "tips": [
+        "EXHAUST"
+      ],
+      "img": "cards/SADIDA-BAGOF_SEEDS.webp",
+      "upgrade": {
+        "title": "Bag of Seeds+",
+        "cost": 0,
+        "text": "Innate. Gain 2. Draw 1 card. Exhaust.",
+        "tips": [
+          "EXHAUST",
+          "INNATE"
+        ],
+        "img": "cards/SADIDA-BAGOF_SEEDS+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-BYPRODUCT",
+      "title": "Byproduct",
+      "type": "Attack",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": 2,
+      "text": "Deal 11 damage. Draw 1 card. Costs 1 less if you summoned a Doll this turn.",
+      "tips": [
+        "DOLL"
+      ],
+      "img": "cards/SADIDA-BYPRODUCT.webp",
+      "upgrade": {
+        "title": "Byproduct+",
+        "cost": 2,
+        "text": "Deal 14 damage. Draw 2 cards. Costs 1 less if you summoned a Doll this turn.",
+        "tips": [
+          "DOLL"
+        ],
+        "img": "cards/SADIDA-BYPRODUCT+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-COMMUNION",
+      "title": "Communion",
+      "type": "Skill",
+      "rarity": "Rare",
+      "multiplayer": "None",
+      "cost": 2,
+      "text": "Heal 2 + 2 per Doll. Gain 4 Block per Doll. Exhaust.",
+      "tips": [
+        "BLOCK",
+        "DOLL",
+        "EXHAUST"
+      ],
+      "img": "cards/SADIDA-COMMUNION.webp",
+      "upgrade": {
+        "title": "Communion+",
+        "cost": 2,
+        "text": "Heal 2 + 3 per Doll. Gain 6 Block per Doll. Exhaust.",
+        "tips": [
+          "BLOCK",
+          "DOLL",
+          "EXHAUST"
+        ],
+        "img": "cards/SADIDA-COMMUNION+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-DETONATE",
+      "title": "Detonate",
+      "type": "Skill",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": 2,
+      "text": "Kill all of your Sacrificial Dolls, triggering their on-death AoE. Exhaust.",
+      "tips": [
+        "EXHAUST",
+        "DOLL"
+      ],
+      "img": "cards/SADIDA-DETONATE.webp",
+      "upgrade": {
+        "title": "Detonate+",
+        "cost": 2,
+        "text": "Kill all of your Sacrificial Dolls, triggering their on-death AoE. Exhaust.",
+        "tips": [
+          "EXHAUST",
+          "DOLL"
+        ],
+        "img": "cards/SADIDA-DETONATE+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-DOLL_ARMY",
+      "title": "Doll Army",
+      "type": "Skill",
+      "rarity": "Rare",
+      "multiplayer": "None",
+      "cost": 2,
+      "text": "Summon 3 random Dolls. Exhaust. Does Not Recycle.",
+      "tips": [
+        "DOLL",
+        "EXHAUST",
+        "DOES_NOT_RECYCLE"
+      ],
+      "img": "cards/SADIDA-DOLL_ARMY.webp",
+      "upgrade": {
+        "title": "Doll Army+",
+        "cost": 2,
+        "text": "Summon 3 random Dolls. Exhaust. Does Not Recycle.",
+        "tips": [
+          "DOLL",
+          "EXHAUST",
+          "DOES_NOT_RECYCLE"
+        ],
+        "img": "cards/SADIDA-DOLL_ARMY+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-DOLL_AWAKENING",
+      "title": "Doll Awakening",
+      "type": "Power",
+      "rarity": "Rare",
+      "multiplayer": "None",
+      "cost": 2,
+      "text": "Summon a random Doll. At the start of your turn, summon 1 random Doll. Does Not Recycle.",
+      "tips": [
+        "DOLL",
+        "DOES_NOT_RECYCLE"
+      ],
+      "img": "cards/SADIDA-DOLL_AWAKENING.webp",
+      "upgrade": {
+        "title": "Doll Awakening+",
+        "cost": 2,
+        "text": "Retain. Summon a random Doll. At the start of your turn, summon 1 random Doll. Does Not Recycle.",
+        "tips": [
+          "DOLL",
+          "DOES_NOT_RECYCLE",
+          "RETAIN"
+        ],
+        "img": "cards/SADIDA-DOLL_AWAKENING+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-DOLL_LINK",
+      "title": "Doll Link",
+      "type": "Power",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": 2,
+      "text": "Whenever a Doll dies, draw 1 card.",
+      "tips": [
+        "DOLL"
+      ],
+      "img": "cards/SADIDA-DOLL_LINK.webp",
+      "upgrade": {
+        "title": "Doll Link+",
+        "cost": 2,
+        "text": "Whenever a Doll dies, draw 2 cards.",
+        "tips": [
+          "DOLL"
+        ],
+        "img": "cards/SADIDA-DOLL_LINK+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-DOLL_RALLY_CARD",
+      "title": "Doll Rally",
+      "type": "Skill",
+      "rarity": "Common",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "This turn, your Dolls gain an extra end-of-turn attack. (Deal 6 damage to a random enemy.)",
+      "tips": [
+        "DOLL"
+      ],
+      "img": "cards/SADIDA-DOLL_RALLY_CARD.webp",
+      "upgrade": {
+        "title": "Doll Rally+",
+        "cost": 1,
+        "text": "This turn, your Dolls gain an extra end-of-turn attack. (Deal 8 damage to a random enemy.)",
+        "tips": [
+          "DOLL"
+        ],
+        "img": "cards/SADIDA-DOLL_RALLY_CARD+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-DOLL_RESONANCE",
+      "title": "Resonance",
+      "type": "Power",
+      "rarity": "Rare",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "The first 1 card(s) you play each turn fire a random Doll start-of-turn or end-of-turn effect.",
+      "tips": [
+        "DOLL"
+      ],
+      "img": "cards/SADIDA-DOLL_RESONANCE.webp",
+      "upgrade": {
+        "title": "Resonance+",
+        "cost": 1,
+        "text": "The first 2 card(s) you play each turn fire a random Doll start-of-turn or end-of-turn effect.",
+        "tips": [
+          "DOLL"
+        ],
+        "img": "cards/SADIDA-DOLL_RESONANCE+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-DWARF_MAGIC",
+      "title": "Briar Patch",
+      "type": "Skill",
+      "rarity": "Rare",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Choose up to X(0) of your Dolls and spend 1 per Doll chosen. A chosen Doll applies 1 Bramble on hit until it dies. Exhaust.",
+      "tips": [
+        "BRAMBLE",
+        "DOLL",
+        "EXHAUST"
+      ],
+      "img": "cards/SADIDA-DWARF_MAGIC.webp",
+      "upgrade": {
+        "title": "Briar Patch+",
+        "cost": 1,
+        "text": "Choose up to X(0) of your Dolls and spend 1 per Doll chosen. A chosen Doll applies 1 Bramble on hit until it dies. Exhaust.",
+        "tips": [
+          "BRAMBLE",
+          "DOLL",
+          "EXHAUST"
+        ],
+        "img": "cards/SADIDA-DWARF_MAGIC+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-ELFIES_RETALIATION",
+      "title": "Elfie's Retaliation",
+      "type": "Power",
+      "rarity": "Rare",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "When Bramble is applied, apply 1 additional stack.",
+      "tips": [
+        "BRAMBLE"
+      ],
+      "img": "cards/SADIDA-ELFIES_RETALIATION.webp",
+      "upgrade": {
+        "title": "Elfie's Retaliation+",
+        "cost": 1,
+        "text": "When Bramble is applied, apply 1 additional stack.",
+        "tips": [
+          "BRAMBLE"
+        ],
+        "img": "cards/SADIDA-ELFIES_RETALIATION+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-ENCROACH",
+      "title": "Encroach",
+      "type": "Attack",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": 2,
+      "text": "Deal 12 damage. The next Doll you summon also summons an additional copy. Exhaust. Does Not Recycle.",
+      "tips": [
+        "EXHAUST",
+        "DOLL",
+        "DOES_NOT_RECYCLE"
+      ],
+      "img": "cards/SADIDA-ENCROACH.webp",
+      "upgrade": {
+        "title": "Encroach+",
+        "cost": 2,
+        "text": "Deal 12 damage. The next Doll you summon also summons an additional copy. Does Not Recycle.",
+        "tips": [
+          "DOLL",
+          "DOES_NOT_RECYCLE"
+        ],
+        "img": "cards/SADIDA-ENCROACH+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-ETERNAL_HARVEST",
+      "title": "Eternal Harvest",
+      "type": "Power",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "At the start of each turn, gain 1.",
+      "tips": [],
+      "img": "cards/SADIDA-ETERNAL_HARVEST.webp",
+      "upgrade": {
+        "title": "Eternal Harvest+",
+        "cost": 1,
+        "text": "Innate. At the start of each turn, gain 1.",
+        "tips": [
+          "INNATE"
+        ],
+        "img": "cards/SADIDA-ETERNAL_HARVEST+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-EXPLODOLL",
+      "title": "Explodoll",
+      "type": "Skill",
+      "rarity": "Rare",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Select a Doll to sacrifice. Deal 1\u00d7 its max HP as damage to ALL enemies.",
+      "tips": [
+        "DOLL"
+      ],
+      "img": "cards/SADIDA-EXPLODOLL.webp",
+      "upgrade": {
+        "title": "Explodoll+",
+        "cost": 1,
+        "text": "Select a Doll to sacrifice. Deal 2\u00d7 its max HP as damage to ALL enemies.",
+        "tips": [
+          "DOLL"
+        ],
+        "img": "cards/SADIDA-EXPLODOLL+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-FERTILIZER",
+      "title": "Fertilizer",
+      "type": "Skill",
+      "rarity": "Common",
+      "multiplayer": "None",
+      "cost": 0,
+      "text": "Draw 1 card. If you have at least 2, draw 1 additional card.",
+      "tips": [],
+      "img": "cards/SADIDA-FERTILIZER.webp",
+      "upgrade": {
+        "title": "Fertilizer+",
+        "cost": 0,
+        "text": "Draw 1 card. If you have at least 2, draw 2 additional cards.",
+        "tips": [],
+        "img": "cards/SADIDA-FERTILIZER+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-FLORAL_SYNERGY",
+      "title": "Floral Synergy",
+      "type": "Attack",
+      "rarity": "Common",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Deal 7 damage. Draw 1 card for each unique Doll you have.",
+      "tips": [
+        "DOLL"
+      ],
+      "img": "cards/SADIDA-FLORAL_SYNERGY.webp",
+      "upgrade": {
+        "title": "Floral Synergy+",
+        "cost": 1,
+        "text": "Deal 10 damage. Draw 1 card for each unique Doll you have.",
+        "tips": [
+          "DOLL"
+        ],
+        "img": "cards/SADIDA-FLORAL_SYNERGY+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-GERMINATION_BURST",
+      "title": "Germination Burst",
+      "type": "Skill",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Gain 2. Draw 1 card.",
+      "tips": [],
+      "img": "cards/SADIDA-GERMINATION_BURST.webp",
+      "upgrade": {
+        "title": "Germination Burst+",
+        "cost": 1,
+        "text": "Gain 4. Draw 2 cards.",
+        "tips": [],
+        "img": "cards/SADIDA-GERMINATION_BURST+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-GRANULE",
+      "title": "Granule",
+      "type": "Attack",
+      "rarity": "Common",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Deal 3 damage X times to a random enemy.",
+      "tips": [],
+      "img": "cards/SADIDA-GRANULE.webp",
+      "upgrade": {
+        "title": "Granule+",
+        "cost": 1,
+        "text": "Deal 5 damage X times to a random enemy.",
+        "tips": [],
+        "img": "cards/SADIDA-GRANULE+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-GREENHEART",
+      "title": "Greenheart",
+      "type": "Power",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": 2,
+      "text": "Whenever a Doll is healed, it gains Block equal to the amount healed.",
+      "tips": [
+        "DOLL"
+      ],
+      "img": "cards/SADIDA-GREENHEART.webp",
+      "upgrade": {
+        "title": "Greenheart+",
+        "cost": 2,
+        "text": "Whenever a Doll is healed, it gains Block equal to the amount healed.",
+        "tips": [
+          "DOLL"
+        ],
+        "img": "cards/SADIDA-GREENHEART+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-HALOPERI_DOLL_PREVIEW",
+      "title": "Haloperi Doll",
+      "type": "Skill",
+      "rarity": "Token",
+      "multiplayer": "None",
+      "cost": 0,
+      "text": "HP: 16 End of turn: deal 2 damage to a random enemy, 1 time(s). On hit: if the target intends to attack, apply 1 Weak.",
+      "tips": [],
+      "img": "cards/SADIDA-HALOPERI_DOLL_PREVIEW.webp",
+      "upgrade": {
+        "title": "Haloperi Doll+",
+        "cost": 0,
+        "text": "HP: 20 End of turn: deal 2 damage to a random enemy, 3 time(s). On hit: if the target intends to attack, apply 1 Weak.",
+        "tips": [],
+        "img": "cards/SADIDA-HALOPERI_DOLL_PREVIEW+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-HARDENED_BARK",
+      "title": "Hardened Bark",
+      "type": "Skill",
+      "rarity": "Common",
+      "multiplayer": "None",
+      "cost": 2,
+      "text": "Gain 11 Block. Next turn, gain 1.",
+      "tips": [
+        "ENERGY",
+        "BLOCK"
+      ],
+      "img": "cards/SADIDA-HARDENED_BARK.webp",
+      "upgrade": {
+        "title": "Hardened Bark+",
+        "cost": 2,
+        "text": "Gain 14 Block. Next turn, gain 1.",
+        "tips": [
+          "ENERGY",
+          "BLOCK"
+        ],
+        "img": "cards/SADIDA-HARDENED_BARK+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-INFLATABLE",
+      "title": "Summon: Inflatable Doll",
+      "type": "Summon",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Summon an Inflatable Doll. HP 25 \u2022 Damage 6 \u2022 Heal 2 Exhaust. Recycle.",
+      "tips": [
+        "SADIDA-INFLATABLE_DOLL_PREVIEW",
+        "DOLL",
+        "EXHAUST",
+        "RECYCLE"
+      ],
+      "img": "cards/SADIDA-INFLATABLE.webp",
+      "upgrade": {
+        "title": "Summon: Inflatable Doll+",
+        "cost": 1,
+        "text": "Summon an Inflatable Doll. HP 25 \u2022 Damage 10 \u2022 Heal 4 Exhaust. Recycle.",
+        "tips": [
+          "SADIDA-INFLATABLE_DOLL_PREVIEW_UP",
+          "DOLL",
+          "EXHAUST",
+          "RECYCLE"
+        ],
+        "img": "cards/SADIDA-INFLATABLE+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-INFLATABLE_DOLL_PREVIEW",
+      "title": "Inflatable Doll",
+      "type": "Skill",
+      "rarity": "Token",
+      "multiplayer": "None",
+      "cost": 0,
+      "text": "HP: 25 End of turn: deal 6 damage to a random enemy. Turn start: heal all allies for 2 HP.",
+      "tips": [],
+      "img": "cards/SADIDA-INFLATABLE_DOLL_PREVIEW.webp",
+      "upgrade": {
+        "title": "Inflatable Doll+",
+        "cost": 0,
+        "text": "HP: 30 End of turn: deal 10 damage to a random enemy. Turn start: heal all allies for 4 HP.",
+        "tips": [],
+        "img": "cards/SADIDA-INFLATABLE_DOLL_PREVIEW+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-JACK_OF_ALL_SEEDS",
+      "title": "Jack of all Seeds",
+      "type": "Skill",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Take a card with a cost from your draw pile and add it to your hand.",
+      "tips": [],
+      "img": "cards/SADIDA-JACK_OF_ALL_SEEDS.webp",
+      "upgrade": {
+        "title": "Jack of all Seeds+",
+        "cost": 1,
+        "text": "Take a card with a cost from your draw pile and add it to your hand.",
+        "tips": [],
+        "img": "cards/SADIDA-JACK_OF_ALL_SEEDS+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-KEEPSAKE",
+      "title": "Keepsake",
+      "type": "Skill",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Retain. Gain 2. Retain your Hand this turn.",
+      "tips": [
+        "RETAIN"
+      ],
+      "img": "cards/SADIDA-KEEPSAKE.webp",
+      "upgrade": {
+        "title": "Keepsake+",
+        "cost": 1,
+        "text": "Retain. Gain 3. Retain your Hand this turn.",
+        "tips": [
+          "RETAIN"
+        ],
+        "img": "cards/SADIDA-KEEPSAKE+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-LINK_STRIKE",
+      "title": "Link Strike",
+      "type": "Attack",
+      "rarity": "Common",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Deal 9 damage. Apply 1 Targeted.",
+      "tips": [
+        "BRAMBLE"
+      ],
+      "img": "cards/SADIDA-LINK_STRIKE.webp",
+      "upgrade": {
+        "title": "Link Strike+",
+        "cost": 1,
+        "text": "Deal 12 damage. Apply 1 Targeted. Apply 1 Bramble.",
+        "tips": [
+          "BRAMBLE"
+        ],
+        "img": "cards/SADIDA-LINK_STRIKE+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-LONE_SADIDA",
+      "title": "Lone Sadida",
+      "type": "Power",
+      "rarity": "Rare",
+      "multiplayer": "None",
+      "cost": 2,
+      "text": "All cards that Summon a Doll cost 1 less. Your Dolls gain 1 Strength.",
+      "tips": [
+        "DOLL"
+      ],
+      "img": "cards/SADIDA-LONE_SADIDA.webp",
+      "upgrade": {
+        "title": "Lone Sadida+",
+        "cost": 2,
+        "text": "Innate. All cards that Summon a Doll cost 1 less. Your Dolls gain 1 Strength.",
+        "tips": [
+          "DOLL",
+          "INNATE"
+        ],
+        "img": "cards/SADIDA-LONE_SADIDA+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-MADOLL_CARD",
+      "title": "Summon: Madoll",
+      "type": "Summon",
+      "rarity": "Rare",
+      "multiplayer": "None",
+      "cost": 2,
+      "text": "Summon a Madoll. HP 20 \u2022 Energy 1 \u2022 On-Death next 1 card cost 0 & Exhaust. Recycle.",
+      "tips": [
+        "SADIDA-MADOLL_PREVIEW",
+        "DOLL",
+        "EXHAUST",
+        "RECYCLE"
+      ],
+      "img": "cards/SADIDA-MADOLL_CARD.webp",
+      "upgrade": {
+        "title": "Summon: Madoll+",
+        "cost": 2,
+        "text": "Summon a Madoll. HP 20 \u2022 Energy 1 \u2022 On-Death next 2 cards cost 0 & Exhaust. Recycle.",
+        "tips": [
+          "SADIDA-MADOLL_PREVIEW_UP",
+          "DOLL",
+          "EXHAUST",
+          "RECYCLE"
+        ],
+        "img": "cards/SADIDA-MADOLL_CARD+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-MADOLL_PREVIEW",
+      "title": "Madoll",
+      "type": "Skill",
+      "rarity": "Token",
+      "multiplayer": "None",
+      "cost": 0,
+      "text": "HP: 20 Turn start: gain 1 Energy. On death: the next 1 card you play cost 0 &.",
+      "tips": [],
+      "img": "cards/SADIDA-MADOLL_PREVIEW.webp",
+      "upgrade": {
+        "title": "Madoll+",
+        "cost": 0,
+        "text": "HP: 20 Turn start: gain 1 Energy. On death: the next 2 cards you play cost 0 &.",
+        "tips": [],
+        "img": "cards/SADIDA-MADOLL_PREVIEW+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-MASS_SACRIFICE",
+      "title": "Mass Sacrifice",
+      "type": "Skill",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": 2,
+      "text": "Destroy all Dolls. For each Doll destroyed: draw 1 card and gain 1 Energy.",
+      "tips": [
+        "DOLL"
+      ],
+      "img": "cards/SADIDA-MASS_SACRIFICE.webp",
+      "upgrade": {
+        "title": "Mass Sacrifice+",
+        "cost": 2,
+        "text": "Destroy all Dolls. For each Doll destroyed: draw 2 cards and gain 1 Energy.",
+        "tips": [
+          "DOLL"
+        ],
+        "img": "cards/SADIDA-MASS_SACRIFICE+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-MEND",
+      "title": "Mend",
+      "type": "Skill",
+      "rarity": "Common",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Gain 8 Block. All Dolls heal 5 HP.",
+      "tips": [
+        "BLOCK",
+        "DOLL"
+      ],
+      "img": "cards/SADIDA-MEND.webp",
+      "upgrade": {
+        "title": "Mend+",
+        "cost": 1,
+        "text": "Gain 11 Block. All Dolls heal 7 HP.",
+        "tips": [
+          "BLOCK",
+          "DOLL"
+        ],
+        "img": "cards/SADIDA-MEND+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-MERKS_RIPOSTE",
+      "title": "Merk's Riposte",
+      "type": "Power",
+      "rarity": "Rare",
+      "multiplayer": "None",
+      "cost": 3,
+      "text": "Summon The Block. Your The Block Dolls reflect the Block they absorb to attackers. Does not stack. Recycle.",
+      "tips": [
+        "SADIDA-THE_BLOCK_PREVIEW",
+        "DOLL",
+        "RECYCLE"
+      ],
+      "img": "cards/SADIDA-MERKS_RIPOSTE.webp",
+      "upgrade": {
+        "title": "Merk's Riposte+",
+        "cost": 3,
+        "text": "Innate. Summon The Block. Your The Block Dolls reflect the Block they absorb to attackers. Does not stack. Recycle.",
+        "tips": [
+          "SADIDA-THE_BLOCK_PREVIEW_UP",
+          "DOLL",
+          "RECYCLE",
+          "INNATE"
+        ],
+        "img": "cards/SADIDA-MERKS_RIPOSTE+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-MIRROR_SWARM",
+      "title": "Mirror Swarm",
+      "type": "Attack",
+      "rarity": "Rare",
+      "multiplayer": "None",
+      "cost": 2,
+      "text": "Deal 10 damage. Each of your Dolls deals 10 damage to that target.",
+      "tips": [
+        "DOLL"
+      ],
+      "img": "cards/SADIDA-MIRROR_SWARM.webp",
+      "upgrade": {
+        "title": "Mirror Swarm+",
+        "cost": 2,
+        "text": "Deal 13 damage. Each of your Dolls deals 13 damage to that target.",
+        "tips": [
+          "DOLL"
+        ],
+        "img": "cards/SADIDA-MIRROR_SWARM+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-NATURAL_SELECTION",
+      "title": "Natural Selection",
+      "type": "Attack",
+      "rarity": "Rare",
+      "multiplayer": "None",
+      "cost": 0,
+      "text": "Deal 7 damage. Apply 1 Weak. Summon a random Common Doll. Exhaust.",
+      "tips": [
+        "WEAK",
+        "EXHAUST",
+        "DOLL"
+      ],
+      "img": "cards/SADIDA-NATURAL_SELECTION.webp",
+      "upgrade": {
+        "title": "Natural Selection+",
+        "cost": 0,
+        "text": "Innate. Deal 7 damage. Apply 1 Weak. Summon a random Common Doll. Exhaust.",
+        "tips": [
+          "WEAK",
+          "EXHAUST",
+          "DOLL",
+          "INNATE"
+        ],
+        "img": "cards/SADIDA-NATURAL_SELECTION+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-NATURAL_STRING",
+      "title": "Natural String",
+      "type": "Attack",
+      "rarity": "Common",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Deal 7 damage to ALL enemies. If you have a Doll, deal 3 more damage.",
+      "tips": [
+        "DOLL"
+      ],
+      "img": "cards/SADIDA-NATURAL_STRING.webp",
+      "upgrade": {
+        "title": "Natural String+",
+        "cost": 1,
+        "text": "Deal 8 damage to ALL enemies. If you have a Doll, deal 5 more damage.",
+        "tips": [
+          "DOLL"
+        ],
+        "img": "cards/SADIDA-NATURAL_STRING+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-NATURE_DEFENDS",
+      "title": "Defend",
+      "type": "Skill",
+      "rarity": "Basic",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Gain 5 Block.",
+      "tips": [
+        "BLOCK"
+      ],
+      "img": "cards/SADIDA-NATURE_DEFENDS.webp",
+      "upgrade": {
+        "title": "Defend+",
+        "cost": 1,
+        "text": "Gain 8 Block.",
+        "tips": [
+          "BLOCK"
+        ],
+        "img": "cards/SADIDA-NATURE_DEFENDS+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-NATURE_KICK",
+      "title": "Nature Kick",
+      "type": "Attack",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": 3,
+      "text": "Deal 20 damage. Apply 1 Targeted. Costs 1 less for each Doll you have alive.",
+      "tips": [
+        "DOLL"
+      ],
+      "img": "cards/SADIDA-NATURE_KICK.webp",
+      "upgrade": {
+        "title": "Nature Kick+",
+        "cost": 3,
+        "text": "Deal 24 damage. Apply 1 Targeted. Costs 1 less for each Doll you have alive.",
+        "tips": [
+          "DOLL"
+        ],
+        "img": "cards/SADIDA-NATURE_KICK+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-NATURE_STRIKES",
+      "title": "Strike",
+      "type": "Attack",
+      "rarity": "Basic",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Deal 6 damage. If this kills the enemy, gain 1.",
+      "tips": [],
+      "img": "cards/SADIDA-NATURE_STRIKES.webp",
+      "upgrade": {
+        "title": "Strike+",
+        "cost": 1,
+        "text": "Deal 9 damage. If this kills the enemy, gain 2.",
+        "tips": [],
+        "img": "cards/SADIDA-NATURE_STRIKES+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-NIVEDS_RECOMPENSE",
+      "title": "Nived's Recompense",
+      "type": "Power",
+      "rarity": "Rare",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "While you have Count your Dolls take half damage. Count = Block \u00d7 Stacks.",
+      "tips": [
+        "DOLL"
+      ],
+      "img": "cards/SADIDA-NIVEDS_RECOMPENSE.webp",
+      "upgrade": {
+        "title": "Nived's Recompense+",
+        "cost": 1,
+        "text": "While you have Count your Dolls take half damage. Count = Block \u00d7 Stacks.",
+        "tips": [
+          "DOLL"
+        ],
+        "img": "cards/SADIDA-NIVEDS_RECOMPENSE+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-ORCHESTRATED_VOLLEY",
+      "title": "Orchestrated Volley",
+      "type": "Skill",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": 2,
+      "text": "Apply 1 Targeted to an enemy. All your Dolls gain 2 Strength this turn.",
+      "tips": [
+        "STRENGTH",
+        "DOLL",
+        "TARGETED"
+      ],
+      "img": "cards/SADIDA-ORCHESTRATED_VOLLEY.webp",
+      "upgrade": {
+        "title": "Orchestrated Volley+",
+        "cost": 2,
+        "text": "Retain. Apply 2 Targeted to an enemy. All your Dolls gain 3 Strength this turn.",
+        "tips": [
+          "STRENGTH",
+          "DOLL",
+          "TARGETED",
+          "RETAIN"
+        ],
+        "img": "cards/SADIDA-ORCHESTRATED_VOLLEY+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-PERENNIAL",
+      "title": "Perennial",
+      "type": "Attack",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": 0,
+      "text": "Deal 4 damage. Whenever you summon a Doll, return this card from your Discard Pile to your Hand.",
+      "tips": [
+        "DOLL"
+      ],
+      "img": "cards/SADIDA-PERENNIAL.webp",
+      "upgrade": {
+        "title": "Perennial+",
+        "cost": 0,
+        "text": "Deal 6 damage. Whenever you summon a Doll, return this card from your Discard Pile to your Hand.",
+        "tips": [
+          "DOLL"
+        ],
+        "img": "cards/SADIDA-PERENNIAL+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-PHEROMAST",
+      "title": "Pheromast",
+      "type": "Skill",
+      "rarity": "Common",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Gain 8 Block. Apply 1 Targeted.",
+      "tips": [
+        "BLOCK"
+      ],
+      "img": "cards/SADIDA-PHEROMAST.webp",
+      "upgrade": {
+        "title": "Pheromast+",
+        "cost": 1,
+        "text": "Gain 11 Block. Apply 2 Targeted.",
+        "tips": [
+          "BLOCK"
+        ],
+        "img": "cards/SADIDA-PHEROMAST+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-PHOTOSYNTHESIS",
+      "title": "Photosynthesis",
+      "type": "Skill",
+      "rarity": "Rare",
+      "multiplayer": "None",
+      "cost": 0,
+      "text": "Draw 2 cards. Gain 1. Exhaust.",
+      "tips": [
+        "EXHAUST"
+      ],
+      "img": "cards/SADIDA-PHOTOSYNTHESIS.webp",
+      "upgrade": {
+        "title": "Photosynthesis+",
+        "cost": 0,
+        "text": "Innate. Draw 2 cards. Gain 1. Exhaust.",
+        "tips": [
+          "EXHAUST",
+          "INNATE"
+        ],
+        "img": "cards/SADIDA-PHOTOSYNTHESIS+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-POCKET_SEEDS",
+      "title": "Pocket Seeds",
+      "type": "Skill",
+      "rarity": "Common",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Draw 1 card. Gain 1.",
+      "tips": [],
+      "img": "cards/SADIDA-POCKET_SEEDS.webp",
+      "upgrade": {
+        "title": "Pocket Seeds+",
+        "cost": 1,
+        "text": "Draw 1 card. Gain 1.",
+        "tips": [],
+        "img": "cards/SADIDA-POCKET_SEEDS+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-POISON_IVY",
+      "title": "Poison Ivy",
+      "type": "Attack",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Deal 8 damage. If target has Bramble, apply that many Poison.",
+      "tips": [
+        "BRAMBLE",
+        "POISON"
+      ],
+      "img": "cards/SADIDA-POISON_IVY.webp",
+      "upgrade": {
+        "title": "Poison Ivy+",
+        "cost": 1,
+        "text": "Deal 8 damage. If target has Bramble, apply that many Poison.",
+        "tips": [
+          "BRAMBLE",
+          "POISON"
+        ],
+        "img": "cards/SADIDA-POISON_IVY+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-PROTECTION_TBD",
+      "title": "Protection",
+      "type": "Power",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": 2,
+      "text": "At the start of your turn, gain 5 Ward. Whenever you play a card, spend 1 Ward: you and your Dolls gain 2 Block.",
+      "tips": [
+        "DOLL"
+      ],
+      "img": "cards/SADIDA-PROTECTION_TBD.webp",
+      "upgrade": {
+        "title": "Protection+",
+        "cost": 2,
+        "text": "Innate. At the start of your turn, gain 5 Ward. Whenever you play a card, spend 1 Ward: you and your Dolls gain 2 Block.",
+        "tips": [
+          "DOLL",
+          "INNATE"
+        ],
+        "img": "cards/SADIDA-PROTECTION_TBD+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-PUPPET_MASTER",
+      "title": "Puppet Master",
+      "type": "Skill",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": 2,
+      "text": "All Dolls with attack immediately attack a random enemy. Gain 1 per Doll in play.",
+      "tips": [
+        "DOLL"
+      ],
+      "img": "cards/SADIDA-PUPPET_MASTER.webp",
+      "upgrade": {
+        "title": "Puppet Master+",
+        "cost": 2,
+        "text": "All Dolls with attack immediately attack a random enemy. Gain 1 per Doll in play.",
+        "tips": [
+          "DOLL"
+        ],
+        "img": "cards/SADIDA-PUPPET_MASTER+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-PUPPET_STRINGS",
+      "title": "Puppet Strings",
+      "type": "Skill",
+      "rarity": "Common",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Gain 6 Block. If you have a Doll, gain 2 more Block and 1.",
+      "tips": [
+        "BLOCK",
+        "DOLL"
+      ],
+      "img": "cards/SADIDA-PUPPET_STRINGS.webp",
+      "upgrade": {
+        "title": "Puppet Strings+",
+        "cost": 1,
+        "text": "Gain 8 Block. If you have a Doll, gain 2 more Block and 2.",
+        "tips": [
+          "BLOCK",
+          "DOLL"
+        ],
+        "img": "cards/SADIDA-PUPPET_STRINGS+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-PUPPET_UPRISING",
+      "title": "Puppet Uprising",
+      "type": "Attack",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Deal 0 damage. (Deals 5 additional damage for each Doll you have summoned this combat.) Exhaust.",
+      "tips": [
+        "DOLL",
+        "EXHAUST"
+      ],
+      "img": "cards/SADIDA-PUPPET_UPRISING.webp",
+      "upgrade": {
+        "title": "Puppet Uprising+",
+        "cost": 1,
+        "text": "Deal 0 damage. (Deals 7 additional damage for each Doll you have summoned this combat.) Exhaust.",
+        "tips": [
+          "DOLL",
+          "EXHAUST"
+        ],
+        "img": "cards/SADIDA-PUPPET_UPRISING+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-RAPID_ASSEMBLY",
+      "title": "Rapid Assembly",
+      "type": "Attack",
+      "rarity": "Common",
+      "multiplayer": "None",
+      "cost": 2,
+      "text": "Deal 3 damage twice. Summon a random Doll. Does Not Recycle.",
+      "tips": [
+        "DOLL",
+        "DOES_NOT_RECYCLE"
+      ],
+      "img": "cards/SADIDA-RAPID_ASSEMBLY.webp",
+      "upgrade": {
+        "title": "Rapid Assembly+",
+        "cost": 2,
+        "text": "Deal 5 damage twice. Summon a random Doll. Does Not Recycle.",
+        "tips": [
+          "DOLL",
+          "DOES_NOT_RECYCLE"
+        ],
+        "img": "cards/SADIDA-RAPID_ASSEMBLY+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-ROOT_SHIELD",
+      "title": "Root Shield",
+      "type": "Skill",
+      "rarity": "Common",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Gain 0 Block. Gain 4 Block per Doll in play.",
+      "tips": [
+        "BLOCK",
+        "DOLL"
+      ],
+      "img": "cards/SADIDA-ROOT_SHIELD.webp",
+      "upgrade": {
+        "title": "Root Shield+",
+        "cost": 1,
+        "text": "Gain 0 Block. Gain 6 Block per Doll in play.",
+        "tips": [
+          "BLOCK",
+          "DOLL"
+        ],
+        "img": "cards/SADIDA-ROOT_SHIELD+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-SACRIFICIAL_DOLL_CARD",
+      "title": "Summon: Sacrificial Doll",
+      "type": "Summon",
+      "rarity": "Rare",
+      "multiplayer": "None",
+      "cost": 2,
+      "text": "Summon a Sacrificial Doll. HP 25 \u2022 Growth +5 \u2022 Death AoE 100% of Max HP Exhaust. Recycle.",
+      "tips": [
+        "SADIDA-SACRIFICIAL_DOLL_PREVIEW",
+        "DOLL",
+        "EXHAUST",
+        "RECYCLE"
+      ],
+      "img": "cards/SADIDA-SACRIFICIAL_DOLL_CARD.webp",
+      "upgrade": {
+        "title": "Summon: Sacrificial Doll+",
+        "cost": 2,
+        "text": "Summon a Sacrificial Doll. HP 25 \u2022 Growth +10 \u2022 Death AoE 150% of Max HP Exhaust. Recycle.",
+        "tips": [
+          "SADIDA-SACRIFICIAL_DOLL_PREVIEW_UP",
+          "DOLL",
+          "EXHAUST",
+          "RECYCLE"
+        ],
+        "img": "cards/SADIDA-SACRIFICIAL_DOLL_CARD+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-SACRIFICIAL_DOLL_PREVIEW",
+      "title": "Sacrificial Doll",
+      "type": "Skill",
+      "rarity": "Token",
+      "multiplayer": "None",
+      "cost": 0,
+      "text": "HP: 25 Turn start: permanently gain 5 Max HP (and heal by the same). On death: deal 100% of this Doll's Max HP to ALL enemies.",
+      "tips": [],
+      "img": "cards/SADIDA-SACRIFICIAL_DOLL_PREVIEW.webp",
+      "upgrade": {
+        "title": "Sacrificial Doll+",
+        "cost": 0,
+        "text": "HP: 25 Turn start: permanently gain 10 Max HP (and heal by the same). On death: deal 150% of this Doll's Max HP to ALL enemies.",
+        "tips": [],
+        "img": "cards/SADIDA-SACRIFICIAL_DOLL_PREVIEW+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-SEDATIVE_DART",
+      "title": "Sedative Dart",
+      "type": "Attack",
+      "rarity": "Common",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Deal 7 damage. If the enemy intends to attack, apply 1 Weak.",
+      "tips": [
+        "WEAK"
+      ],
+      "img": "cards/SADIDA-SEDATIVE_DART.webp",
+      "upgrade": {
+        "title": "Sedative Dart+",
+        "cost": 1,
+        "text": "Deal 9 damage. If the enemy intends to attack, apply 2 Weak.",
+        "tips": [
+          "WEAK"
+        ],
+        "img": "cards/SADIDA-SEDATIVE_DART+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-SEED_STORM",
+      "title": "Seed Storm",
+      "type": "Attack",
+      "rarity": "Rare",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Every Doll performs its end-of-turn attack twice, immediately. Exhaust.",
+      "tips": [
+        "DOLL",
+        "EXHAUST"
+      ],
+      "img": "cards/SADIDA-SEED_STORM.webp",
+      "upgrade": {
+        "title": "Seed Storm+",
+        "cost": 1,
+        "text": "Every Doll performs its end-of-turn attack twice, immediately.",
+        "tips": [
+          "DOLL"
+        ],
+        "img": "cards/SADIDA-SEED_STORM+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-SEW_UP",
+      "title": "Sew Up",
+      "type": "Skill",
+      "rarity": "Common",
+      "multiplayer": "None",
+      "cost": 0,
+      "text": "Increase every Doll's Max HP by 10 and heal them for 7 HP. Exhaust.",
+      "tips": [
+        "DOLL",
+        "EXHAUST"
+      ],
+      "img": "cards/SADIDA-SEW_UP.webp",
+      "upgrade": {
+        "title": "Sew Up+",
+        "cost": 0,
+        "text": "Increase every Doll's Max HP by 15 and heal them for 14 HP. Exhaust.",
+        "tips": [
+          "DOLL",
+          "EXHAUST"
+        ],
+        "img": "cards/SADIDA-SEW_UP+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-SHARED_STRIKE",
+      "title": "Shared Strike",
+      "type": "Attack",
+      "rarity": "Common",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Deal 6 damage. A random Doll also deals 6 damage to that target.",
+      "tips": [
+        "DOLL"
+      ],
+      "img": "cards/SADIDA-SHARED_STRIKE.webp",
+      "upgrade": {
+        "title": "Shared Strike+",
+        "cost": 1,
+        "text": "Deal 8 damage. A random Doll also deals 8 damage to that target.",
+        "tips": [
+          "DOLL"
+        ],
+        "img": "cards/SADIDA-SHARED_STRIKE+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-SPECIMEN_STAB",
+      "title": "Specimen Stab",
+      "type": "Attack",
+      "rarity": "Common",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Deal 6 damage. Apply 2 Bramble.",
+      "tips": [
+        "BRAMBLE"
+      ],
+      "img": "cards/SADIDA-SPECIMEN_STAB.webp",
+      "upgrade": {
+        "title": "Specimen Stab+",
+        "cost": 1,
+        "text": "Deal 9 damage. Apply 4 Bramble.",
+        "tips": [
+          "BRAMBLE"
+        ],
+        "img": "cards/SADIDA-SPECIMEN_STAB+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-SPURWEED",
+      "title": "Spurweed",
+      "type": "Skill",
+      "rarity": "Common",
+      "multiplayer": "None",
+      "cost": 0,
+      "text": "Draw 1 card. Apply 1 Bramble.",
+      "tips": [
+        "BRAMBLE"
+      ],
+      "img": "cards/SADIDA-SPURWEED.webp",
+      "upgrade": {
+        "title": "Spurweed+",
+        "cost": 0,
+        "text": "Draw 2 cards. Apply 1 Bramble.",
+        "tips": [
+          "BRAMBLE"
+        ],
+        "img": "cards/SADIDA-SPURWEED+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-STICKERWEED",
+      "title": "Stickerweed",
+      "type": "Attack",
+      "rarity": "Rare",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Deal 9 damage to ALL enemies. Apply 1 Bramble to ALL enemies.",
+      "tips": [
+        "BRAMBLE"
+      ],
+      "img": "cards/SADIDA-STICKERWEED.webp",
+      "upgrade": {
+        "title": "Stickerweed+",
+        "cost": 1,
+        "text": "Deal 13 damage to ALL enemies. Apply 2 Bramble to ALL enemies.",
+        "tips": [
+          "BRAMBLE"
+        ],
+        "img": "cards/SADIDA-STICKERWEED+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-SUMMON_THE_BLOCK",
+      "title": "Summon: The Block",
+      "type": "Summon",
+      "rarity": "Common",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Summon The Block. HP 20 \u2022 Block 2 \u2022 Damage 4 Exhaust. Recycle.",
+      "tips": [
+        "SADIDA-THE_BLOCK_PREVIEW",
+        "DOLL",
+        "EXHAUST",
+        "RECYCLE"
+      ],
+      "img": "cards/SADIDA-SUMMON_THE_BLOCK.webp",
+      "upgrade": {
+        "title": "Summon: The Block+",
+        "cost": 1,
+        "text": "Summon The Block. HP 20 \u2022 Block 4 \u2022 Damage 6 Exhaust. Recycle.",
+        "tips": [
+          "SADIDA-THE_BLOCK_PREVIEW_UP",
+          "DOLL",
+          "EXHAUST",
+          "RECYCLE"
+        ],
+        "img": "cards/SADIDA-SUMMON_THE_BLOCK+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-SUMMON_THE_GREEDY",
+      "title": "Summon: The Greedy",
+      "type": "Summon",
+      "rarity": "Common",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Summon The Greedy. HP 16 \u2022 Damage 4 \u2022 Vulnerable 1 Exhaust. Recycle.",
+      "tips": [
+        "SADIDA-THE_GREEDY_PREVIEW",
+        "DOLL",
+        "EXHAUST",
+        "RECYCLE"
+      ],
+      "img": "cards/SADIDA-SUMMON_THE_GREEDY.webp",
+      "upgrade": {
+        "title": "Summon: The Greedy+",
+        "cost": 1,
+        "text": "Summon The Greedy. HP 16 \u2022 Damage 6 \u2022 Vulnerable 2 Exhaust. Recycle.",
+        "tips": [
+          "SADIDA-THE_GREEDY_PREVIEW_UP",
+          "DOLL",
+          "EXHAUST",
+          "RECYCLE"
+        ],
+        "img": "cards/SADIDA-SUMMON_THE_GREEDY+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-SUMMON_THE_HALOPERI",
+      "title": "Summon: Haloperi Doll",
+      "type": "Summon",
+      "rarity": "Common",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Summon a Haloperi Doll. HP 16 \u2022 Damage 2 \u2022 Hits 1 time(s) \u2022 On hit, if the target intends to attack, apply 1 Weak. Exhaust. Recycle.",
+      "tips": [
+        "SADIDA-HALOPERI_DOLL_PREVIEW",
+        "DOLL",
+        "EXHAUST",
+        "RECYCLE"
+      ],
+      "img": "cards/SADIDA-SUMMON_THE_HALOPERI.webp",
+      "upgrade": {
+        "title": "Summon: Haloperi Doll+",
+        "cost": 1,
+        "text": "Summon a Haloperi Doll. HP 20 \u2022 Damage 2 \u2022 Hits 3 time(s) \u2022 On hit, if the target intends to attack, apply 1 Weak. Exhaust. Recycle.",
+        "tips": [
+          "SADIDA-HALOPERI_DOLL_PREVIEW_UP",
+          "DOLL",
+          "EXHAUST",
+          "RECYCLE"
+        ],
+        "img": "cards/SADIDA-SUMMON_THE_HALOPERI+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-SUMMON_THE_LETHARGIC",
+      "title": "Summon: The Lethargic",
+      "type": "Summon",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": 2,
+      "text": "Summon The Lethargic. HP 15 \u2022 Damage 5 \u2022 Applies Bramble on hit and on damage taken Exhaust. Recycle.",
+      "tips": [
+        "SADIDA-THE_LETHARGIC_PREVIEW",
+        "BRAMBLE",
+        "DOLL",
+        "EXHAUST",
+        "RECYCLE"
+      ],
+      "img": "cards/SADIDA-SUMMON_THE_LETHARGIC.webp",
+      "upgrade": {
+        "title": "Summon: The Lethargic+",
+        "cost": 2,
+        "text": "Summon The Lethargic. HP 20 \u2022 Damage 8 \u2022 Applies Bramble on hit and on damage taken Exhaust. Recycle.",
+        "tips": [
+          "SADIDA-THE_LETHARGIC_PREVIEW_UP",
+          "BRAMBLE",
+          "DOLL",
+          "EXHAUST",
+          "RECYCLE"
+        ],
+        "img": "cards/SADIDA-SUMMON_THE_LETHARGIC+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-SUMMON_THE_ULTRA_POWERFUL",
+      "title": "Summon: The Ultra-Powerful",
+      "type": "Summon",
+      "rarity": "Ancient",
+      "multiplayer": "None",
+      "cost": 2,
+      "text": "Choose any number of your Dolls to sacrifice, then summon The Ultra-Powerful, absorbing 25% of their Max HP and all of their abilities. HP 30 Exhaust. Recycle.",
+      "tips": [
+        "SADIDA-THE_ULTRA_POWERFUL_PREVIEW",
+        "DOLL",
+        "EXHAUST",
+        "RECYCLE"
+      ],
+      "img": "cards/SADIDA-SUMMON_THE_ULTRA_POWERFUL.webp",
+      "upgrade": {
+        "title": "Summon: The Ultra-Powerful+",
+        "cost": 2,
+        "text": "Choose any number of your Dolls to sacrifice, then summon The Ultra-Powerful, absorbing 50% of their Max HP and all of their abilities. HP 36 Exhaust. Recycle.",
+        "tips": [
+          "SADIDA-THE_ULTRA_POWERFUL_PREVIEW_UP",
+          "DOLL",
+          "EXHAUST",
+          "RECYCLE"
+        ],
+        "img": "cards/SADIDA-SUMMON_THE_ULTRA_POWERFUL+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-SUMMON_THE_VOODOLL",
+      "title": "Summon: Voodoll",
+      "type": "Summon",
+      "rarity": "Basic",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Summon Voodoll. HP 20 \u2022 Attack 10% of Max HP \u2022 Growth +4 +1/Doll Exhaust. Recycle.",
+      "tips": [
+        "SADIDA-VOODOLL_PREVIEW",
+        "DOLL",
+        "EXHAUST",
+        "RECYCLE"
+      ],
+      "img": "cards/SADIDA-SUMMON_THE_VOODOLL.webp",
+      "upgrade": {
+        "title": "Summon: Voodoll+",
+        "cost": 1,
+        "text": "Summon Voodoll. HP 25 \u2022 Attack 20% of Max HP \u2022 Growth +6 +1/Doll Exhaust. Recycle.",
+        "tips": [
+          "SADIDA-VOODOLL_PREVIEW_UP",
+          "DOLL",
+          "EXHAUST",
+          "RECYCLE"
+        ],
+        "img": "cards/SADIDA-SUMMON_THE_VOODOLL+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-SYMBIOSIS",
+      "title": "Symbiosis",
+      "type": "Skill",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": 2,
+      "text": "Add 2 per Doll in play. Heal all Dolls by ( / 2).",
+      "tips": [
+        "DOLL"
+      ],
+      "img": "cards/SADIDA-SYMBIOSIS.webp",
+      "upgrade": {
+        "title": "Symbiosis+",
+        "cost": 2,
+        "text": "Add 3 per Doll in play. Heal all Dolls by ( / 2).",
+        "tips": [
+          "DOLL"
+        ],
+        "img": "cards/SADIDA-SYMBIOSIS+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-SYMBIOSIS_PRIME",
+      "title": "Symbiosis Prime",
+      "type": "Power",
+      "rarity": "Rare",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "When a Doll dies, heal 1 HP, gain 2 Block, and gain 1.",
+      "tips": [
+        "DOLL"
+      ],
+      "img": "cards/SADIDA-SYMBIOSIS_PRIME.webp",
+      "upgrade": {
+        "title": "Symbiosis Prime+",
+        "cost": 1,
+        "text": "Innate. When a Doll dies, heal 1 HP, gain 2 Block, and gain 1.",
+        "tips": [
+          "DOLL",
+          "INNATE"
+        ],
+        "img": "cards/SADIDA-SYMBIOSIS_PRIME+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-THE_BLOCK_PREVIEW",
+      "title": "The Block",
+      "type": "Skill",
+      "rarity": "Token",
+      "multiplayer": "None",
+      "cost": 0,
+      "text": "HP: 20 End of turn: give 2 Block to owner and every ally, then deal 4 damage to a random enemy.",
+      "tips": [],
+      "img": "cards/SADIDA-THE_BLOCK_PREVIEW.webp",
+      "upgrade": {
+        "title": "The Block+",
+        "cost": 0,
+        "text": "HP: 20 End of turn: give 4 Block to owner and every ally, then deal 6 damage to a random enemy.",
+        "tips": [],
+        "img": "cards/SADIDA-THE_BLOCK_PREVIEW+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-THE_GREEDY_PREVIEW",
+      "title": "The Greedy",
+      "type": "Skill",
+      "rarity": "Token",
+      "multiplayer": "None",
+      "cost": 0,
+      "text": "HP: 16 On hit: apply 1 Vulnerable. End of turn: deal 4 damage to ALL enemies.",
+      "tips": [],
+      "img": "cards/SADIDA-THE_GREEDY_PREVIEW.webp",
+      "upgrade": {
+        "title": "The Greedy+",
+        "cost": 0,
+        "text": "HP: 20 On hit: apply 2 Vulnerable. End of turn: deal 6 damage to ALL enemies.",
+        "tips": [],
+        "img": "cards/SADIDA-THE_GREEDY_PREVIEW+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-THE_LETHARGIC_PREVIEW",
+      "title": "The Lethargic",
+      "type": "Skill",
+      "rarity": "Token",
+      "multiplayer": "None",
+      "cost": 0,
+      "text": "HP: 15 End of turn: deal 5 damage to a random enemy. Whenever this doll deals damage: apply 1 Bramble to the target. Whenever this doll takes unblocked damage: apply 1 Bramble to the attacker.",
+      "tips": [
+        "BRAMBLE"
+      ],
+      "img": "cards/SADIDA-THE_LETHARGIC_PREVIEW.webp",
+      "upgrade": {
+        "title": "The Lethargic+",
+        "cost": 0,
+        "text": "HP: 20 End of turn: deal 8 damage to a random enemy. Whenever this doll deals damage: apply 1 Bramble to the target. Whenever this doll takes unblocked damage: apply 1 Bramble to the attacker.",
+        "tips": [
+          "BRAMBLE"
+        ],
+        "img": "cards/SADIDA-THE_LETHARGIC_PREVIEW+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-THE_SEEDED_GARDEN",
+      "title": "The Seeded Garden",
+      "type": "Power",
+      "rarity": "Ancient",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Whenever you play a card, gain 1.",
+      "tips": [],
+      "img": "cards/SADIDA-THE_SEEDED_GARDEN.webp",
+      "upgrade": {
+        "title": "The Seeded Garden+",
+        "cost": 1,
+        "text": "Innate. Whenever you play a card, gain 1.",
+        "tips": [
+          "INNATE"
+        ],
+        "img": "cards/SADIDA-THE_SEEDED_GARDEN+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-THE_ULTRA_POWERFUL_PREVIEW",
+      "title": "The Ultra-Powerful",
+      "type": "Skill",
+      "rarity": "Token",
+      "multiplayer": "None",
+      "cost": 0,
+      "text": "HP: 30 Redirects damage aimed at you onto itself until it dies. On play: sacrifice any number of your chosen Dolls, absorbing 25% of their Max HP and all of their abilities.",
+      "tips": [],
+      "img": "cards/SADIDA-THE_ULTRA_POWERFUL_PREVIEW.webp",
+      "upgrade": {
+        "title": "The Ultra-Powerful+",
+        "cost": 0,
+        "text": "HP: 36 Redirects damage aimed at you onto itself until it dies. On play: sacrifice any number of your chosen Dolls, absorbing 50% of their Max HP and all of their abilities.",
+        "tips": [],
+        "img": "cards/SADIDA-THE_ULTRA_POWERFUL_PREVIEW+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-TREE_OF_LIFE",
+      "title": "Tree of Life",
+      "type": "Power",
+      "rarity": "Rare",
+      "multiplayer": "None",
+      "cost": 3,
+      "text": "Start of Turn: Dolls heal 2. Doll Death: Gain 3.",
+      "tips": [
+        "DOLL"
+      ],
+      "img": "cards/SADIDA-TREE_OF_LIFE.webp",
+      "upgrade": {
+        "title": "Tree of Life+",
+        "cost": 3,
+        "text": "Start of Turn: Dolls heal 3. Doll Death: Gain 5.",
+        "tips": [
+          "DOLL"
+        ],
+        "img": "cards/SADIDA-TREE_OF_LIFE+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-TUMBLEWEED",
+      "title": "Tumbleweed",
+      "type": "Skill",
+      "rarity": "Common",
+      "multiplayer": "None",
+      "cost": 2,
+      "text": "Kill a Doll. Apply 1 Bramble to all enemies. Gain Block equal to the killed Doll's HP.",
+      "tips": [
+        "BRAMBLE",
+        "BLOCK",
+        "DOLL"
+      ],
+      "img": "cards/SADIDA-TUMBLEWEED.webp",
+      "upgrade": {
+        "title": "Tumbleweed+",
+        "cost": 2,
+        "text": "Kill a Doll. Apply 1 Bramble to all enemies. Gain Block equal to the killed Doll's HP.",
+        "tips": [
+          "BRAMBLE",
+          "BLOCK",
+          "DOLL"
+        ],
+        "img": "cards/SADIDA-TUMBLEWEED+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-ULTRA_POWERFUL",
+      "title": "Ultra Powerful",
+      "type": "Power",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "At the start of your turn, every Doll gains +1 Strength.",
+      "tips": [
+        "DOLL"
+      ],
+      "img": "cards/SADIDA-ULTRA_POWERFUL.webp",
+      "upgrade": {
+        "title": "Ultra Powerful+",
+        "cost": 1,
+        "text": "At the start of your turn, every Doll gains +2 Strength.",
+        "tips": [
+          "DOLL"
+        ],
+        "img": "cards/SADIDA-ULTRA_POWERFUL+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-VOODOLL_PREVIEW",
+      "title": "Voodoll",
+      "type": "Skill",
+      "rarity": "Token",
+      "multiplayer": "None",
+      "cost": 0,
+      "text": "HP: 20 Turn start: permanently gain 4 Max HP, plus 1 for every Doll you have in play. End of turn: deal damage to a random enemy equal to 10% of its current Max HP. Redirects damage aimed at you onto itself until it dies.",
+      "tips": [],
+      "img": "cards/SADIDA-VOODOLL_PREVIEW.webp",
+      "upgrade": {
+        "title": "Voodoll+",
+        "cost": 0,
+        "text": "HP: 25 Turn start: permanently gain 6 Max HP, plus 1 for every Doll you have in play. End of turn: deal damage to a random enemy equal to 20% of its current Max HP. Redirects damage aimed at you onto itself until it dies.",
+        "tips": [],
+        "img": "cards/SADIDA-VOODOLL_PREVIEW+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-VOODOO_FOCUS",
+      "title": "Voodoo Focus",
+      "type": "Power",
+      "rarity": "Rare",
+      "multiplayer": "None",
+      "cost": 2,
+      "text": "Enemies with Targeted take double damage from your Dolls. Does not stack.",
+      "tips": [
+        "TARGETED",
+        "DOLL"
+      ],
+      "img": "cards/SADIDA-VOODOO_FOCUS.webp",
+      "upgrade": {
+        "title": "Voodoo Focus+",
+        "cost": 2,
+        "text": "Enemies with Targeted take double damage from your Dolls. Does not stack.",
+        "tips": [
+          "TARGETED",
+          "DOLL"
+        ],
+        "img": "cards/SADIDA-VOODOO_FOCUS+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-VOODOO_MARK",
+      "title": "Voodoo Mark",
+      "type": "Skill",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Apply 1 Vulnerable. If you have a Doll, also apply 1 Shrink.",
+      "tips": [
+        "DOLL"
+      ],
+      "img": "cards/SADIDA-VOODOO_MARK.webp",
+      "upgrade": {
+        "title": "Voodoo Mark+",
+        "cost": 1,
+        "text": "Apply 2 Vulnerable. If you have a Doll, also apply 2 Shrink.",
+        "tips": [
+          "DOLL"
+        ],
+        "img": "cards/SADIDA-VOODOO_MARK+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-WILD_GROWTH",
+      "title": "Wild Growth",
+      "type": "Power",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": 2,
+      "text": "Whenever you gain, gain that many Block.",
+      "tips": [
+        "BLOCK"
+      ],
+      "img": "cards/SADIDA-WILD_GROWTH.webp",
+      "upgrade": {
+        "title": "Wild Growth+",
+        "cost": 2,
+        "text": "Whenever you gain, gain that many Block.",
+        "tips": [
+          "BLOCK"
+        ],
+        "img": "cards/SADIDA-WILD_GROWTH+.webp"
+      }
+    },
+    {
+      "id": "SADIDA-WINNOW",
+      "title": "Winnow",
+      "type": "Skill",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": 0,
+      "text": "Draw 4 cards. Discard all cards drawn this way that do not summon a Doll.",
+      "tips": [],
+      "img": "cards/SADIDA-WINNOW.webp",
+      "upgrade": {
+        "title": "Winnow+",
+        "cost": 0,
+        "text": "Draw 5 cards. Discard all cards drawn this way that do not summon a Doll.",
+        "tips": [],
+        "img": "cards/SADIDA-WINNOW+.webp"
+      }
+    }
+  ],
+  "tips": {
+    "DOLL": {
+      "title": "Doll",
+      "text": "A Sadida summon. Each Doll is an allied pet creature that triggers off combat events (turn start, card play, death) based on its type. Dolls can be summoned, healed, and attacked like any other creature.\n\nWhen an enemy attacks, Sadida and every living Doll each take the full damage independently, soaked by their own [gold]Block[/gold]. Dolls do NOT intercept damage for Sadida (unlike Osty) \u2014 keep them alive with Block, heals, and Mend.",
+      "debuff": false
+    },
+    "EXHAUST": {
+      "title": "Exhaust",
+      "text": "Removed until the end of combat.",
+      "debuff": false
+    },
+    "INNATE": {
+      "title": "Innate",
+      "text": "Start each combat with this card in your [gold]Hand[/gold].",
+      "debuff": false
+    },
+    "BLOCK": {
+      "title": "Block",
+      "text": "Until next turn, prevents damage.",
+      "debuff": false
+    },
+    "DOES_NOT_RECYCLE": {
+      "title": "Does Not Recycle",
+      "text": "This card summons [gold]Dolls[/gold] that do NOT return to your discard pile when they die.",
+      "debuff": false
+    },
+    "RETAIN": {
+      "title": "Retain",
+      "text": "Retained cards are not discarded at the end of turn.",
+      "debuff": false
+    },
+    "BRAMBLE": {
+      "title": "Bramble",
+      "text": "Whenever applied, take [blue]X[/blue] damage (Block soaks first).",
+      "debuff": true,
+      "icon": "icons/BRAMBLE.png"
+    },
+    "ENERGY": {
+      "title": "Energy",
+      "text": "Energy is used to play cards from your [gold]Hand[/gold].",
+      "debuff": false,
+      "icon": "icons/ENERGY.png"
+    },
+    "SADIDA-INFLATABLE_DOLL_PREVIEW": {
+      "title": "Inflatable Doll",
+      "card": "cards/SADIDA-INFLATABLE_DOLL_PREVIEW.webp",
+      "cardId": "SADIDA-INFLATABLE_DOLL_PREVIEW"
+    },
+    "RECYCLE": {
+      "title": "Recycle",
+      "text": "When this [gold]Doll[/gold] dies, this card returns to your discard pile.",
+      "debuff": false
+    },
+    "SADIDA-INFLATABLE_DOLL_PREVIEW_UP": {
+      "title": "Inflatable Doll+",
+      "card": "cards/SADIDA-INFLATABLE_DOLL_PREVIEW+.webp",
+      "cardId": "SADIDA-INFLATABLE_DOLL_PREVIEW"
+    },
+    "SADIDA-MADOLL_PREVIEW": {
+      "title": "Madoll",
+      "card": "cards/SADIDA-MADOLL_PREVIEW.webp",
+      "cardId": "SADIDA-MADOLL_PREVIEW"
+    },
+    "SADIDA-MADOLL_PREVIEW_UP": {
+      "title": "Madoll+",
+      "card": "cards/SADIDA-MADOLL_PREVIEW+.webp",
+      "cardId": "SADIDA-MADOLL_PREVIEW"
+    },
+    "SADIDA-THE_BLOCK_PREVIEW": {
+      "title": "The Block",
+      "card": "cards/SADIDA-THE_BLOCK_PREVIEW.webp",
+      "cardId": "SADIDA-THE_BLOCK_PREVIEW"
+    },
+    "SADIDA-THE_BLOCK_PREVIEW_UP": {
+      "title": "The Block+",
+      "card": "cards/SADIDA-THE_BLOCK_PREVIEW+.webp",
+      "cardId": "SADIDA-THE_BLOCK_PREVIEW"
+    },
+    "WEAK": {
+      "title": "Weak",
+      "text": "Weakened creatures deal [blue]25%[/blue] less damage with Attacks.",
+      "debuff": true,
+      "icon": "icons/WEAK.png"
+    },
+    "STRENGTH": {
+      "title": "Strength",
+      "text": "Strength adds additional damage to Attacks.",
+      "debuff": false,
+      "icon": "icons/STRENGTH.png"
+    },
+    "TARGETED": {
+      "title": "Targeted",
+      "text": "Your [gold]Dolls[/gold] deal 25% more damage to a Targeted enemy and redirect their random single-target attacks to it. Only one enemy can be Targeted at a time \u2014 applying it to a new enemy clears the mark from the old one. Loses 1 stack at the end of the Targeted enemy's turn.",
+      "debuff": false
+    },
+    "POISON": {
+      "title": "Poison",
+      "text": "Poisoned creatures lose HP at the start of their turn. Each turn, Poison is reduced by [blue]1[/blue].",
+      "debuff": true,
+      "icon": "icons/POISON.png"
+    },
+    "SADIDA-SACRIFICIAL_DOLL_PREVIEW": {
+      "title": "Sacrificial Doll",
+      "card": "cards/SADIDA-SACRIFICIAL_DOLL_PREVIEW.webp",
+      "cardId": "SADIDA-SACRIFICIAL_DOLL_PREVIEW"
+    },
+    "SADIDA-SACRIFICIAL_DOLL_PREVIEW_UP": {
+      "title": "Sacrificial Doll+",
+      "card": "cards/SADIDA-SACRIFICIAL_DOLL_PREVIEW+.webp",
+      "cardId": "SADIDA-SACRIFICIAL_DOLL_PREVIEW"
+    },
+    "SADIDA-THE_GREEDY_PREVIEW": {
+      "title": "The Greedy",
+      "card": "cards/SADIDA-THE_GREEDY_PREVIEW.webp",
+      "cardId": "SADIDA-THE_GREEDY_PREVIEW"
+    },
+    "SADIDA-THE_GREEDY_PREVIEW_UP": {
+      "title": "The Greedy+",
+      "card": "cards/SADIDA-THE_GREEDY_PREVIEW+.webp",
+      "cardId": "SADIDA-THE_GREEDY_PREVIEW"
+    },
+    "SADIDA-HALOPERI_DOLL_PREVIEW": {
+      "title": "Haloperi Doll",
+      "card": "cards/SADIDA-HALOPERI_DOLL_PREVIEW.webp",
+      "cardId": "SADIDA-HALOPERI_DOLL_PREVIEW"
+    },
+    "SADIDA-HALOPERI_DOLL_PREVIEW_UP": {
+      "title": "Haloperi Doll+",
+      "card": "cards/SADIDA-HALOPERI_DOLL_PREVIEW+.webp",
+      "cardId": "SADIDA-HALOPERI_DOLL_PREVIEW"
+    },
+    "SADIDA-THE_LETHARGIC_PREVIEW": {
+      "title": "The Lethargic",
+      "card": "cards/SADIDA-THE_LETHARGIC_PREVIEW.webp",
+      "cardId": "SADIDA-THE_LETHARGIC_PREVIEW"
+    },
+    "SADIDA-THE_LETHARGIC_PREVIEW_UP": {
+      "title": "The Lethargic+",
+      "card": "cards/SADIDA-THE_LETHARGIC_PREVIEW+.webp",
+      "cardId": "SADIDA-THE_LETHARGIC_PREVIEW"
+    },
+    "SADIDA-THE_ULTRA_POWERFUL_PREVIEW": {
+      "title": "The Ultra-Powerful",
+      "card": "cards/SADIDA-THE_ULTRA_POWERFUL_PREVIEW.webp",
+      "cardId": "SADIDA-THE_ULTRA_POWERFUL_PREVIEW"
+    },
+    "SADIDA-THE_ULTRA_POWERFUL_PREVIEW_UP": {
+      "title": "The Ultra-Powerful+",
+      "card": "cards/SADIDA-THE_ULTRA_POWERFUL_PREVIEW+.webp",
+      "cardId": "SADIDA-THE_ULTRA_POWERFUL_PREVIEW"
+    },
+    "SADIDA-VOODOLL_PREVIEW": {
+      "title": "Voodoll",
+      "card": "cards/SADIDA-VOODOLL_PREVIEW.webp",
+      "cardId": "SADIDA-VOODOLL_PREVIEW"
+    },
+    "SADIDA-VOODOLL_PREVIEW_UP": {
+      "title": "Voodoll+",
+      "card": "cards/SADIDA-VOODOLL_PREVIEW+.webp",
+      "cardId": "SADIDA-VOODOLL_PREVIEW"
+    }
+  }
+}

@@ -1,0 +1,2753 @@
+{
+  "mod": "Ecaflip",
+  "version": "v0.0.157",
+  "exported": "2026-10-10T11:00:19Z",
+  "scale": 2,
+  "padding": [
+    83,
+    44
+  ],
+  "cardSize": [
+    766,
+    932
+  ],
+  "cards": [
+    {
+      "id": "ECAFLIP-ACE_UP_THE_SLEEVE",
+      "title": "Ace Up the Sleeve",
+      "type": "Attack",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": -1,
+      "text": "Unplayable. Retain. Start of turn, Flip: Heads: Squander 20 Gold, deal 5 damage to a random enemy, Exhaust this. Tails: This deals 10 more damage this combat.",
+      "tips": [
+        "FLIP",
+        "UNPLAYABLE",
+        "RETAIN",
+        "SQUANDER"
+      ],
+      "img": "cards/ECAFLIP-ACE_UP_THE_SLEEVE.webp",
+      "upgrade": {
+        "title": "Ace Up the Sleeve+",
+        "cost": -1,
+        "text": "Unplayable. Retain. Start of turn, Flip: Heads: Squander 20 Gold, deal 10 damage to a random enemy, Exhaust this. Tails: This deals 10 more damage this combat.",
+        "tips": [
+          "FLIP",
+          "UNPLAYABLE",
+          "RETAIN",
+          "SQUANDER"
+        ],
+        "img": "cards/ECAFLIP-ACE_UP_THE_SLEEVE+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-ALL_IN",
+      "title": "All In",
+      "type": "Attack",
+      "rarity": "Rare",
+      "multiplayer": "None",
+      "cost": "X",
+      "text": "Squander 10 Gold X times. Deal Roll 3D6+X damage Bonus times (at least once, max 10).",
+      "tips": [
+        "ROLL",
+        "SQUANDER",
+        "CHIPS",
+        "BONUS"
+      ],
+      "img": "cards/ECAFLIP-ALL_IN.webp",
+      "upgrade": {
+        "title": "All In+",
+        "cost": "X",
+        "text": "Squander 10 Gold X times. Deal Roll 3D6+X+3 damage Bonus times (at least once, max 10).",
+        "tips": [
+          "ROLL",
+          "SQUANDER",
+          "CHIPS",
+          "BONUS"
+        ],
+        "img": "cards/ECAFLIP-ALL_IN+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-ALL_OR_NOTHING",
+      "title": "All or Nothing",
+      "type": "Power",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": 2,
+      "text": "Your Rolls become Flips: Heads lands on the highest face, Tails on the lowest.",
+      "tips": [
+        "ROLL",
+        "FLIP",
+        "ALL_OR_NOTHING"
+      ],
+      "img": "cards/ECAFLIP-ALL_OR_NOTHING.webp",
+      "upgrade": {
+        "title": "All or Nothing+",
+        "cost": 2,
+        "text": "Your Rolls become Flips: Heads lands on the highest face, Tails on the lowest.",
+        "tips": [
+          "ROLL",
+          "FLIP",
+          "ALL_OR_NOTHING"
+        ],
+        "img": "cards/ECAFLIP-ALL_OR_NOTHING+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-ANTE_UP",
+      "title": "Ante Up",
+      "type": "Skill",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": 0,
+      "text": "Gain Energy.",
+      "tips": [
+        "ENERGY",
+        "SQUANDER",
+        "CHIPS"
+      ],
+      "img": "cards/ECAFLIP-ANTE_UP.webp",
+      "upgrade": {
+        "title": "Ante Up+",
+        "cost": 0,
+        "text": "Gain Energy. Draw 1 card.",
+        "tips": [
+          "ENERGY",
+          "SQUANDER",
+          "CHIPS"
+        ],
+        "img": "cards/ECAFLIP-ANTE_UP+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-ARCANA_BANK",
+      "title": "The Bank",
+      "type": "Skill",
+      "rarity": "Token",
+      "multiplayer": "None",
+      "cost": 0,
+      "text": "Flip: Heads: This turn, your cards cost 0 Chips. Tails: Squander 20 Gold. Exhaust.",
+      "tips": [
+        "FLIP",
+        "THE_BANK",
+        "EXHAUST",
+        "SQUANDER",
+        "CHIPS"
+      ],
+      "img": "cards/ECAFLIP-ARCANA_BANK.webp"
+    },
+    {
+      "id": "ECAFLIP-ARCANA_BLACK_BOW_MEOW",
+      "title": "Black Bow Meow",
+      "type": "Skill",
+      "rarity": "Token",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Flip: Heads: Apply 2 Shrink to ALL enemies. Gain 3 Black Bow Meow. Tails: Gain 1 Shrink. Exhaust.",
+      "tips": [
+        "FLIP",
+        "SHRINK",
+        "BLACK_BOW_MEOW",
+        "EXHAUST"
+      ],
+      "img": "cards/ECAFLIP-ARCANA_BLACK_BOW_MEOW.webp"
+    },
+    {
+      "id": "ECAFLIP-ARCANA_CROQUETTE",
+      "title": "The Croquette",
+      "type": "Skill",
+      "rarity": "Token",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Flip: Heads: You and ALL allies heal 10% of Max HP. Tails: ALL enemies heal 5% of Max HP. Exhaust.",
+      "tips": [
+        "FLIP",
+        "EXHAUST"
+      ],
+      "img": "cards/ECAFLIP-ARCANA_CROQUETTE.webp"
+    },
+    {
+      "id": "ECAFLIP-ARCANA_ECAFLIPS_CRAWLIES",
+      "title": "Ecaflip's Crawlies",
+      "type": "Attack",
+      "rarity": "Token",
+      "multiplayer": "None",
+      "cost": 2,
+      "text": "Flip: Heads: Roll 8D6: Deal that much damage to ALL enemies. Tails: Roll 1D6: Take that much damage. Exhaust.",
+      "tips": [
+        "ROLL",
+        "FLIP",
+        "EXHAUST"
+      ],
+      "img": "cards/ECAFLIP-ARCANA_ECAFLIPS_CRAWLIES.webp"
+    },
+    {
+      "id": "ECAFLIP-ARCANA_FICKLE_DICE",
+      "title": "Fickle Dice",
+      "type": "Skill",
+      "rarity": "Token",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Flip: Heads: You and ALL allies gain 8 Vigor. Tails: ALL enemies gain 3 Vigor. Exhaust.",
+      "tips": [
+        "FLIP",
+        "VIGOR",
+        "EXHAUST"
+      ],
+      "img": "cards/ECAFLIP-ARCANA_FICKLE_DICE.webp"
+    },
+    {
+      "id": "ECAFLIP-ARCANA_GOD_ECAFLIP",
+      "title": "The God Ecaflip",
+      "type": "Skill",
+      "rarity": "Token",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Flip: Heads: Permanently gain 5 Max HP. Tails: Permanently lose 2 Max HP. Exhaust.",
+      "tips": [
+        "FLIP",
+        "EXHAUST"
+      ],
+      "img": "cards/ECAFLIP-ARCANA_GOD_ECAFLIP.webp"
+    },
+    {
+      "id": "ECAFLIP-ARCANA_GOD_OUGINAK",
+      "title": "The God Ouginak",
+      "type": "Skill",
+      "rarity": "Token",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Flip: Heads: Heal 15% of your Max HP. Tails: Next turn, gain 1 less Energy. Exhaust.",
+      "tips": [
+        "FLIP",
+        "OUGINAK_S_CURSE",
+        "ENERGY",
+        "EXHAUST"
+      ],
+      "img": "cards/ECAFLIP-ARCANA_GOD_OUGINAK.webp"
+    },
+    {
+      "id": "ECAFLIP-ARCANA_HAIRY_HERMIT",
+      "title": "Hairy Hermit",
+      "type": "Skill",
+      "rarity": "Token",
+      "multiplayer": "None",
+      "cost": 0,
+      "text": "Flip: Heads: Gain Energy Energy Energy and draw 2 cards. Tails: End your turn. Exhaust.",
+      "tips": [
+        "FLIP",
+        "ENERGY",
+        "EXHAUST"
+      ],
+      "img": "cards/ECAFLIP-ARCANA_HAIRY_HERMIT.webp"
+    },
+    {
+      "id": "ECAFLIP-ARCANA_HAIRY_MOON",
+      "title": "Hairy Moon",
+      "type": "Power",
+      "rarity": "Token",
+      "multiplayer": "None",
+      "cost": 2,
+      "text": "Flip: Heads: Gain 1 Kittikaze Swarm. Tails: A random enemy gains 2 Strength.",
+      "tips": [
+        "FLIP",
+        "KITTIKAZE_SWARM"
+      ],
+      "img": "cards/ECAFLIP-ARCANA_HAIRY_MOON.webp"
+    },
+    {
+      "id": "ECAFLIP-ARCANA_KAMA",
+      "title": "The Kama",
+      "type": "Skill",
+      "rarity": "Token",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Flip: Heads: Gain 25 Gold. Tails: Lose 10 Gold. Exhaust.",
+      "tips": [
+        "FLIP",
+        "EXHAUST"
+      ],
+      "img": "cards/ECAFLIP-ARCANA_KAMA.webp"
+    },
+    {
+      "id": "ECAFLIP-ARCANA_MEOWTYRDOM",
+      "title": "Meowtyrdom",
+      "type": "Attack",
+      "rarity": "Token",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Flip: Heads: Deal 25 damage to the enemy with the most HP. Tails: Take 8 damage. Exhaust.",
+      "tips": [
+        "FLIP",
+        "EXHAUST"
+      ],
+      "img": "cards/ECAFLIP-ARCANA_MEOWTYRDOM.webp"
+    },
+    {
+      "id": "ECAFLIP-ARCANA_WHEEL_OF_FORTUNE",
+      "title": "Wheel of Fortune",
+      "type": "Skill",
+      "rarity": "Token",
+      "multiplayer": "None",
+      "cost": 0,
+      "text": "Flip: Heads: Your next 2 Flips land on Heads. Tails: Your next Flip lands on Tails. Exhaust.",
+      "tips": [
+        "FLIP",
+        "EXHAUST"
+      ],
+      "img": "cards/ECAFLIP-ARCANA_WHEEL_OF_FORTUNE.webp"
+    },
+    {
+      "id": "ECAFLIP-AUSPICIOUS",
+      "title": "Inauspicious Draw",
+      "type": "Skill",
+      "rarity": "Basic",
+      "multiplayer": "None",
+      "cost": 0,
+      "text": "Add a random Attack into your Hand. It costs 0 Energy this turn. Exhaust.",
+      "tips": [
+        "ENERGY",
+        "EXHAUST",
+        "CHIPS"
+      ],
+      "img": "cards/ECAFLIP-AUSPICIOUS.webp",
+      "upgrade": {
+        "title": "Inauspicious Draw+",
+        "cost": 0,
+        "text": "Add a random Attack into your Hand. It costs 0 Energy this turn.",
+        "tips": [
+          "ENERGY",
+          "CHIPS"
+        ],
+        "img": "cards/ECAFLIP-AUSPICIOUS+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-AUSPICIOUS_DRAW",
+      "title": "Auspicious Draw",
+      "type": "Skill",
+      "rarity": "Ancient",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Choose 1 of 3 Uncommon or Rare Attacks to add into your Hand. It costs 0 Energy this turn. Exhaust.",
+      "tips": [
+        "ENERGY",
+        "EXHAUST",
+        "CHIPS"
+      ],
+      "img": "cards/ECAFLIP-AUSPICIOUS_DRAW.webp",
+      "upgrade": {
+        "title": "Auspicious Draw+",
+        "cost": 1,
+        "text": "Choose 1 of 3 Uncommon or Rare Attacks to add into your Hand. It costs 0 Energy this turn.",
+        "tips": [
+          "ENERGY",
+          "CHIPS"
+        ],
+        "img": "cards/ECAFLIP-AUSPICIOUS_DRAW+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-BACK_ALLEY_MUGGING",
+      "title": "Back Alley Mugging",
+      "type": "Attack",
+      "rarity": "Common",
+      "multiplayer": "None",
+      "cost": "X",
+      "text": "Deal Roll 1D6+3 damage (X+1) times.",
+      "tips": [
+        "ROLL"
+      ],
+      "img": "cards/ECAFLIP-BACK_ALLEY_MUGGING.webp",
+      "upgrade": {
+        "title": "Back Alley Mugging+",
+        "cost": "X",
+        "text": "Deal Roll 1D6+3 damage (X+2) times.",
+        "tips": [
+          "ROLL"
+        ],
+        "img": "cards/ECAFLIP-BACK_ALLEY_MUGGING+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-BANKROLL",
+      "title": "Bankroll",
+      "type": "Power",
+      "rarity": "Rare",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "At the start of your turn, Squander 25 Gold and gain Energy.",
+      "tips": [
+        "ENERGY",
+        "SQUANDER"
+      ],
+      "img": "cards/ECAFLIP-BANKROLL.webp",
+      "upgrade": {
+        "title": "Bankroll+",
+        "cost": 1,
+        "text": "At the start of your turn, Squander 25 Gold and gain Energy. Also gain 2 Black Bow Meow.",
+        "tips": [
+          "ENERGY",
+          "SQUANDER"
+        ],
+        "img": "cards/ECAFLIP-BANKROLL+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-BANKRUPTCY",
+      "title": "Bankruptcy",
+      "type": "Skill",
+      "rarity": "Rare",
+      "multiplayer": "None",
+      "cost": 0,
+      "text": "Gain Energy Energy. Draw 3 cards. Exhaust.",
+      "tips": [
+        "ENERGY",
+        "SQUANDER",
+        "CHIPS",
+        "EXHAUST"
+      ],
+      "img": "cards/ECAFLIP-BANKRUPTCY.webp",
+      "upgrade": {
+        "title": "Bankruptcy+",
+        "cost": 0,
+        "text": "Gain Energy Energy. Draw 4 cards. Exhaust.",
+        "tips": [
+          "ENERGY",
+          "SQUANDER",
+          "CHIPS",
+          "EXHAUST"
+        ],
+        "img": "cards/ECAFLIP-BANKRUPTCY+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-BET",
+      "title": "Bet",
+      "type": "Skill",
+      "rarity": "Rare",
+      "multiplayer": "None",
+      "cost": "X",
+      "text": "Ethereal. Squander 10 Gold X times. Gain 9 Vigor X times.",
+      "tips": [
+        "VIGOR",
+        "ETHEREAL",
+        "EXHAUST",
+        "SQUANDER",
+        "CHIPS"
+      ],
+      "img": "cards/ECAFLIP-BET.webp",
+      "upgrade": {
+        "title": "Bet+",
+        "cost": "X",
+        "text": "Squander 10 Gold X times. Gain 9 Vigor X times.",
+        "tips": [
+          "VIGOR",
+          "SQUANDER",
+          "CHIPS"
+        ],
+        "img": "cards/ECAFLIP-BET+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-BOW_MEOW_DICE",
+      "title": "Bow Meow Dice",
+      "type": "Skill",
+      "rarity": "Common",
+      "multiplayer": "None",
+      "cost": 0,
+      "text": "Roll 1D6: Gain that much Black Bow Meow. Exhaust.",
+      "tips": [
+        "ROLL",
+        "BLACK_BOW_MEOW",
+        "EXHAUST"
+      ],
+      "img": "cards/ECAFLIP-BOW_MEOW_DICE.webp",
+      "upgrade": {
+        "title": "Bow Meow Dice+",
+        "cost": 0,
+        "text": "Roll 1D6: Gain that much Black Bow Meow.",
+        "tips": [
+          "ROLL",
+          "BLACK_BOW_MEOW"
+        ],
+        "img": "cards/ECAFLIP-BOW_MEOW_DICE+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-BOW_MEOW_FAMILIAR",
+      "title": "Bow Meow Familiar",
+      "type": "Power",
+      "rarity": "Rare",
+      "multiplayer": "None",
+      "cost": 2,
+      "text": "At the start of your turn, gain 2 Black Bow Meow. Whenever Black Bow Meow is used, draw 1 card.",
+      "tips": [
+        "BOW_MEOW_FAMILIAR"
+      ],
+      "img": "cards/ECAFLIP-BOW_MEOW_FAMILIAR.webp",
+      "upgrade": {
+        "title": "Bow Meow Familiar+",
+        "cost": 2,
+        "text": "At the start of your turn, gain 2 Black Bow Meow. Whenever Black Bow Meow is used, draw 1 card.",
+        "tips": [
+          "BOW_MEOW_FAMILIAR"
+        ],
+        "img": "cards/ECAFLIP-BOW_MEOW_FAMILIAR+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-BOX_CARS",
+      "title": "Box Cars",
+      "type": "Attack",
+      "rarity": "Rare",
+      "multiplayer": "None",
+      "cost": 0,
+      "text": "Roll 2D6 until both are 6s; 6s lock. Every other face pays its Payout. Deal Roll 1D6+3 damage to a random enemy once per Roll made.",
+      "tips": [
+        "ROLL",
+        "BOX_CARS_PAYOUT",
+        "VIGOR",
+        "WEAK",
+        "SQUANDER",
+        "CHIPS"
+      ],
+      "img": "cards/ECAFLIP-BOX_CARS.webp",
+      "upgrade": {
+        "title": "Box Cars+",
+        "cost": 0,
+        "text": "Roll 2D6 until both are 6s; 6s lock. Every other face pays its Payout. Deal Roll 1D6+5 damage to a random enemy once per Roll made.",
+        "tips": [
+          "ROLL",
+          "BOX_CARS_PAYOUT",
+          "VIGOR",
+          "WEAK",
+          "SQUANDER",
+          "CHIPS"
+        ],
+        "img": "cards/ECAFLIP-BOX_CARS+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-BUST",
+      "title": "Bust",
+      "type": "Skill",
+      "rarity": "Rare",
+      "multiplayer": "None",
+      "cost": 0,
+      "text": "Spend all your Chips. For every 5 spent, Flip: Heads: Deal 20 damage to a random enemy. Tails: Gain 5 Gold.",
+      "tips": [
+        "FLIP",
+        "CHIPS"
+      ],
+      "img": "cards/ECAFLIP-BUST.webp",
+      "upgrade": {
+        "title": "Bust+",
+        "cost": 0,
+        "text": "Spend all your Chips. For every 5 spent, Flip: Heads: Deal 25 damage to a random enemy. Tails: Gain 5 Gold.",
+        "tips": [
+          "FLIP",
+          "CHIPS"
+        ],
+        "img": "cards/ECAFLIP-BUST+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-CALL_IT",
+      "title": "Call It",
+      "type": "Skill",
+      "rarity": "Common",
+      "multiplayer": "None",
+      "cost": 0,
+      "text": "Flip: Heads: Gain 14 Block. Tails: Gain 8 Block and draw 1 card.",
+      "tips": [
+        "FLIP",
+        "BLOCK",
+        "CHIPS"
+      ],
+      "img": "cards/ECAFLIP-CALL_IT.webp",
+      "upgrade": {
+        "title": "Call It+",
+        "cost": 0,
+        "text": "Flip: Heads: Gain 17 Block. Tails: Gain 11 Block and draw 1 card.",
+        "tips": [
+          "FLIP",
+          "BLOCK",
+          "CHIPS"
+        ],
+        "img": "cards/ECAFLIP-CALL_IT+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-CASH_OUT",
+      "title": "Cash Out",
+      "type": "Attack",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Deal 32 damage.",
+      "tips": [
+        "CHIPS"
+      ],
+      "img": "cards/ECAFLIP-CASH_OUT.webp",
+      "upgrade": {
+        "title": "Cash Out+",
+        "cost": 1,
+        "text": "Deal 40 damage.",
+        "tips": [
+          "CHIPS"
+        ],
+        "img": "cards/ECAFLIP-CASH_OUT+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-CATNIP",
+      "title": "Catnip",
+      "type": "Attack",
+      "rarity": "Common",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Roll 1D6+7: Deal that much damage. Gain 2 Black Bow Meow.",
+      "tips": [
+        "ROLL",
+        "BLACK_BOW_MEOW"
+      ],
+      "img": "cards/ECAFLIP-CATNIP.webp",
+      "upgrade": {
+        "title": "Catnip+",
+        "cost": 1,
+        "text": "Roll 1D6+10: Deal that much damage. Gain 2 Black Bow Meow.",
+        "tips": [
+          "ROLL",
+          "BLACK_BOW_MEOW"
+        ],
+        "img": "cards/ECAFLIP-CATNIP+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-CHEATING",
+      "title": "Cheating",
+      "type": "Skill",
+      "rarity": "Common",
+      "multiplayer": "None",
+      "cost": 0,
+      "text": "Choose the result of your next Flip.",
+      "tips": [
+        "FLIP",
+        "SQUANDER",
+        "CHIPS"
+      ],
+      "img": "cards/ECAFLIP-CHEATING.webp",
+      "upgrade": {
+        "title": "Cheating+",
+        "cost": 0,
+        "text": "Choose the result of your next Flip.",
+        "tips": [
+          "FLIP",
+          "SQUANDER",
+          "CHIPS"
+        ],
+        "img": "cards/ECAFLIP-CHEATING+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-CHESHIRE_GRIN",
+      "title": "Cheshire Grin",
+      "type": "Power",
+      "rarity": "Rare",
+      "multiplayer": "None",
+      "cost": 2,
+      "text": "Whenever you Flip Heads, deal 5 damage to ALL enemies.",
+      "tips": [
+        "FLIP",
+        "CHESHIRE_GRIN"
+      ],
+      "img": "cards/ECAFLIP-CHESHIRE_GRIN.webp",
+      "upgrade": {
+        "title": "Cheshire Grin+",
+        "cost": 2,
+        "text": "Whenever you Flip Heads, deal 8 damage to ALL enemies.",
+        "tips": [
+          "FLIP",
+          "CHESHIRE_GRIN"
+        ],
+        "img": "cards/ECAFLIP-CHESHIRE_GRIN+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-CHIP_STACK",
+      "title": "Chip Stack",
+      "type": "Skill",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": 0,
+      "text": "Gain 26 Block.",
+      "tips": [
+        "BLOCK",
+        "CHIPS"
+      ],
+      "img": "cards/ECAFLIP-CHIP_STACK.webp",
+      "upgrade": {
+        "title": "Chip Stack+",
+        "cost": 0,
+        "text": "Gain 32 Block.",
+        "tips": [
+          "BLOCK",
+          "CHIPS"
+        ],
+        "img": "cards/ECAFLIP-CHIP_STACK+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-CHRYSOPOEIA",
+      "title": "Chrysopoeia",
+      "type": "Skill",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Turn a potion into Gold. Common: 15. Uncommon: 30. Rare: 50. Exhaust.",
+      "tips": [
+        "EXHAUST"
+      ],
+      "img": "cards/ECAFLIP-CHRYSOPOEIA.webp",
+      "upgrade": {
+        "title": "Chrysopoeia+",
+        "cost": 1,
+        "text": "Turn a potion into Gold. Common: 15. Uncommon: 30. Rare: 50. Exhaust.",
+        "tips": [
+          "EXHAUST"
+        ],
+        "img": "cards/ECAFLIP-CHRYSOPOEIA+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-COIN_HEADS_CHOICE",
+      "title": "Heads",
+      "type": "Skill",
+      "rarity": "Token",
+      "multiplayer": "None",
+      "cost": 0,
+      "text": "Your next Flip lands on Heads.",
+      "tips": [
+        "FLIP"
+      ],
+      "img": "cards/ECAFLIP-COIN_HEADS_CHOICE.webp"
+    },
+    {
+      "id": "ECAFLIP-COIN_TAILS_CHOICE",
+      "title": "Tails",
+      "type": "Skill",
+      "rarity": "Token",
+      "multiplayer": "None",
+      "cost": 0,
+      "text": "Your next Flip lands on Tails.",
+      "tips": [
+        "FLIP"
+      ],
+      "img": "cards/ECAFLIP-COIN_TAILS_CHOICE.webp"
+    },
+    {
+      "id": "ECAFLIP-CRAPS",
+      "title": "Craps",
+      "type": "Attack",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Roll 1D6+8: Deal that much damage. Spend 1 Chip if you can, then Flip: Heads: Deal Bonus more damage. Tails: Squander 1 Gold.",
+      "tips": [
+        "ROLL",
+        "FLIP",
+        "CHIPS",
+        "BONUS",
+        "SQUANDER"
+      ],
+      "img": "cards/ECAFLIP-CRAPS.webp",
+      "upgrade": {
+        "title": "Craps+",
+        "cost": 1,
+        "text": "Roll 1D6+11: Deal that much damage. Spend 1 Chip if you can, then Flip: Heads: Deal Bonus more damage. Tails: Squander 1 Gold.",
+        "tips": [
+          "ROLL",
+          "FLIP",
+          "CHIPS",
+          "BONUS",
+          "SQUANDER"
+        ],
+        "img": "cards/ECAFLIP-CRAPS+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-CROUPIER",
+      "title": "Croupier",
+      "type": "Power",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Whenever you Squander Gold, gain 3 Block.",
+      "tips": [
+        "CROUPIER",
+        "SQUANDER"
+      ],
+      "img": "cards/ECAFLIP-CROUPIER.webp",
+      "upgrade": {
+        "title": "Croupier+",
+        "cost": 1,
+        "text": "Whenever you Squander Gold, gain 5 Block.",
+        "tips": [
+          "CROUPIER",
+          "SQUANDER"
+        ],
+        "img": "cards/ECAFLIP-CROUPIER+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-D_SIX",
+      "title": "D Six",
+      "type": "Skill",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": 0,
+      "text": "Roll 2D6: Gain that much Black Bow Meow.",
+      "tips": [
+        "ROLL",
+        "BLACK_BOW_MEOW"
+      ],
+      "img": "cards/ECAFLIP-D_SIX.webp",
+      "upgrade": {
+        "title": "D Six+",
+        "cost": 0,
+        "text": "Roll 3D6: Gain that much Black Bow Meow.",
+        "tips": [
+          "ROLL",
+          "BLACK_BOW_MEOW"
+        ],
+        "img": "cards/ECAFLIP-D_SIX+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-DEBT_POOL",
+      "title": "Debt Pool",
+      "type": "Attack",
+      "rarity": "Common",
+      "multiplayer": "None",
+      "cost": 2,
+      "text": "Deal 6 damage, plus Bonus for every 10 Chips you have.",
+      "tips": [
+        "CHIPS",
+        "BONUS"
+      ],
+      "img": "cards/ECAFLIP-DEBT_POOL.webp",
+      "upgrade": {
+        "title": "Debt Pool+",
+        "cost": 2,
+        "text": "Deal 9 damage, plus Bonus for every 10 Chips you have.",
+        "tips": [
+          "CHIPS",
+          "BONUS"
+        ],
+        "img": "cards/ECAFLIP-DEBT_POOL+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-DELUSIONS_OF_GRANDEUR",
+      "title": "Delusions of Grandeur",
+      "type": "Skill",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Gain 3 Strength this turn. Your next Flip lands on Heads.",
+      "tips": [
+        "FLIP",
+        "STRENGTH",
+        "SQUANDER",
+        "CHIPS"
+      ],
+      "img": "cards/ECAFLIP-DELUSIONS_OF_GRANDEUR.webp",
+      "upgrade": {
+        "title": "Delusions of Grandeur+",
+        "cost": 1,
+        "text": "Gain 4 Strength this turn. Your next Flip lands on Heads.",
+        "tips": [
+          "FLIP",
+          "STRENGTH",
+          "SQUANDER",
+          "CHIPS"
+        ],
+        "img": "cards/ECAFLIP-DELUSIONS_OF_GRANDEUR+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-DEPOSIT",
+      "title": "Deposit",
+      "type": "Power",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": 0,
+      "text": "Put 10 Chips in the Deposit. Each turn you start without having taken unblocked damage, it grows by 3 (max 50). Pays out as Gold after combat.",
+      "tips": [
+        "DEPOSIT",
+        "CHIPS"
+      ],
+      "img": "cards/ECAFLIP-DEPOSIT.webp",
+      "upgrade": {
+        "title": "Deposit+",
+        "cost": 0,
+        "text": "Put 10 Chips in the Deposit. Each turn you start without having taken unblocked damage, it grows by 6 (max 50). Pays out as Gold after combat.",
+        "tips": [
+          "DEPOSIT",
+          "CHIPS"
+        ],
+        "img": "cards/ECAFLIP-DEPOSIT+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-DIE_ALRIGHT",
+      "title": "Die Alright",
+      "type": "Attack",
+      "rarity": "Rare",
+      "multiplayer": "None",
+      "cost": 10,
+      "text": "Roll 7D6: Deal that much damage to ALL enemies. Costs 1 less for each Roll this fight.",
+      "tips": [
+        "ROLL"
+      ],
+      "img": "cards/ECAFLIP-DIE_ALRIGHT.webp",
+      "upgrade": {
+        "title": "Die Alright+",
+        "cost": 10,
+        "text": "Roll 8D6: Deal that much damage to ALL enemies. Costs 1 less for each Roll this fight.",
+        "tips": [
+          "ROLL"
+        ],
+        "img": "cards/ECAFLIP-DIE_ALRIGHT+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-DOUBLE_DOWN",
+      "title": "Double Down",
+      "type": "Skill",
+      "rarity": "Rare",
+      "multiplayer": "None",
+      "cost": 2,
+      "text": "Retain. The next card you play this turn that Rolls or Flips is played twice.",
+      "tips": [
+        "ROLL",
+        "FLIP",
+        "DOUBLE_DOWN",
+        "RETAIN"
+      ],
+      "img": "cards/ECAFLIP-DOUBLE_DOWN.webp",
+      "upgrade": {
+        "title": "Double Down+",
+        "cost": 2,
+        "text": "Retain. The next card you play this turn that Rolls or Flips is played twice.",
+        "tips": [
+          "ROLL",
+          "FLIP",
+          "DOUBLE_DOWN",
+          "RETAIN"
+        ],
+        "img": "cards/ECAFLIP-DOUBLE_DOWN+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-DOUBLE_OR_QUITS",
+      "title": "Double or Quits",
+      "type": "Skill",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": 0,
+      "text": "Flip: Heads: Draw 3 cards and gain 2 Dexterity. Tails: Draw 2 cards.",
+      "tips": [
+        "FLIP",
+        "DEXTERITY",
+        "CHIPS"
+      ],
+      "img": "cards/ECAFLIP-DOUBLE_OR_QUITS.webp",
+      "upgrade": {
+        "title": "Double or Quits+",
+        "cost": 0,
+        "text": "Flip: Heads: Draw 4 cards and gain 2 Dexterity. Tails: Draw 3 cards.",
+        "tips": [
+          "FLIP",
+          "DEXTERITY",
+          "CHIPS"
+        ],
+        "img": "cards/ECAFLIP-DOUBLE_OR_QUITS+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-DUMBASS",
+      "title": "Dumbass",
+      "type": "Skill",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": "X",
+      "text": "Flip: Heads: Gain 10 Gold X times. Tails: Lose X+Bonus HP. Exhaust.",
+      "tips": [
+        "FLIP",
+        "EXHAUST",
+        "BONUS"
+      ],
+      "img": "cards/ECAFLIP-DUMBASS.webp",
+      "upgrade": {
+        "title": "Dumbass+",
+        "cost": "X",
+        "text": "Retain. Flip: Heads: Gain 10 Gold X times. Tails: Lose X+Bonus HP. Exhaust.",
+        "tips": [
+          "FLIP",
+          "EXHAUST",
+          "BONUS",
+          "RETAIN"
+        ],
+        "img": "cards/ECAFLIP-DUMBASS+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-ECAFLIP_DEFEND",
+      "title": "Defend",
+      "type": "Skill",
+      "rarity": "Basic",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Gain 5 Block.",
+      "tips": [
+        "BLOCK"
+      ],
+      "img": "cards/ECAFLIP-ECAFLIP_DEFEND.webp",
+      "upgrade": {
+        "title": "Defend+",
+        "cost": 1,
+        "text": "Gain 5 Block. Flip: Heads: Gain 3 more Block. Tails: Gain 3 Gold.",
+        "tips": [
+          "FLIP",
+          "BLOCK"
+        ],
+        "img": "cards/ECAFLIP-ECAFLIP_DEFEND+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-ECAFLIP_STRIKE",
+      "title": "Strike",
+      "type": "Attack",
+      "rarity": "Basic",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Deal 6 damage.",
+      "tips": [],
+      "img": "cards/ECAFLIP-ECAFLIP_STRIKE.webp",
+      "upgrade": {
+        "title": "Strike+",
+        "cost": 1,
+        "text": "Roll 1D6+6: Deal that much damage.",
+        "tips": [
+          "ROLL"
+        ],
+        "img": "cards/ECAFLIP-ECAFLIP_STRIKE+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-EVEN_ODDS",
+      "title": "Even Odds",
+      "type": "Skill",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": 0,
+      "text": "Roll 1D6: Odd: Gain Energy. Even: Draw 1 card.",
+      "tips": [
+        "ROLL",
+        "ENERGY",
+        "SQUANDER",
+        "CHIPS"
+      ],
+      "img": "cards/ECAFLIP-EVEN_ODDS.webp",
+      "upgrade": {
+        "title": "Even Odds+",
+        "cost": 0,
+        "text": "Roll 1D6: Odd: Gain Energy and draw 1 card. Even: Draw 1 card.",
+        "tips": [
+          "ROLL",
+          "ENERGY",
+          "SQUANDER",
+          "CHIPS"
+        ],
+        "img": "cards/ECAFLIP-EVEN_ODDS+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-FAT_CAT",
+      "title": "Fat Cat",
+      "type": "Attack",
+      "rarity": "Rare",
+      "multiplayer": "None",
+      "cost": 2,
+      "text": "Deal 10 damage Bonus times (at least once, max 10). If you have 300+ Gold, hit ALL enemies instead.",
+      "tips": [],
+      "img": "cards/ECAFLIP-FAT_CAT.webp",
+      "upgrade": {
+        "title": "Fat Cat+",
+        "cost": 2,
+        "text": "Deal 15 damage Bonus times (at least once, max 10). If you have 300+ Gold, hit ALL enemies instead.",
+        "tips": [],
+        "img": "cards/ECAFLIP-FAT_CAT+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-FELINE_GRACE",
+      "title": "Feline Grace",
+      "type": "Power",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "The first time each turn you Flip Tails, gain 1 Dexterity.",
+      "tips": [
+        "FLIP",
+        "FELINE_GRACE",
+        "DEXTERITY"
+      ],
+      "img": "cards/ECAFLIP-FELINE_GRACE.webp",
+      "upgrade": {
+        "title": "Feline Grace+",
+        "cost": 1,
+        "text": "Innate. The first time each turn you Flip Tails, gain 1 Dexterity.",
+        "tips": [
+          "FLIP",
+          "FELINE_GRACE",
+          "DEXTERITY",
+          "INNATE"
+        ],
+        "img": "cards/ECAFLIP-FELINE_GRACE+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-FELINE_LEAP",
+      "title": "Feline Leap",
+      "type": "Skill",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Gain 7 Block. The next Attack you play Rolls the highest face on every die.",
+      "tips": [
+        "ROLL",
+        "FELINE_LEAP",
+        "BLOCK"
+      ],
+      "img": "cards/ECAFLIP-FELINE_LEAP.webp",
+      "upgrade": {
+        "title": "Feline Leap+",
+        "cost": 1,
+        "text": "Gain 10 Block. The next Attack you play Rolls the highest face on every die.",
+        "tips": [
+          "ROLL",
+          "FELINE_LEAP",
+          "BLOCK"
+        ],
+        "img": "cards/ECAFLIP-FELINE_LEAP+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-FLEALINE_ARMY",
+      "title": "Flealine Army",
+      "type": "Attack",
+      "rarity": "Rare",
+      "multiplayer": "None",
+      "cost": 3,
+      "text": "Deal Roll 1D6+2 damage to ALL enemies 5 times. Exhaust.",
+      "tips": [
+        "ROLL",
+        "EXHAUST"
+      ],
+      "img": "cards/ECAFLIP-FLEALINE_ARMY.webp",
+      "upgrade": {
+        "title": "Flealine Army+",
+        "cost": 3,
+        "text": "Deal Roll 1D6+2 damage to ALL enemies 6 times. Exhaust.",
+        "tips": [
+          "ROLL",
+          "EXHAUST"
+        ],
+        "img": "cards/ECAFLIP-FLEALINE_ARMY+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-FOLD",
+      "title": "Fold",
+      "type": "Skill",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Discard your hand. For each card discarded, gain 4 Block and 1 Gold.",
+      "tips": [
+        "BLOCK"
+      ],
+      "img": "cards/ECAFLIP-FOLD.webp",
+      "upgrade": {
+        "title": "Fold+",
+        "cost": 1,
+        "text": "Discard your hand. For each card discarded, gain 5 Block and 1 Gold.",
+        "tips": [
+          "BLOCK"
+        ],
+        "img": "cards/ECAFLIP-FOLD+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-GAMBIT",
+      "title": "Gambit",
+      "type": "Attack",
+      "rarity": "Common",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Deal Roll 1D6 damage to a random enemy (2+Bonus) times (Bonus max 10).",
+      "tips": [
+        "ROLL",
+        "BONUS"
+      ],
+      "img": "cards/ECAFLIP-GAMBIT.webp",
+      "upgrade": {
+        "title": "Gambit+",
+        "cost": 1,
+        "text": "Deal Roll 1D6+2 damage to a random enemy (2+Bonus) times (Bonus max 10).",
+        "tips": [
+          "ROLL",
+          "BONUS"
+        ],
+        "img": "cards/ECAFLIP-GAMBIT+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-GAMBLE",
+      "title": "Gamble",
+      "type": "Power",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "At the start of your turn, Flip: Heads: Gain Energy. Tails: Squander 10 Gold.",
+      "tips": [
+        "FLIP",
+        "ENERGY",
+        "SQUANDER"
+      ],
+      "img": "cards/ECAFLIP-GAMBLE.webp",
+      "upgrade": {
+        "title": "Gamble+",
+        "cost": 1,
+        "text": "Innate. At the start of your turn, Flip: Heads: Gain Energy. Tails: Squander 10 Gold.",
+        "tips": [
+          "FLIP",
+          "ENERGY",
+          "SQUANDER",
+          "INNATE"
+        ],
+        "img": "cards/ECAFLIP-GAMBLE+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-HEADS_I_WIN",
+      "title": "Heads I Win",
+      "type": "Attack",
+      "rarity": "Common",
+      "multiplayer": "None",
+      "cost": 2,
+      "text": "Deal 17 damage. Flip: Heads: Draw 1 card. Tails: Apply 1 Weak.",
+      "tips": [
+        "FLIP",
+        "WEAK"
+      ],
+      "img": "cards/ECAFLIP-HEADS_I_WIN.webp",
+      "upgrade": {
+        "title": "Heads I Win+",
+        "cost": 2,
+        "text": "Deal 22 damage. Flip: Heads: Draw 1 card. Tails: Apply 1 Weak.",
+        "tips": [
+          "FLIP",
+          "WEAK"
+        ],
+        "img": "cards/ECAFLIP-HEADS_I_WIN+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-HEADS_OR_TAILS",
+      "title": "Heads or Tails",
+      "type": "Attack",
+      "rarity": "Basic",
+      "multiplayer": "None",
+      "cost": 0,
+      "text": "Deal 3 damage. Flip: Heads: Apply 1 Vulnerable. Tails: Apply 1 Weak.",
+      "tips": [
+        "FLIP",
+        "VULNERABLE",
+        "WEAK"
+      ],
+      "img": "cards/ECAFLIP-HEADS_OR_TAILS.webp",
+      "upgrade": {
+        "title": "Heads or Tails+",
+        "cost": 0,
+        "text": "Deal 4 damage. Flip: Heads: Apply 2 Vulnerable. Tails: Apply 2 Weak.",
+        "tips": [
+          "FLIP",
+          "VULNERABLE",
+          "WEAK"
+        ],
+        "img": "cards/ECAFLIP-HEADS_OR_TAILS+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-HEDGE_BET",
+      "title": "Hedge Bet",
+      "type": "Skill",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": 0,
+      "text": "Flip: Heads: Gain Energy Energy next turn. Tails: Draw 2 cards next turn.",
+      "tips": [
+        "FLIP",
+        "ENERGY",
+        "CHIPS"
+      ],
+      "img": "cards/ECAFLIP-HEDGE_BET.webp",
+      "upgrade": {
+        "title": "Hedge Bet+",
+        "cost": 0,
+        "text": "Flip: Heads: Gain Energy Energy next turn. Tails: Draw 3 cards next turn.",
+        "tips": [
+          "FLIP",
+          "ENERGY",
+          "CHIPS"
+        ],
+        "img": "cards/ECAFLIP-HEDGE_BET+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-HIGH_ROLLER",
+      "title": "High Roller",
+      "type": "Power",
+      "rarity": "Rare",
+      "multiplayer": "None",
+      "cost": 2,
+      "text": "Your Bonus counts double. At the start of your turn, gain 3 Block Bonus times.",
+      "tips": [
+        "HIGH_ROLLER",
+        "BONUS"
+      ],
+      "img": "cards/ECAFLIP-HIGH_ROLLER.webp",
+      "upgrade": {
+        "title": "High Roller+",
+        "cost": 2,
+        "text": "Your Bonus counts double. At the start of your turn, gain 3 Block Bonus times.",
+        "tips": [
+          "HIGH_ROLLER",
+          "BONUS"
+        ],
+        "img": "cards/ECAFLIP-HIGH_ROLLER+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-HIGHFALUTIN",
+      "title": "Highfalutin",
+      "type": "Attack",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Deal 12+Bonus damage to ALL enemies.",
+      "tips": [
+        "SQUANDER",
+        "CHIPS",
+        "BONUS"
+      ],
+      "img": "cards/ECAFLIP-HIGHFALUTIN.webp",
+      "upgrade": {
+        "title": "Highfalutin+",
+        "cost": 1,
+        "text": "Deal 15+Bonus damage to ALL enemies.",
+        "tips": [
+          "SQUANDER",
+          "CHIPS",
+          "BONUS"
+        ],
+        "img": "cards/ECAFLIP-HIGHFALUTIN+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-HOUSE_ALWAYS_WINS",
+      "title": "House Always Wins",
+      "type": "Power",
+      "rarity": "Rare",
+      "multiplayer": "None",
+      "cost": 2,
+      "text": "Whenever you spend Chips, deal that much damage to a random enemy.",
+      "tips": [
+        "HOUSE_ALWAYS_WINS",
+        "CHIPS"
+      ],
+      "img": "cards/ECAFLIP-HOUSE_ALWAYS_WINS.webp",
+      "upgrade": {
+        "title": "House Always Wins+",
+        "cost": 2,
+        "text": "Whenever you spend Chips, deal that much damage to a random enemy.",
+        "tips": [
+          "HOUSE_ALWAYS_WINS",
+          "CHIPS"
+        ],
+        "img": "cards/ECAFLIP-HOUSE_ALWAYS_WINS+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-HOUSE_EDGE",
+      "title": "House Edge",
+      "type": "Skill",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": 0,
+      "text": "Apply 3 Weak and 3 Vulnerable.",
+      "tips": [
+        "WEAK",
+        "VULNERABLE",
+        "CHIPS"
+      ],
+      "img": "cards/ECAFLIP-HOUSE_EDGE.webp",
+      "upgrade": {
+        "title": "House Edge+",
+        "cost": 0,
+        "text": "Apply 4 Weak and 4 Vulnerable.",
+        "tips": [
+          "WEAK",
+          "VULNERABLE",
+          "CHIPS"
+        ],
+        "img": "cards/ECAFLIP-HOUSE_EDGE+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-HUSTLE",
+      "title": "Hustle",
+      "type": "Attack",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Deal 8 damage. Costs 0 if you have 200+ Gold.",
+      "tips": [
+        "SQUANDER",
+        "CHIPS"
+      ],
+      "img": "cards/ECAFLIP-HUSTLE.webp",
+      "upgrade": {
+        "title": "Hustle+",
+        "cost": 1,
+        "text": "Deal 8+Bonus damage. Costs 0 if you have 200+ Gold.",
+        "tips": [
+          "SQUANDER",
+          "CHIPS"
+        ],
+        "img": "cards/ECAFLIP-HUSTLE+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-INSURANCE",
+      "title": "Insurance",
+      "type": "Skill",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": 2,
+      "text": "Roll 3D6+4: Gain that much Block. Next turn, gain Gold equal to the unblocked damage you take until then.",
+      "tips": [
+        "ROLL",
+        "INSURANCE",
+        "BLOCK"
+      ],
+      "img": "cards/ECAFLIP-INSURANCE.webp",
+      "upgrade": {
+        "title": "Insurance+",
+        "cost": 2,
+        "text": "Retain. Roll 3D6+4: Gain that much Block. Next turn, gain Gold equal to the unblocked damage you take until then.",
+        "tips": [
+          "ROLL",
+          "INSURANCE",
+          "BLOCK",
+          "RETAIN"
+        ],
+        "img": "cards/ECAFLIP-INSURANCE+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-INVESTMENT",
+      "title": "Investment",
+      "type": "Skill",
+      "rarity": "Common",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Gain 8 Block. At the start of your turn, gain 6 Gold. Ends the first time you take unblocked damage. Exhaust.",
+      "tips": [
+        "INVESTMENT",
+        "BLOCK",
+        "EXHAUST"
+      ],
+      "img": "cards/ECAFLIP-INVESTMENT.webp",
+      "upgrade": {
+        "title": "Investment+",
+        "cost": 1,
+        "text": "Gain 12 Block. At the start of your turn, gain 8 Gold. Ends the first time you take unblocked damage. Exhaust.",
+        "tips": [
+          "INVESTMENT",
+          "BLOCK",
+          "EXHAUST"
+        ],
+        "img": "cards/ECAFLIP-INVESTMENT+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-JACKPOT",
+      "title": "Jackpot",
+      "type": "Skill",
+      "rarity": "Rare",
+      "multiplayer": "None",
+      "cost": 2,
+      "text": "Roll 5D6: Gain that much Gold. Exhaust.",
+      "tips": [
+        "ROLL",
+        "EXHAUST"
+      ],
+      "img": "cards/ECAFLIP-JACKPOT.webp",
+      "upgrade": {
+        "title": "Jackpot+",
+        "cost": 2,
+        "text": "Roll 6D6: Gain that much Gold. Exhaust.",
+        "tips": [
+          "ROLL",
+          "EXHAUST"
+        ],
+        "img": "cards/ECAFLIP-JACKPOT+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-KAMAS_RAIN",
+      "title": "Kamas Rain",
+      "type": "Skill",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Gain 2 Black Bow Meow. Draw 2 cards. Exhaust.",
+      "tips": [
+        "BLACK_BOW_MEOW",
+        "EXHAUST",
+        "SQUANDER",
+        "CHIPS"
+      ],
+      "img": "cards/ECAFLIP-KAMAS_RAIN.webp",
+      "upgrade": {
+        "title": "Kamas Rain+",
+        "cost": 1,
+        "text": "Gain 2 Black Bow Meow. Draw 2 cards. Exhaust.",
+        "tips": [
+          "BLACK_BOW_MEOW",
+          "EXHAUST",
+          "SQUANDER",
+          "CHIPS"
+        ],
+        "img": "cards/ECAFLIP-KAMAS_RAIN+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-KERUBIMS_STRIKE",
+      "title": "Kerubim's Strike",
+      "type": "Attack",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": 2,
+      "text": "Roll 2D6+6: Deal that much damage. Gain Gold equal to the lowest die, twice.",
+      "tips": [
+        "ROLL",
+        "SQUANDER",
+        "CHIPS"
+      ],
+      "img": "cards/ECAFLIP-KERUBIMS_STRIKE.webp",
+      "upgrade": {
+        "title": "Kerubim's Strike+",
+        "cost": 2,
+        "text": "Roll 3D6+6: Deal that much damage. Gain Gold equal to the lowest die, twice.",
+        "tips": [
+          "ROLL",
+          "SQUANDER",
+          "CHIPS"
+        ],
+        "img": "cards/ECAFLIP-KERUBIMS_STRIKE+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-KITTIKAZE_SWARM",
+      "title": "Kittikaze Swarm",
+      "type": "Power",
+      "rarity": "Rare",
+      "multiplayer": "None",
+      "cost": 2,
+      "text": "Whenever you Roll or Flip, deal 3 damage to a random enemy.",
+      "tips": [
+        "ROLL",
+        "FLIP",
+        "KITTIKAZE_SWARM"
+      ],
+      "img": "cards/ECAFLIP-KITTIKAZE_SWARM.webp",
+      "upgrade": {
+        "title": "Kittikaze Swarm+",
+        "cost": 2,
+        "text": "Innate. Whenever you Roll or Flip, deal 3 damage to a random enemy.",
+        "tips": [
+          "ROLL",
+          "FLIP",
+          "KITTIKAZE_SWARM",
+          "INNATE"
+        ],
+        "img": "cards/ECAFLIP-KITTIKAZE_SWARM+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-LOADED_COIN",
+      "title": "Loaded Coin",
+      "type": "Skill",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": 0,
+      "text": "Choose the result of your next 2 Flips.",
+      "tips": [
+        "FLIP",
+        "CHIPS"
+      ],
+      "img": "cards/ECAFLIP-LOADED_COIN.webp",
+      "upgrade": {
+        "title": "Loaded Coin+",
+        "cost": 0,
+        "text": "Choose the result of your next 2 Flips.",
+        "tips": [
+          "FLIP",
+          "CHIPS"
+        ],
+        "img": "cards/ECAFLIP-LOADED_COIN+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-LOADED_DIE",
+      "title": "Loaded Die",
+      "type": "Power",
+      "rarity": "Rare",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "The first card you play each turn that Rolls costs 1 less Energy.",
+      "tips": [
+        "LOADED_DIE",
+        "ENERGY",
+        "SQUANDER",
+        "CHIPS"
+      ],
+      "img": "cards/ECAFLIP-LOADED_DIE.webp",
+      "upgrade": {
+        "title": "Loaded Die+",
+        "cost": 1,
+        "text": "The first card you play each turn that Rolls costs 1 less Energy.",
+        "tips": [
+          "LOADED_DIE",
+          "ENERGY",
+          "SQUANDER",
+          "CHIPS"
+        ],
+        "img": "cards/ECAFLIP-LOADED_DIE+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-LOAN_SHARK",
+      "title": "Loan Shark",
+      "type": "Attack",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Deal 16 damage. If Fatal, gain 12 Gold.",
+      "tips": [
+        "CHIPS"
+      ],
+      "img": "cards/ECAFLIP-LOAN_SHARK.webp",
+      "upgrade": {
+        "title": "Loan Shark+",
+        "cost": 1,
+        "text": "Deal 20 damage. If Fatal, gain 18 Gold.",
+        "tips": [
+          "CHIPS"
+        ],
+        "img": "cards/ECAFLIP-LOAN_SHARK+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-LUCKY_PAW",
+      "title": "Lucky Paw",
+      "type": "Skill",
+      "rarity": "Common",
+      "multiplayer": "None",
+      "cost": 0,
+      "text": "Roll 1D6+7: Gain that much Block. On a 6, gain Energy.",
+      "tips": [
+        "ROLL",
+        "ENERGY",
+        "BLOCK",
+        "CHIPS"
+      ],
+      "img": "cards/ECAFLIP-LUCKY_PAW.webp",
+      "upgrade": {
+        "title": "Lucky Paw+",
+        "cost": 0,
+        "text": "Roll 1D6+10: Gain that much Block. On a 6, gain Energy.",
+        "tips": [
+          "ROLL",
+          "ENERGY",
+          "BLOCK",
+          "CHIPS"
+        ],
+        "img": "cards/ECAFLIP-LUCKY_PAW+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-LUCKY_SEVEN",
+      "title": "Lucky Seven",
+      "type": "Skill",
+      "rarity": "Rare",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Roll 2D6: Exactly 7: Gain Energy Energy Energy and draw 3 cards. Otherwise: Gain that much Block.",
+      "tips": [
+        "ROLL",
+        "ENERGY",
+        "BLACK_BOW_MEOW",
+        "BLOCK"
+      ],
+      "img": "cards/ECAFLIP-LUCKY_SEVEN.webp",
+      "upgrade": {
+        "title": "Lucky Seven+",
+        "cost": 1,
+        "text": "Gain 1 Black Bow Meow. Roll 2D6: Exactly 7: Gain Energy Energy Energy and draw 3 cards. Otherwise: Gain that much Block.",
+        "tips": [
+          "ROLL",
+          "ENERGY",
+          "BLACK_BOW_MEOW",
+          "BLOCK"
+        ],
+        "img": "cards/ECAFLIP-LUCKY_SEVEN+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-LUCKY_STREAK",
+      "title": "Lucky Streak",
+      "type": "Power",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "The first time each turn a card Rolls a 6, gain 1 Strength.",
+      "tips": [
+        "ROLL",
+        "LUCKY_STREAK",
+        "STRENGTH"
+      ],
+      "img": "cards/ECAFLIP-LUCKY_STREAK.webp",
+      "upgrade": {
+        "title": "Lucky Streak+",
+        "cost": 1,
+        "text": "Innate. The first time each turn a card Rolls a 6, gain 1 Strength.",
+        "tips": [
+          "ROLL",
+          "LUCKY_STREAK",
+          "STRENGTH",
+          "INNATE"
+        ],
+        "img": "cards/ECAFLIP-LUCKY_STREAK+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-MAD_CAT",
+      "title": "Mad Cat",
+      "type": "Attack",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": 2,
+      "text": "Deal Roll 1D6+4 damage to a random enemy 3 times.",
+      "tips": [
+        "ROLL"
+      ],
+      "img": "cards/ECAFLIP-MAD_CAT.webp",
+      "upgrade": {
+        "title": "Mad Cat+",
+        "cost": 2,
+        "text": "Deal Roll 1D6+6 damage to a random enemy 3 times.",
+        "tips": [
+          "ROLL"
+        ],
+        "img": "cards/ECAFLIP-MAD_CAT+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-MARTINGALE",
+      "title": "Martingale",
+      "type": "Skill",
+      "rarity": "Rare",
+      "multiplayer": "None",
+      "cost": 0,
+      "text": "Discard your hand. Draw that many cards.",
+      "tips": [
+        "SQUANDER",
+        "CHIPS"
+      ],
+      "img": "cards/ECAFLIP-MARTINGALE.webp",
+      "upgrade": {
+        "title": "Martingale+",
+        "cost": 0,
+        "text": "Discard your hand. Draw that many cards, plus 1.",
+        "tips": [
+          "SQUANDER",
+          "CHIPS"
+        ],
+        "img": "cards/ECAFLIP-MARTINGALE+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-MIDAS_TOUCH",
+      "title": "Midas Touch",
+      "type": "Attack",
+      "rarity": "Rare",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Roll 1D6 until you roll a 6. Deal double the total as damage. Exhaust.",
+      "tips": [
+        "ROLL",
+        "EXHAUST",
+        "CHIPS"
+      ],
+      "img": "cards/ECAFLIP-MIDAS_TOUCH.webp",
+      "upgrade": {
+        "title": "Midas Touch+",
+        "cost": 1,
+        "text": "Roll 1D6 until you roll a 6. Deal double the total as damage. Exhaust.",
+        "tips": [
+          "ROLL",
+          "EXHAUST",
+          "CHIPS"
+        ],
+        "img": "cards/ECAFLIP-MIDAS_TOUCH+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-NINE_LIVES",
+      "title": "Nine Lives",
+      "type": "Power",
+      "rarity": "Rare",
+      "multiplayer": "None",
+      "cost": 3,
+      "text": "At the start of your turn, Roll 1D6: On a 6, gain 15 Gold and Energy Energy.",
+      "tips": [
+        "ROLL",
+        "ENERGY"
+      ],
+      "img": "cards/ECAFLIP-NINE_LIVES.webp",
+      "upgrade": {
+        "title": "Nine Lives+",
+        "cost": 3,
+        "text": "At the start of your turn, Roll 1D6: On a 6, gain 15 Gold and Energy Energy.",
+        "tips": [
+          "ROLL",
+          "ENERGY"
+        ],
+        "img": "cards/ECAFLIP-NINE_LIVES+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-PAWS_OFF",
+      "title": "Paws Off",
+      "type": "Skill",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Flip: Heads: Double your Block. Tails: Lose half your Block.",
+      "tips": [
+        "FLIP",
+        "BLOCK"
+      ],
+      "img": "cards/ECAFLIP-PAWS_OFF.webp",
+      "upgrade": {
+        "title": "Paws Off+",
+        "cost": 1,
+        "text": "Flip: Heads: Double your Block. Tails: Lose half your Block.",
+        "tips": [
+          "FLIP",
+          "BLOCK"
+        ],
+        "img": "cards/ECAFLIP-PAWS_OFF+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-PETTY_CASH",
+      "title": "Petty Cash",
+      "type": "Skill",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Roll 1D6: Gain that much Gold 3 times. Exhaust.",
+      "tips": [
+        "ROLL",
+        "EXHAUST",
+        "SQUANDER",
+        "CHIPS"
+      ],
+      "img": "cards/ECAFLIP-PETTY_CASH.webp",
+      "upgrade": {
+        "title": "Petty Cash+",
+        "cost": 1,
+        "text": "Roll 2D6, keep the higher: Gain that much Gold 3 times. Exhaust.",
+        "tips": [
+          "ROLL",
+          "EXHAUST",
+          "SQUANDER",
+          "CHIPS"
+        ],
+        "img": "cards/ECAFLIP-PETTY_CASH+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-PLAYFUL_CLAW",
+      "title": "Playful Claw",
+      "type": "Attack",
+      "rarity": "Common",
+      "multiplayer": "None",
+      "cost": 0,
+      "text": "Deal 12+Bonus damage.",
+      "tips": [
+        "CHIPS",
+        "BONUS"
+      ],
+      "img": "cards/ECAFLIP-PLAYFUL_CLAW.webp",
+      "upgrade": {
+        "title": "Playful Claw+",
+        "cost": 0,
+        "text": "Deal 12+Bonus damage. Draw 1 card.",
+        "tips": [
+          "CHIPS",
+          "BONUS"
+        ],
+        "img": "cards/ECAFLIP-PLAYFUL_CLAW+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-POCKET_CHANGE",
+      "title": "Pocket Change",
+      "type": "Attack",
+      "rarity": "Rare",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Retain. Deal damage equal to your Chips. They aren't spent. Exhaust.",
+      "tips": [
+        "RETAIN",
+        "EXHAUST",
+        "CHIPS"
+      ],
+      "img": "cards/ECAFLIP-POCKET_CHANGE.webp",
+      "upgrade": {
+        "title": "Pocket Change+",
+        "cost": 1,
+        "text": "Retain. Deal damage equal to your Chips. They aren't spent. Exhaust.",
+        "tips": [
+          "RETAIN",
+          "EXHAUST",
+          "CHIPS"
+        ],
+        "img": "cards/ECAFLIP-POCKET_CHANGE+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-POUNCE",
+      "title": "Pounce",
+      "type": "Attack",
+      "rarity": "Common",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Roll 3D6+12: Deal that much damage. If any die is a 6, apply 2 Vulnerable.",
+      "tips": [
+        "ROLL",
+        "VULNERABLE",
+        "CHIPS"
+      ],
+      "img": "cards/ECAFLIP-POUNCE.webp",
+      "upgrade": {
+        "title": "Pounce+",
+        "cost": 1,
+        "text": "Roll 3D6+16: Deal that much damage. If any die is a 6, apply 2 Vulnerable.",
+        "tips": [
+          "ROLL",
+          "VULNERABLE",
+          "CHIPS"
+        ],
+        "img": "cards/ECAFLIP-POUNCE+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-PURFECT_RECOVERY",
+      "title": "Purfect Recovery",
+      "type": "Attack",
+      "rarity": "Rare",
+      "multiplayer": "None",
+      "cost": 0,
+      "text": "Flip, then deal 20 damage: Heads: Then Roll 2D6: Heal that much. Tails: Deal Bonus more damage. Exhaust.",
+      "tips": [
+        "ROLL",
+        "FLIP",
+        "EXHAUST",
+        "SQUANDER",
+        "CHIPS",
+        "BONUS"
+      ],
+      "img": "cards/ECAFLIP-PURFECT_RECOVERY.webp",
+      "upgrade": {
+        "title": "Purfect Recovery+",
+        "cost": 0,
+        "text": "Flip, then deal 25 damage: Heads: Then Roll 2D6: Heal that much. Tails: Deal Bonus more damage. Exhaust.",
+        "tips": [
+          "ROLL",
+          "FLIP",
+          "EXHAUST",
+          "SQUANDER",
+          "CHIPS",
+          "BONUS"
+        ],
+        "img": "cards/ECAFLIP-PURFECT_RECOVERY+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-PURR",
+      "title": "Purr",
+      "type": "Power",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Whenever you spend Chips, gain Block equal to the amount spent (min 1).",
+      "tips": [
+        "PURR",
+        "CHIPS"
+      ],
+      "img": "cards/ECAFLIP-PURR.webp",
+      "upgrade": {
+        "title": "Purr+",
+        "cost": 1,
+        "text": "Innate. Whenever you spend Chips, gain Block equal to the amount spent (min 1).",
+        "tips": [
+          "PURR",
+          "CHIPS",
+          "INNATE"
+        ],
+        "img": "cards/ECAFLIP-PURR+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-REFLEXES",
+      "title": "Reflexes",
+      "type": "Attack",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": 0,
+      "text": "Deal 18+Bonus damage to ALL enemies.",
+      "tips": [
+        "CHIPS",
+        "BONUS"
+      ],
+      "img": "cards/ECAFLIP-REFLEXES.webp",
+      "upgrade": {
+        "title": "Reflexes+",
+        "cost": 0,
+        "text": "Flip: Heads: Deal 4 more damage. Tails: Gain 1 Weak. Deal 18+Bonus damage to ALL enemies.",
+        "tips": [
+          "FLIP",
+          "CHIPS",
+          "BONUS"
+        ],
+        "img": "cards/ECAFLIP-REFLEXES+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-ROLL_AGAIN",
+      "title": "Roll Again",
+      "type": "Skill",
+      "rarity": "Common",
+      "multiplayer": "None",
+      "cost": 0,
+      "text": "Flip: Heads: Draw 2 cards. Tails: Draw 1 card.",
+      "tips": [
+        "FLIP",
+        "SQUANDER",
+        "CHIPS"
+      ],
+      "img": "cards/ECAFLIP-ROLL_AGAIN.webp",
+      "upgrade": {
+        "title": "Roll Again+",
+        "cost": 0,
+        "text": "Flip: Heads: Draw 3 cards. Tails: Draw 2 cards.",
+        "tips": [
+          "FLIP",
+          "SQUANDER",
+          "CHIPS"
+        ],
+        "img": "cards/ECAFLIP-ROLL_AGAIN+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-ROUGH_TONGUE",
+      "title": "Rough Tongue",
+      "type": "Attack",
+      "rarity": "Common",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Roll 1D6+5: Deal that much damage. Flip: Heads: Apply 2 Vulnerable. Tails: Squander 5 Gold.",
+      "tips": [
+        "ROLL",
+        "FLIP",
+        "VULNERABLE",
+        "SQUANDER",
+        "CHIPS"
+      ],
+      "img": "cards/ECAFLIP-ROUGH_TONGUE.webp",
+      "upgrade": {
+        "title": "Rough Tongue+",
+        "cost": 1,
+        "text": "Roll 1D6+8: Deal that much damage. Flip: Heads: Apply 2 Vulnerable. Tails: Squander 5 Gold.",
+        "tips": [
+          "ROLL",
+          "FLIP",
+          "VULNERABLE",
+          "SQUANDER",
+          "CHIPS"
+        ],
+        "img": "cards/ECAFLIP-ROUGH_TONGUE+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-ROULETTE",
+      "title": "Roulette",
+      "type": "Skill",
+      "rarity": "Common",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Roll 3D6: Gain that much Block. Gain 2 Block Bonus times (max 10).",
+      "tips": [
+        "ROLL",
+        "BLOCK",
+        "BONUS"
+      ],
+      "img": "cards/ECAFLIP-ROULETTE.webp",
+      "upgrade": {
+        "title": "Roulette+",
+        "cost": 1,
+        "text": "Roll 4D6: Gain that much Block. Gain 2 Block Bonus times (max 10).",
+        "tips": [
+          "ROLL",
+          "BLOCK",
+          "BONUS"
+        ],
+        "img": "cards/ECAFLIP-ROULETTE+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-SAVAGE_BOW_MEOW",
+      "title": "Savage Bow Meow",
+      "type": "Power",
+      "rarity": "Rare",
+      "multiplayer": "None",
+      "cost": 2,
+      "text": "The first time you would die, prevent it, then Roll 6D6: Heal that much.",
+      "tips": [
+        "ROLL",
+        "SAVAGE_BOW_MEOW"
+      ],
+      "img": "cards/ECAFLIP-SAVAGE_BOW_MEOW.webp",
+      "upgrade": {
+        "title": "Savage Bow Meow+",
+        "cost": 2,
+        "text": "The first time you would die, prevent it, then Roll 6D6: Heal that much.",
+        "tips": [
+          "ROLL",
+          "SAVAGE_BOW_MEOW"
+        ],
+        "img": "cards/ECAFLIP-SAVAGE_BOW_MEOW+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-SCRATCH_CARD",
+      "title": "Scratch Card",
+      "type": "Attack",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Deal 6 damage. Roll 1D6: On 4+, deal it again and Roll again (max 5 hits). Exhaust.",
+      "tips": [
+        "ROLL",
+        "EXHAUST"
+      ],
+      "img": "cards/ECAFLIP-SCRATCH_CARD.webp",
+      "upgrade": {
+        "title": "Scratch Card+",
+        "cost": 1,
+        "text": "Deal 6 damage. Roll 1D6: On 4+, deal it again and Roll again (max 5 hits).",
+        "tips": [
+          "ROLL"
+        ],
+        "img": "cards/ECAFLIP-SCRATCH_CARD+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-SLIGHT_OF_HAND",
+      "title": "Slight of Hand",
+      "type": "Attack",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": 0,
+      "text": "Deal 10 damage. Apply 2 Debilitate.",
+      "tips": [
+        "DEBILITATE",
+        "CHIPS"
+      ],
+      "img": "cards/ECAFLIP-SLIGHT_OF_HAND.webp",
+      "upgrade": {
+        "title": "Slight of Hand+",
+        "cost": 0,
+        "text": "Deal 14 damage. Apply 2 Debilitate.",
+        "tips": [
+          "DEBILITATE",
+          "CHIPS"
+        ],
+        "img": "cards/ECAFLIP-SLIGHT_OF_HAND+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-SNAKE_EYES",
+      "title": "Snake Eyes",
+      "type": "Attack",
+      "rarity": "Common",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Roll 2D6+4: Deal that much damage. If both dice match, deal it again.",
+      "tips": [
+        "ROLL"
+      ],
+      "img": "cards/ECAFLIP-SNAKE_EYES.webp",
+      "upgrade": {
+        "title": "Snake Eyes+",
+        "cost": 1,
+        "text": "Roll 2D6+7: Deal that much damage. If both dice match, deal it again.",
+        "tips": [
+          "ROLL"
+        ],
+        "img": "cards/ECAFLIP-SNAKE_EYES+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-SWIPE",
+      "title": "Swipe",
+      "type": "Attack",
+      "rarity": "Common",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Roll 1D6+2+Bonus: Deal that much damage to ALL enemies.",
+      "tips": [
+        "ROLL",
+        "BONUS"
+      ],
+      "img": "cards/ECAFLIP-SWIPE.webp",
+      "upgrade": {
+        "title": "Swipe+",
+        "cost": 1,
+        "text": "Roll 1D6+5+Bonus: Deal that much damage to ALL enemies.",
+        "tips": [
+          "ROLL",
+          "BONUS"
+        ],
+        "img": "cards/ECAFLIP-SWIPE+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-TAILS_NEVER_FAILS",
+      "title": "Tails Never Fails",
+      "type": "Skill",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": 2,
+      "text": "Gain 18 Block. Your next Tails Flip counts as Heads.",
+      "tips": [
+        "FLIP",
+        "TAILS_NEVER_FAILS",
+        "BLOCK"
+      ],
+      "img": "cards/ECAFLIP-TAILS_NEVER_FAILS.webp",
+      "upgrade": {
+        "title": "Tails Never Fails+",
+        "cost": 2,
+        "text": "Gain 22 Block. Your next Tails Flip counts as Heads.",
+        "tips": [
+          "FLIP",
+          "TAILS_NEVER_FAILS",
+          "BLOCK"
+        ],
+        "img": "cards/ECAFLIP-TAILS_NEVER_FAILS+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-TAROT",
+      "title": "Tarot",
+      "type": "Skill",
+      "rarity": "Ancient",
+      "multiplayer": "None",
+      "cost": 0,
+      "text": "Add a random Arcana into your Hand. It costs 0 this turn.",
+      "tips": [],
+      "img": "cards/ECAFLIP-TAROT.webp",
+      "upgrade": {
+        "title": "Tarot+",
+        "cost": 0,
+        "text": "Choose 1 of 3 Arcana to add into your Hand. It costs 0 this turn.",
+        "tips": [],
+        "img": "cards/ECAFLIP-TAROT+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-THREE_CARDS",
+      "title": "Three Cards",
+      "type": "Skill",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Gain 8 Block. Flip: Heads: Draw 1 card. Tails: Gain 3 more Block.",
+      "tips": [
+        "FLIP",
+        "BLOCK"
+      ],
+      "img": "cards/ECAFLIP-THREE_CARDS.webp",
+      "upgrade": {
+        "title": "Three Cards+",
+        "cost": 1,
+        "text": "Gain 11 Block. Flip: Heads: Draw 1 card. Tails: Gain 3 more Block.",
+        "tips": [
+          "FLIP",
+          "BLOCK"
+        ],
+        "img": "cards/ECAFLIP-THREE_CARDS+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-TIP_JAR",
+      "title": "Tip Jar",
+      "type": "Skill",
+      "rarity": "Common",
+      "multiplayer": "None",
+      "cost": 0,
+      "text": "Retain. Gain 6 Gold. Each turn this is Retained, it gains 3 Gold. Exhaust.",
+      "tips": [
+        "RETAIN",
+        "EXHAUST"
+      ],
+      "img": "cards/ECAFLIP-TIP_JAR.webp",
+      "upgrade": {
+        "title": "Tip Jar+",
+        "cost": 0,
+        "text": "Retain. Gain 9 Gold. Each turn this is Retained, it gains 4 Gold. Exhaust.",
+        "tips": [
+          "RETAIN",
+          "EXHAUST"
+        ],
+        "img": "cards/ECAFLIP-TIP_JAR+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-TIP_THE_DEALER",
+      "title": "Tip the Dealer",
+      "type": "Attack",
+      "rarity": "Common",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Deal 9 damage.",
+      "tips": [
+        "SQUANDER",
+        "CHIPS"
+      ],
+      "img": "cards/ECAFLIP-TIP_THE_DEALER.webp",
+      "upgrade": {
+        "title": "Tip the Dealer+",
+        "cost": 1,
+        "text": "Deal 13 damage.",
+        "tips": [
+          "SQUANDER",
+          "CHIPS"
+        ],
+        "img": "cards/ECAFLIP-TIP_THE_DEALER+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-ULTIMATE_COIN_FLIP",
+      "title": "Ultimate Coin Flip",
+      "type": "Attack",
+      "rarity": "Rare",
+      "multiplayer": "None",
+      "cost": 3,
+      "text": "Flip: Heads: Deal 35 damage, then 10 damage Bonus times (max 10). Tails: Deal 15 damage to ALL enemies.",
+      "tips": [
+        "FLIP",
+        "BONUS"
+      ],
+      "img": "cards/ECAFLIP-ULTIMATE_COIN_FLIP.webp",
+      "upgrade": {
+        "title": "Ultimate Coin Flip+",
+        "cost": 3,
+        "text": "Flip: Heads: Deal 35 damage, then 10 damage Bonus times (max 10). Tails: Deal 15 damage to ALL enemies.",
+        "tips": [
+          "FLIP",
+          "BONUS"
+        ],
+        "img": "cards/ECAFLIP-ULTIMATE_COIN_FLIP+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-ULTIMATE_DICE_ROLL",
+      "title": "Ultimate Dice Roll",
+      "type": "Skill",
+      "rarity": "Rare",
+      "multiplayer": "None",
+      "cost": 3,
+      "text": "Roll 1D6: 1: Nothing happens. 2-5: Refund the Energy spent on this card. 6: Play every other card in your Hand.",
+      "tips": [
+        "ROLL",
+        "ENERGY"
+      ],
+      "img": "cards/ECAFLIP-ULTIMATE_DICE_ROLL.webp",
+      "upgrade": {
+        "title": "Ultimate Dice Roll+",
+        "cost": 3,
+        "text": "Roll 1D6: 1: Nothing happens. 2-5: Refund the Energy spent on this card. 6: Play every other card in your Hand.",
+        "tips": [
+          "ROLL",
+          "ENERGY"
+        ],
+        "img": "cards/ECAFLIP-ULTIMATE_DICE_ROLL+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-UP_TO_SCRATCH",
+      "title": "Up to Scratch",
+      "type": "Attack",
+      "rarity": "Common",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "Roll 1D6+5+Bonus: Deal that much damage. If that's 7 or more, draw 1 card.",
+      "tips": [
+        "ROLL",
+        "BONUS"
+      ],
+      "img": "cards/ECAFLIP-UP_TO_SCRATCH.webp",
+      "upgrade": {
+        "title": "Up to Scratch+",
+        "cost": 1,
+        "text": "Roll 1D6+7+Bonus: Deal that much damage. If that's 7 or more, draw 1 card.",
+        "tips": [
+          "ROLL",
+          "BONUS"
+        ],
+        "img": "cards/ECAFLIP-UP_TO_SCRATCH+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-WHEEL_OF_FORTUNE",
+      "title": "Wheel of Fortune",
+      "type": "Skill",
+      "rarity": "Rare",
+      "multiplayer": "None",
+      "cost": 2,
+      "text": "Roll 1D6: 1-2: Gain 2 Strength. 3-4: Gain 15 Block. 5-6: Gain Energy Energy and draw 2 cards.",
+      "tips": [
+        "ROLL",
+        "STRENGTH",
+        "ENERGY"
+      ],
+      "img": "cards/ECAFLIP-WHEEL_OF_FORTUNE.webp",
+      "upgrade": {
+        "title": "Wheel of Fortune+",
+        "cost": 2,
+        "text": "Roll 1D6: 1-2: Gain 2 Strength. 3-4: Gain 15 Block. 5-6: Gain Energy Energy and draw 2 cards.",
+        "tips": [
+          "ROLL",
+          "STRENGTH",
+          "ENERGY"
+        ],
+        "img": "cards/ECAFLIP-WHEEL_OF_FORTUNE+.webp"
+      }
+    },
+    {
+      "id": "ECAFLIP-WHISKER_SENSE",
+      "title": "Whisker Sense",
+      "type": "Power",
+      "rarity": "Uncommon",
+      "multiplayer": "None",
+      "cost": 1,
+      "text": "At the start of your turn, gain 2 Black Bow Meow.",
+      "tips": [
+        "WHISKER_SENSE",
+        "SQUANDER",
+        "CHIPS"
+      ],
+      "img": "cards/ECAFLIP-WHISKER_SENSE.webp",
+      "upgrade": {
+        "title": "Whisker Sense+",
+        "cost": 1,
+        "text": "Innate. At the start of your turn, gain 2 Black Bow Meow.",
+        "tips": [
+          "WHISKER_SENSE",
+          "SQUANDER",
+          "CHIPS",
+          "INNATE"
+        ],
+        "img": "cards/ECAFLIP-WHISKER_SENSE+.webp"
+      }
+    }
+  ],
+  "tips": {
+    "FLIP": {
+      "title": "Flip",
+      "text": "Flip a coin. It lands on Heads or Tails, and each face has its own effect. When one face is bad, Heads is the good one.",
+      "debuff": false
+    },
+    "UNPLAYABLE": {
+      "title": "Unplayable",
+      "text": "Unplayable cards cannot be played.",
+      "debuff": false
+    },
+    "RETAIN": {
+      "title": "Retain",
+      "text": "Retained cards are not discarded at the end of turn.",
+      "debuff": false
+    },
+    "SQUANDER": {
+      "title": "Squander",
+      "text": "Spend X [gold]Gold[/gold] to gain X [gold]Chips[/gold]. A card with a [gold]Squander[/gold] cost can't be played without the [gold]Gold[/gold]. If an effect makes you [gold]Squander[/gold] more than you have, gain 1 [gold]Weak[/gold] instead.",
+      "debuff": false,
+      "icon": "icons/SQUANDER.png"
+    },
+    "ROLL": {
+      "title": "Roll",
+      "text": "Roll the dice shown (each D6 lands on 1 to 6) and use the result: as damage, [gold]Block[/gold] or Gold, or to pick which effect happens. 1 is bad, 6 is good. [gold]Black Bow Meow[/gold] raises your [gold]Rolls[/gold].",
+      "debuff": false
+    },
+    "CHIPS": {
+      "title": "Chips",
+      "text": "Ecaflip's second resource, gained from Gold Bond each turn and by [gold]Squandering[/gold] [gold]Gold[/gold], and spent like Energy. Unspent [gold]Chips[/gold] turn back into [gold]Gold[/gold] at the end of combat.",
+      "debuff": false,
+      "icon": "icons/CHIPS.png"
+    },
+    "BONUS": {
+      "title": "Bonus",
+      "text": "1 for every 100 [gold]Gold[/gold] you have.",
+      "debuff": false,
+      "icon": "icons/BONUS.png"
+    },
+    "ALL_OR_NOTHING": {
+      "title": "All or Nothing",
+      "text": "Your [gold]Rolls[/gold] become [gold]Flips[/gold]: Heads lands on the highest face, Tails on the lowest.",
+      "debuff": false,
+      "icon": "icons/ALL_OR_NOTHING.png"
+    },
+    "ENERGY": {
+      "title": "Energy",
+      "text": "Energy is used to play cards from your [gold]Hand[/gold].",
+      "debuff": false,
+      "icon": "icons/ENERGY.png"
+    },
+    "THE_BANK": {
+      "title": "The Bank",
+      "text": "This turn, your cards cost 0 [gold]Chips[/gold].",
+      "debuff": false,
+      "icon": "icons/THE_BANK.png"
+    },
+    "EXHAUST": {
+      "title": "Exhaust",
+      "text": "Removed until the end of combat.",
+      "debuff": false
+    },
+    "SHRINK": {
+      "title": "Shrink",
+      "text": "This creature's Attacks deal [blue]30%[/blue] less damage for the next 3 turns.",
+      "debuff": true,
+      "icon": "icons/SHRINK.png"
+    },
+    "BLACK_BOW_MEOW": {
+      "title": "Black Bow Meow",
+      "text": "Your [gold]Rolls[/gold] from cards are raised by up to [blue]0[/blue]. Each die tops out at 6, and only the points used are spent.\nAt the end of your turn, gain [blue]0[/blue] [gold]Block[/gold].",
+      "debuff": false,
+      "icon": "icons/BLACK_BOW_MEOW.png"
+    },
+    "VIGOR": {
+      "title": "Vigor",
+      "text": "Your next Attack deals additional damage.",
+      "debuff": false,
+      "icon": "icons/VIGOR.png"
+    },
+    "OUGINAK_S_CURSE": {
+      "title": "Ouginak's Curse",
+      "text": "Next turn, gain 0[img]res://images/packed/sprite_fonts/colorless_energy_icon.png[/img] less.",
+      "debuff": true,
+      "icon": "icons/OUGINAK_S_CURSE.png"
+    },
+    "KITTIKAZE_SWARM": {
+      "title": "Kittikaze Swarm",
+      "text": "Whenever you [gold]Roll[/gold] or [gold]Flip[/gold], deal [blue]0[/blue] damage to a random enemy.",
+      "debuff": false,
+      "icon": "icons/KITTIKAZE_SWARM.png"
+    },
+    "ETHEREAL": {
+      "title": "Ethereal",
+      "text": "If this card is in your [gold]Hand[/gold] at the end of this turn, it is [gold]Exhausted[/gold].",
+      "debuff": false
+    },
+    "BOW_MEOW_FAMILIAR": {
+      "title": "Bow Meow Familiar",
+      "text": "At the start of your turn, gain [blue]0[/blue] [gold]Black Bow Meow[/gold]. Whenever [gold]Black Bow Meow[/gold] is used, draw 1 card.",
+      "debuff": false,
+      "icon": "icons/BOW_MEOW_FAMILIAR.png"
+    },
+    "BOX_CARS_PAYOUT": {
+      "title": "Box Cars Payout",
+      "text": "1: [gold]Squander[/gold] 1 Gold\n2: Gain 1 [gold]Vigor[/gold]\n3: Gain 1 [gold]Weak[/gold]\n4: Gain 1 [gold]Block[/gold]\n5: Gain 1 Gold\n6: Lock the die",
+      "debuff": false
+    },
+    "WEAK": {
+      "title": "Weak",
+      "text": "Weakened creatures deal [blue]25%[/blue] less damage with Attacks.",
+      "debuff": true,
+      "icon": "icons/WEAK.png"
+    },
+    "BLOCK": {
+      "title": "Block",
+      "text": "Until next turn, prevents damage.",
+      "debuff": false
+    },
+    "CHESHIRE_GRIN": {
+      "title": "Cheshire Grin",
+      "text": "Whenever you [gold]Flip[/gold] Heads, deal [blue]0[/blue] damage to ALL enemies.",
+      "debuff": false,
+      "icon": "icons/CHESHIRE_GRIN.png"
+    },
+    "CROUPIER": {
+      "title": "Croupier",
+      "text": "Whenever you [gold]Squander[/gold] [gold]Gold[/gold], gain [blue]0[/blue] [gold]Block[/gold].",
+      "debuff": false,
+      "icon": "icons/CROUPIER.png"
+    },
+    "STRENGTH": {
+      "title": "Strength",
+      "text": "Strength adds additional damage to Attacks.",
+      "debuff": false,
+      "icon": "icons/STRENGTH.png"
+    },
+    "DEPOSIT": {
+      "title": "Deposit",
+      "text": "Holds [blue]0[/blue] [gold]Chips[/gold], paid out as [gold]Gold[/gold] at the end of combat. Grows at the start of each turn if you took no unblocked damage since your last turn (max 50).",
+      "debuff": false,
+      "icon": "icons/DEPOSIT.png"
+    },
+    "DOUBLE_DOWN": {
+      "title": "Double Down",
+      "text": "The next card you play this turn that [gold]Rolls[/gold] or [gold]Flips[/gold] is played twice.",
+      "debuff": false,
+      "icon": "icons/DOUBLE_DOWN.png"
+    },
+    "DEXTERITY": {
+      "title": "Dexterity",
+      "text": "Dexterity improves [gold]Block[/gold] gained from cards.",
+      "debuff": false,
+      "icon": "icons/DEXTERITY.png"
+    },
+    "FELINE_GRACE": {
+      "title": "Feline Grace",
+      "text": "The first time each turn you [gold]Flip[/gold] Tails, gain [blue]0[/blue] [gold]Dexterity[/gold].",
+      "debuff": false,
+      "icon": "icons/FELINE_GRACE.png"
+    },
+    "INNATE": {
+      "title": "Innate",
+      "text": "Start each combat with this card in your [gold]Hand[/gold].",
+      "debuff": false
+    },
+    "FELINE_LEAP": {
+      "title": "Feline Leap",
+      "text": "The next Attack you play [gold]Rolls[/gold] the highest face on every die.",
+      "debuff": false,
+      "icon": "icons/FELINE_LEAP.png"
+    },
+    "VULNERABLE": {
+      "title": "Vulnerable",
+      "text": "Vulnerable creatures take [blue]50%[/blue] more damage from Attacks.",
+      "debuff": true,
+      "icon": "icons/VULNERABLE.png"
+    },
+    "HIGH_ROLLER": {
+      "title": "High Roller",
+      "text": "Your [gold]Bonus[/gold] counts double. At the start of your turn, gain [blue]0[/blue] [gold]Block[/gold] [gold]Bonus[/gold] times.",
+      "debuff": false,
+      "icon": "icons/HIGH_ROLLER.png"
+    },
+    "HOUSE_ALWAYS_WINS": {
+      "title": "House Always Wins",
+      "text": "Whenever you spend [gold]Chips[/gold], deal that much damage to a random enemy, [blue]0[/blue] times.",
+      "debuff": false,
+      "icon": "icons/HOUSE_ALWAYS_WINS.png"
+    },
+    "INSURANCE": {
+      "title": "Insurance",
+      "text": "At the start of your next turn, gain [gold]Gold[/gold] equal to the unblocked damage you took until then.",
+      "debuff": false,
+      "icon": "icons/INSURANCE.png"
+    },
+    "INVESTMENT": {
+      "title": "Investment",
+      "text": "At the start of your turn, gain [blue]0[/blue] [gold]Gold[/gold]. Ends the first time you take unblocked damage.",
+      "debuff": false,
+      "icon": "icons/INVESTMENT.png"
+    },
+    "LOADED_DIE": {
+      "title": "Loaded Die",
+      "text": "The first [blue]0[/blue] cards you play each turn that [gold]Rolls[/gold] cost 1 less [img]res://images/packed/sprite_fonts/colorless_energy_icon.png[/img].",
+      "debuff": false,
+      "icon": "icons/LOADED_DIE.png"
+    },
+    "LUCKY_STREAK": {
+      "title": "Lucky Streak",
+      "text": "The first time each turn a card [gold]Rolls[/gold] a 6, gain [blue]0[/blue] [gold]Strength[/gold].",
+      "debuff": false,
+      "icon": "icons/LUCKY_STREAK.png"
+    },
+    "PURR": {
+      "title": "Purr",
+      "text": "Whenever you spend [gold]Chips[/gold], gain [gold]Block[/gold] equal to the amount spent (min 1), [blue]0[/blue] times.",
+      "debuff": false,
+      "icon": "icons/PURR.png"
+    },
+    "SAVAGE_BOW_MEOW": {
+      "title": "Savage Bow Meow",
+      "text": "The first time you would die, prevent it, then [gold]Roll[/gold] 6D6: Heal that much.",
+      "debuff": false,
+      "icon": "icons/SAVAGE_BOW_MEOW.png"
+    },
+    "DEBILITATE": {
+      "title": "Debilitate",
+      "text": "[gold]Vulnerable[/gold] and [gold]Weak[/gold] are twice as effective for the next [blue]2[/blue] turns.",
+      "debuff": true,
+      "icon": "icons/DEBILITATE.png"
+    },
+    "TAILS_NEVER_FAILS": {
+      "title": "Tails Never Fails",
+      "text": "Your next [blue]0[/blue] Tails count as Heads.",
+      "debuff": false,
+      "icon": "icons/TAILS_NEVER_FAILS.png"
+    },
+    "WHISKER_SENSE": {
+      "title": "Whisker Sense",
+      "text": "At the start of your turn, gain [blue]0[/blue] [gold]Black Bow Meow[/gold].",
+      "debuff": false,
+      "icon": "icons/WHISKER_SENSE.png"
+    }
+  }
+}

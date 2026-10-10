@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ECA-0028 · Balance pass from run data: Chips at the start of combat, weak Commons, Black Bow Meow</title><style>
+:root { --bg:#f6f4ef; --panel:#fff; --ink:#1f2328; --muted:#6b6f76; --line:#e2ded6; --accent:#2f6b3a;
+        --bug:#b3261e; --done:#2f6b3a; --prog:#9a6700; --plan:#3b5bdb; --rep:#6b6f76; --wont:#8c8c8c; }
+@media (prefers-color-scheme: dark) { :root { --bg:#16181b; --panel:#1f2226; --ink:#e6e6e6; --muted:#9aa0a6;
+        --line:#30343a; --accent:#7bc47f; --bug:#f28b82; --done:#7bc47f; --prog:#e3b341; --plan:#8ab4f8; --rep:#9aa0a6; --wont:#777; } }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--ink); font:15px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif; }
+main { max-width:1200px; margin:0 auto; padding:24px 16px 64px; }
+h1 { font-size:26px; margin:0 0 4px; } .sub { color:var(--muted); margin:0 0 20px; }
+a { color:var(--accent); }
+.filters { display:flex; flex-wrap:wrap; gap:8px; margin-bottom:12px; }
+.filters select, .filters input { background:var(--panel); color:var(--ink); border:1px solid var(--line); border-radius:6px; padding:6px 8px; font:inherit; }
+.filters input { flex:1 1 220px; }
+.wrap { overflow-x:auto; background:var(--panel); border:1px solid var(--line); border-radius:8px; }
+table { width:100%; border-collapse:collapse; min-width:760px; }
+th, td { text-align:left; padding:8px 10px; border-bottom:1px solid var(--line); vertical-align:top; }
+th { font-size:12px; text-transform:uppercase; letter-spacing:.04em; color:var(--muted); cursor:pointer; user-select:none; white-space:nowrap; }
+tr:last-child td { border-bottom:0; }
+.uid { font-family:ui-monospace,Consolas,monospace; white-space:nowrap; }
+.pill { display:inline-block; padding:1px 8px; border-radius:999px; font-size:12px; border:1px solid currentColor; white-space:nowrap; }
+.s-Done { color:var(--done); } .s-In-Progress { color:var(--prog); } .s-Planned { color:var(--plan); }
+.s-Reported { color:var(--rep); } .s-Won-t-Fix { color:var(--wont); } .t-Bug { color:var(--bug); font-weight:600; }
+.count { color:var(--muted); font-size:13px; margin:8px 2px; }
+.actions { display:flex; gap:8px; flex-wrap:wrap; }
+.top { display:flex; flex-wrap:wrap; align-items:flex-start; justify-content:space-between; gap:12px; }
+.submit { background:var(--accent); color:var(--panel); text-decoration:none; font-weight:600;
+          padding:8px 14px; border-radius:6px; white-space:nowrap; }
+.submit:hover { opacity:.9; }
+.card { background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:20px; }
+dl { display:grid; grid-template-columns:max-content 1fr; gap:4px 16px; margin:0 0 20px; }
+dt { color:var(--muted); } dd { margin:0; }
+.body pre { background:var(--bg); padding:10px; border-radius:6px; overflow-x:auto; }
+</style>
+<script src="https://cdn.jsdelivr.net/npm/marked@12/marked.min.js"></script></head>
+<body><main>
+<p><a href="../index.html">← All entries</a></p>
+<header class="top"><div><h1>Balance pass from run data: Chips at the start of combat, weak Commons, Black Bow Meow</h1><p class="sub uid">ECA-0028</p></div>
+<div class="actions" id="actions"></div></header>
+<div class="card"><dl id="meta"></dl><div class="body" id="body"></div></div>
+</main>
+<script>
+const META = {"uid": "ECA-0028", "mod": "Ecaflip", "type": "Rework", "category": "Cards", "priority": "High", "status": "Done", "release": "0.0.158", "title": "Balance pass from run data: Chips at the start of combat, weak Commons, Black Bow Meow", "resolution": "Gold Bond rolls 2D6 Chips each turn (Debt Clock 3D6) instead of 1D6 Gold; Cheating Squanders 10 Gold; Common attacks buffed; Roulette and Fold cost 1; Black Bow Meow gives Block at end of turn and its cards are cheaper; Gamble and forced Squanders no longer hurt.", "contributors": ["Rougeshadow"], "links": [], "created": "2026-10-10", "discord_thread": "1558437076297322510", "release_page": "release/ecaflip/v0.0.158/"}, BODY = "## Description\n\nEcaflip took much more damage than the base characters early on (about 2.5\u00d7 in Act 1 normal fights), and fights\nran long from Act 2. Run data pointed at Chips: many of the best cheap cards cost Chips, and Chips started every fight\nat 0.\n\nChanges:\n\n- **Gold Bond:** at the start of your turn, Roll 2D6 and gain that many Chips (was: Roll 1D6, gain that much Gold).\n  Unspent Chips still come back as Gold after the fight.\n- **Debt Clock** (upgraded Gold Bond): Roll 3D6 Chips instead.\n- **Cheating** (Common): 0 Energy. Squander 10 Gold (upgraded 15). Choose the result of your next Flip.\n- **Roulette:** 1 Energy (was 2), Roll 3D6 Block (was 4D6), then Gain 2 Block Bonus times as before.\n- **Fold:** 1 Energy (was 2).\n- **Black Bow Meow:** at the end of your turn, gain 1 Block per Black Bow Meow. The stacks aren't used up.\n- **Bow Meow Dice** and **D Six** cost 0. **Whisker Sense** gives 2 Black Bow Meow per turn.\n- **Gamble:** Tails Squanders 10 Gold instead of dealing 3 damage to you.\n- A Squander you can't pay gives 1 Weak only (was Weak and Vulnerable).\n\nCommon attacks:\n\n| Card | Before | Now |\n|---|---|---|\n| Up to Scratch | Roll 1D6+3+Bonus (upgraded +5) | 1D6+5+Bonus (upgraded +7) |\n| Snake Eyes | Roll 2D6+2 (upgraded +5) | 2D6+4 (upgraded +7) |\n| Rough Tongue | Roll 1D6+3 (upgraded +6) | 1D6+5 (upgraded +8) |\n| Catnip | Roll 1D6+6, 1 Black Bow Meow | 1D6+7, 2 Black Bow Meow |\n| Heads I Win | 2 Energy, 14 damage (upgraded 18) | 2 Energy, 17 damage (upgraded 22) |\n| Back Alley Mugging | X Energy + 5 Chips | X Energy, no Chip cost |", LINKS = {"comment": "https://docs.google.com/forms/d/e/1FAIpQLScNSNyeJqFZdUcOlmj0Js8B1cf-KFx4t1dTVwBSZQNCxko0jQ/viewform?usp=pp_url&entry.702895257=Comment+on+an+existing+tracker+item&entry.1686440227=ECA-0028", "discord": "https://discord.com/channels/1557819826582327306/1558437076297322510"};
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const rows = [["Mod",META.mod],["Type",META.type],["Category",META.category],["Priority",META.priority],["Status",META.status],
+  ["Resolution",META.resolution],
+  ["Contributors",(META.contributors||[]).join(", ")],["Created",META.created]];
+const rel = String(META.release ?? "").replace(/^v/i, "");
+document.getElementById("meta").innerHTML = rows.filter(r => r[1]).map(([k,v]) => `<dt>${k}</dt><dd>${esc(v)}</dd>`).join("")
+  + `<dt>Release</dt><dd>${rel ? `<a href="../${esc(META.release_page)}">v${esc(rel)}</a>` : "Unreleased"}</dd>`
+  + ((META.links||[]).length ? `<dt>Links</dt><dd>${META.links.map(l => `<a href="${esc(l)}">${esc(l)}</a>`).join("<br>")}</dd>` : "");
+const html = window.marked ? marked.parse(BODY) : `<pre>${esc(BODY)}</pre>`;
+document.getElementById("body").innerHTML = html;
+document.getElementById("actions").innerHTML =
+  (LINKS.discord ? `<a class="submit" href="${esc(LINKS.discord)}" target="_blank" rel="noopener">Discuss on Discord</a>` : "")
+  + (LINKS.comment ? `<a class="submit" href="${esc(LINKS.comment)}" target="_blank" rel="noopener">Comment</a>` : "");
+</script></body></html>
